@@ -9,7 +9,4 @@ function simular(){
             }
         }
     }
-    lerlistagem()
-    listagem.sort(compara)
-    inserirdados()
 }

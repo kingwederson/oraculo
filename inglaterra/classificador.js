@@ -28,27 +28,27 @@ var tabelaRR = [
 //
 
 var listagem = [
-    [/*escudo*/,/*nome*/,/*Pts*/,/*V*/,/*E*/,/*D*/,/*G*/,/*G+*/,/*G-*/,/*J*/],
-    [equipe[1][1],equipe[1][0],0,0,0,0,0,0,0,0],
-    [equipe[2][1],equipe[2][0],0,0,0,0,0,0,0,0],
-    [equipe[3][1],equipe[3][0],0,0,0,0,0,0,0,0],
-    [equipe[4][1],equipe[4][0],0,0,0,0,0,0,0,0],
-    [equipe[5][1],equipe[5][0],0,0,0,0,0,0,0,0],
-    [equipe[6][1],equipe[6][0],0,0,0,0,0,0,0,0],
-    [equipe[7][1],equipe[7][0],0,0,0,0,0,0,0,0],
-    [equipe[8][1],equipe[8][0],0,0,0,0,0,0,0,0],
-    [equipe[9][1],equipe[9][0],0,0,0,0,0,0,0,0],
-    [equipe[10][1],equipe[10][0],0,0,0,0,0,0,0,0],
-    [equipe[11][1],equipe[11][0],0,0,0,0,0,0,0,0],
-    [equipe[12][1],equipe[12][0],0,0,0,0,0,0,0,0],
-    [equipe[13][1],equipe[13][0],0,0,0,0,0,0,0,0],
-    [equipe[14][1],equipe[14][0],0,0,0,0,0,0,0,0],
-    [equipe[15][1],equipe[15][0],0,0,0,0,0,0,0,0],
-    [equipe[16][1],equipe[16][0],0,0,0,0,0,0,0,0],
-    [equipe[17][1],equipe[17][0],0,0,0,0,0,0,0,0],
-    [equipe[18][1],equipe[18][0],0,0,0,0,0,0,0,0],
-    [equipe[19][1],equipe[19][0],0,0,0,0,0,0,0,0],
-    [equipe[20][1],equipe[20][0],0,0,0,0,0,0,0,0]
+    [/*índice*/,/*escudo*/,/*nome*/,/*Pts*/,/*V*/,/*E*/,/*D*/,/*G*/,/*G+*/,/*G-*/,/*J*/],
+    [1,equipe[1][1],equipe[1][0],0,0,0,0,0,0,0,0],
+    [2,equipe[2][1],equipe[2][0],0,0,0,0,0,0,0,0],
+    [3,equipe[3][1],equipe[3][0],0,0,0,0,0,0,0,0],
+    [4,equipe[4][1],equipe[4][0],0,0,0,0,0,0,0,0],
+    [5,equipe[5][1],equipe[5][0],0,0,0,0,0,0,0,0],
+    [6,equipe[6][1],equipe[6][0],0,0,0,0,0,0,0,0],
+    [7,equipe[7][1],equipe[7][0],0,0,0,0,0,0,0,0],
+    [8,equipe[8][1],equipe[8][0],0,0,0,0,0,0,0,0],
+    [9,equipe[9][1],equipe[9][0],0,0,0,0,0,0,0,0],
+    [10,equipe[10][1],equipe[10][0],0,0,0,0,0,0,0,0],
+    [11,equipe[11][1],equipe[11][0],0,0,0,0,0,0,0,0],
+    [12,equipe[12][1],equipe[12][0],0,0,0,0,0,0,0,0],
+    [13,equipe[13][1],equipe[13][0],0,0,0,0,0,0,0,0],
+    [14,equipe[14][1],equipe[14][0],0,0,0,0,0,0,0,0],
+    [15,equipe[15][1],equipe[15][0],0,0,0,0,0,0,0,0],
+    [16,equipe[16][1],equipe[16][0],0,0,0,0,0,0,0,0],
+    [17,equipe[17][1],equipe[17][0],0,0,0,0,0,0,0,0],
+    [18,equipe[18][1],equipe[18][0],0,0,0,0,0,0,0,0],
+    [19,equipe[19][1],equipe[19][0],0,0,0,0,0,0,0,0],
+    [20,equipe[20][1],equipe[20][0],0,0,0,0,0,0,0,0]
 ]
 function lerlistagem(){
     for(let i=1;i<=20;i++){
@@ -56,58 +56,66 @@ function lerlistagem(){
             if(j!=i){
                 if(tabelaRR[i][j][0] != null && tabelaRR[i][j][1] != null){
                     // mandante
-                    listagem[i][7] += tabelaRR[i][j][0]
-                    listagem[i][8] += tabelaRR[i][j][1]
-                    listagem[i][6] += (tabelaRR[i][j][0]-tabelaRR[i][j][1])
-                    listagem[i][9]++
+                    listagem[i][8] += tabelaRR[i][j][0]
+                    listagem[i][9] += tabelaRR[i][j][1]
+                    listagem[i][7] += (tabelaRR[i][j][0]-tabelaRR[i][j][1])
+                    listagem[i][10]++
                     // visitante
-                    listagem[j][7] += tabelaRR[i][j][1]
-                    listagem[j][8] += tabelaRR[i][j][0]
-                    listagem[j][6] += (tabelaRR[i][j][1]-tabelaRR[i][j][0])
-                    listagem[j][9]++
+                    listagem[j][8] += tabelaRR[i][j][1]
+                    listagem[j][9] += tabelaRR[i][j][0]
+                    listagem[j][7] += (tabelaRR[i][j][1]-tabelaRR[i][j][0])
+                    listagem[j][10]++
 
                     // ambos
                     if(tabelaRR[i][j][0]>tabelaRR[i][j][1]){ // vitoria para o mandante
-                        listagem[i][3]++
-                        listagem[j][5]++
-                        listagem[i][2]+= 3
-                    }else if(tabelaRR[i][j][0]<tabelaRR[i][j][1]){ // vitoria para o visitante
-                        listagem[j][3]++
-                        listagem[i][5]++
-                        listagem[j][2]+= 3
-                    }else{ // empate
                         listagem[i][4]++
+                        listagem[j][6]++
+                        listagem[i][3]+= 3
+                    }else if(tabelaRR[i][j][0]<tabelaRR[i][j][1]){ // vitoria para o visitante
                         listagem[j][4]++
-                        listagem[i][2]++
-                        listagem[j][2]++
+                        listagem[i][6]++
+                        listagem[j][3]+= 3
+                    }else{ // empate
+                        listagem[i][5]++
+                        listagem[j][5]++
+                        listagem[i][3]++
+                        listagem[j][3]++
                     }
                 }
             }
         }
     }
 }
-function compara(alfa, omega){
-    if(omega[2]==alfa[2]){
-        if(omega[6]==alfa[6]){
-            return omega[7]-alfa[7]
-        }
-        return omega[6]-alfa[6]
-    }else{
-        return omega[2]-alfa[2]
+function arrumaposicao(){
+    for(let h=1;h<=20;h++){
+        listagem[h][0] = h
     }
+}
+function compara(alfa, omega){
+    if(omega[3]==alfa[3]){
+        if(omega[7]==alfa[7]){
+            return omega[8]-alfa[8]
+        }
+        return omega[7]-alfa[7]
+    }else{
+        return omega[3]-alfa[3]
+    }
+}
+function descompara(alfa, omega){
+    return alfa[2]-omega[2]
 }
 function inserirdados(){
     for(let k=1;k<=20;k++){
-        document.getElementsByClassName('pos')[k].innerText = k
-        document.getElementsByClassName('crest')[k].src = `imagem/${listagem[k][0]}`
-        document.getElementsByClassName('timenome')[k].innerText = listagem[k][1]
-        document.getElementsByClassName('pts')[k].innerText = listagem[k][2]
-        document.getElementsByClassName('vit')[k].innerText = listagem[k][3]
-        document.getElementsByClassName('emp')[k].innerText = listagem[k][4]
-        document.getElementsByClassName('der')[k].innerText = listagem[k][5]
-        document.getElementsByClassName('golb')[k].innerText = listagem[k][6]
-        document.getElementsByClassName('golp')[k].innerText = listagem[k][7]
-        document.getElementsByClassName('golc')[k].innerText = listagem[k][8]
-        document.getElementsByClassName('jogos')[k].innerText = listagem[k][9]
+        document.getElementsByClassName('pos')[k].innerText = listagem[k][0]
+        document.getElementsByClassName('crest')[k].src = `imagem/${listagem[k][1]}`
+        document.getElementsByClassName('timenome')[k].innerText = listagem[k][2]
+        document.getElementsByClassName('pts')[k].innerText = listagem[k][3]
+        document.getElementsByClassName('vit')[k].innerText = listagem[k][4]
+        document.getElementsByClassName('emp')[k].innerText = listagem[k][5]
+        document.getElementsByClassName('der')[k].innerText = listagem[k][6]
+        document.getElementsByClassName('golb')[k].innerText = listagem[k][7]
+        document.getElementsByClassName('golp')[k].innerText = listagem[k][8]
+        document.getElementsByClassName('golc')[k].innerText = listagem[k][9]
+        document.getElementsByClassName('jogos')[k].innerText = listagem[k][10]
     }
 }
