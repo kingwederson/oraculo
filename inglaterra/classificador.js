@@ -1,4 +1,4 @@
-var tabelaRR = [
+var tabelaRRinicial = [
     [equipe[0][0],equipe[1][0],equipe[2][0],equipe[3][0],equipe[4][0],equipe[5][0],equipe[6][0],equipe[7][0],equipe[8][0],equipe[9][0],equipe[10][0],equipe[11][0],equipe[12][0],equipe[13][0],equipe[14][0],equipe[15][0],equipe[16][0],equipe[17][0],equipe[18][0],equipe[19][0],equipe[20][0]],
     /*ARS*/[equipe[1][0],[,]/*ARS*/,[,]/*AVL*/,[,]/*BOU*/,[,]/*BRE*/,[1,1]/*BHA*/,[,]/*CHE*/,[,]/*CRY*/,[0,0]/*EVE*/,[,]/*FUL*/,[,]/*IPS*/,[4,2]/*LEI*/,[2,2]/*LIV*/,[,]/*MCI*/,[2,0]/*MUD*/,[,]/*NEW*/,[3,0]/*NFO*/,[3,1]/*SOU*/,[,]/*TOT*/,[,]/*WHU*/,[2,0]/*WOL*/],
     /*AVL*/[equipe[2][0],[0,2]/*ARS*/,[,]/*AVL*/,[1,1]/*BOU*/,[3,1]/*BRE*/,[,]/*BHA*/,[,]/*CHE*/,[2,2]/*CRY*/,[3,2]/*EVE*/,[,]/*FUL*/,[,]/*IPS*/,[,]/*LEI*/,[,]/*LIV*/,[,]/*MCI*/,[0,0]/*MUD*/,[,]/*NEW*/,[,]/*NFO*/,[1,0]/*SOU*/,[,]/*TOT*/,[,]/*WHU*/,[3,1]/*WOL*/],
@@ -27,28 +27,28 @@ var tabelaRR = [
 
 //
 
-var listagem = [
-    [/*índice*/,/*escudo*/,/*nome*/,/*Pts*/,/*V*/,/*E*/,/*D*/,/*G*/,/*G+*/,/*G-*/,/*J*/],
-    [1,equipe[1][1],equipe[1][0],0,0,0,0,0,0,0,0],
-    [2,equipe[2][1],equipe[2][0],0,0,0,0,0,0,0,0],
-    [3,equipe[3][1],equipe[3][0],0,0,0,0,0,0,0,0],
-    [4,equipe[4][1],equipe[4][0],0,0,0,0,0,0,0,0],
-    [5,equipe[5][1],equipe[5][0],0,0,0,0,0,0,0,0],
-    [6,equipe[6][1],equipe[6][0],0,0,0,0,0,0,0,0],
-    [7,equipe[7][1],equipe[7][0],0,0,0,0,0,0,0,0],
-    [8,equipe[8][1],equipe[8][0],0,0,0,0,0,0,0,0],
-    [9,equipe[9][1],equipe[9][0],0,0,0,0,0,0,0,0],
-    [10,equipe[10][1],equipe[10][0],0,0,0,0,0,0,0,0],
-    [11,equipe[11][1],equipe[11][0],0,0,0,0,0,0,0,0],
-    [12,equipe[12][1],equipe[12][0],0,0,0,0,0,0,0,0],
-    [13,equipe[13][1],equipe[13][0],0,0,0,0,0,0,0,0],
-    [14,equipe[14][1],equipe[14][0],0,0,0,0,0,0,0,0],
-    [15,equipe[15][1],equipe[15][0],0,0,0,0,0,0,0,0],
-    [16,equipe[16][1],equipe[16][0],0,0,0,0,0,0,0,0],
-    [17,equipe[17][1],equipe[17][0],0,0,0,0,0,0,0,0],
-    [18,equipe[18][1],equipe[18][0],0,0,0,0,0,0,0,0],
-    [19,equipe[19][1],equipe[19][0],0,0,0,0,0,0,0,0],
-    [20,equipe[20][1],equipe[20][0],0,0,0,0,0,0,0,0]
+var listagem0 = [
+    [0/*índice*/,0/*escudo*/,0/*nome*/,1000/*Pts*/,0/*V*/,0/*E*/,0/*D*/,0/*G*/,0/*G+*/,0/*G-*/,0/*J*/,0],
+    [1,equipe[1][1],equipe[1][0],0,0,0,0,0,0,0,0,equipe[1][3]],
+    [2,equipe[2][1],equipe[2][0],0,0,0,0,0,0,0,0,equipe[2][3]],
+    [3,equipe[3][1],equipe[3][0],0,0,0,0,0,0,0,0,equipe[3][3]],
+    [4,equipe[4][1],equipe[4][0],0,0,0,0,0,0,0,0,equipe[4][3]],
+    [5,equipe[5][1],equipe[5][0],0,0,0,0,0,0,0,0,equipe[5][3]],
+    [6,equipe[6][1],equipe[6][0],0,0,0,0,0,0,0,0,equipe[6][3]],
+    [7,equipe[7][1],equipe[7][0],0,0,0,0,0,0,0,0,equipe[7][3]],
+    [8,equipe[8][1],equipe[8][0],0,0,0,0,0,0,0,0,equipe[8][3]],
+    [9,equipe[9][1],equipe[9][0],0,0,0,0,0,0,0,0,equipe[9][3]],
+    [10,equipe[10][1],equipe[10][0],0,0,0,0,0,0,0,0,equipe[10][3]],
+    [11,equipe[11][1],equipe[11][0],0,0,0,0,0,0,0,0,equipe[11][3]],
+    [12,equipe[12][1],equipe[12][0],0,0,0,0,0,0,0,0,equipe[12][3]],
+    [13,equipe[13][1],equipe[13][0],0,0,0,0,0,0,0,0,equipe[13][3]],
+    [14,equipe[14][1],equipe[14][0],0,0,0,0,0,0,0,0,equipe[14][3]],
+    [15,equipe[15][1],equipe[15][0],0,0,0,0,0,0,0,0,equipe[15][3]],
+    [16,equipe[16][1],equipe[16][0],0,0,0,0,0,0,0,0,equipe[16][3]],
+    [17,equipe[17][1],equipe[17][0],0,0,0,0,0,0,0,0,equipe[17][3]],
+    [18,equipe[18][1],equipe[18][0],0,0,0,0,0,0,0,0,equipe[18][3]],
+    [19,equipe[19][1],equipe[19][0],0,0,0,0,0,0,0,0,equipe[19][3]],
+    [20,equipe[20][1],equipe[20][0],0,0,0,0,0,0,0,0,equipe[20][3]]
 ]
 function lerlistagem(){
     for(let i=1;i<=20;i++){
@@ -101,8 +101,8 @@ function compara(alfa, omega){
         return omega[3]-alfa[3]
     }
 }
-function descompara(alfa, omega){
-    return alfa[2]-omega[2]
+function alfabetica(alfa, omega){
+    return alfa[11]-omega[11]
 }
 function inserirdados(){
     for(let k=1;k<=20;k++){

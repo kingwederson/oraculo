@@ -20,14 +20,17 @@ function poissonP(lamb,bet){
 }
 function golmarcado(media){
     let sorte = Math.random()
-    let accu = [,,,,,,,,,]
-    for(let g=0;g<9;g++){
+    let accu = [,,,,,,,,,,,,,,,,,,,,]
+    let maxgol = accu.length-1
+    let stop = false
+    for(let g=0;stop==false;g++){
         if(g==0){
             accu[g] = poissonP(media,g)
         }else{
             accu[g] = poissonP(media,g)+accu[g-1]
         }
-        if(sorte<accu[g]){
+        if(sorte<accu[g] || g==maxgol){
+            stop = true
             return g
         }
     }

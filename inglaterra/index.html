@@ -304,18 +304,26 @@
             </tr>
         </tbody>
     </table>
-    <link rel="stylesheet" href="estilodetabela.css?2024-12-19_22-20-00">
+    <link rel="stylesheet" href="estilodetabela.css?20241219222000">
     <script src="ficheiro.js?2024-12-19_14-34-36"></script>
     <script src="classificador.js?2024-12-19_14-34-36"></script>
     <script src="poisson.js?2024-12-19_14-34-36"></script>
     <script src="simulador.js?2024-12-19_14-34-36"></script>
     <script>
+        var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial))
+        var listagem = JSON.parse(JSON.stringify(listagem0))
         simular()
         lerlistagem()
         listagem.sort(compara)
         arrumaposicao()
-        //listagem.sort(descompara)
+        var copta = JSON.parse(JSON.stringify(listagem))
+        copta.sort(alfabetica)
         inserirdados()
+        console.log(copta[12][0])
+        console.log(copta[1][0])
+        function rodar(){
+            var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial));var listagem = JSON.parse(JSON.stringify(listagem0));simular();lerlistagem();listagem.sort(compara);arrumaposicao();let copta = JSON.parse(JSON.stringify(listagem));copta.sort(alfabetica);inserirdados();
+        }
     </script>
 </body>
 </html>
