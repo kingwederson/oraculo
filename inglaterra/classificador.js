@@ -108,7 +108,7 @@ function inserirdados(){
     for(let k=1;k<=20;k++){
         document.getElementsByClassName('pos')[k].innerText = listagem[k][0]
         document.getElementsByClassName('crest')[k].src = `imagem/${listagem[k][1]}`
-        document.getElementsByClassName('timenome')[k].innerText = listagem[k][2]
+        document.getElementsByClassName('timenome')[k].innerHTML = listagem[k][2]
         document.getElementsByClassName('pts')[k].innerText = listagem[k][3]
         document.getElementsByClassName('vit')[k].innerText = listagem[k][4]
         document.getElementsByClassName('emp')[k].innerText = listagem[k][5]
