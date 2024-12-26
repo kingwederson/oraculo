@@ -2,7 +2,7 @@ var equipe = [
     [`Premier League`,`http://oraculo.wederson.net.br/inglaterra/imagem/eng1.png`,,0],// 0
     [`Arsenal`,`http://oraculo.wederson.net.br/inglaterra/imagem/arsenal.png`,{a:34/17,d:16/17},1], // 1
     [`Aston Villa`,`http://oraculo.wederson.net.br/inglaterra/imagem/astonvilla.png`,{a:26/17,d:26/17},2],// 2
-    [`Bournemouth`,`http://oraculo.wederson.net.br/inglaterra/imagem/bournermouth.png`,{a:27/17,d:21/17},3],// 3
+    [`Bournemouth`,`http://oraculo.wederson.net.br/inglaterra/imagem/bournemouth.png`,{a:27/17,d:21/17},3],// 3
     [`Brentford`,`http://oraculo.wederson.net.br/inglaterra/imagem/brentford.png`,{a:32/17,d:32/17},4],// 4
     [`Brighton`,`http://oraculo.wederson.net.br/inglaterra/imagem/brighton.png`,{a:27/17,d:26/17},5],// 5
     [`Chelsea`,`http://oraculo.wederson.net.br/inglaterra/imagem/chelsea.png`,{a:37/17,d:19/17},6],// 6
