@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório</title>
+</head>
+<body>
+    <p>Total para <span id="numsimulacoes">100,000</span> simulações.</p>
+    
+    <table id="probabilidades">
+        <thead>
+            <tr>
+                <th colspan="3">#</th>
+                <th>Team</th>
+                <th>Average<br>points</th>
+                <th>League<br>winner</th>
+                <th>Champions<br>League</th>
+                <th>Europa<br>League</th>
+                <th>Nothing</th>
+                <th>Relegation</th>
+                <th>#1</th>
+                <th>#2</th>
+                <th>#3</th>
+                <th>#4</th>
+                <th>#5</th>
+                <th>#6</th>
+                <th>#7</th>
+                <th>#8</th>
+                <th>#9</th>
+                <th>#10</th>
+                <th>#11</th>
+                <th>#12</th>
+                <th>#13</th>
+                <th>#14</th>
+                <th>#15</th>
+                <th>#16</th>
+                <th>#17</th>
+                <th>#18</th>
+                <th>#19</th>
+                <th>#20</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/liv_48x48.png"></td>
+                <td class="timenome">Liverpool</td>
+                <td class="num pts">80.252</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.795);">79<span class="precisao">.539</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.996);">99<span class="precisao">.585</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.003);">0<span class="precisao">.266</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0);">0<span class="precisao">.149</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num">79<span class="precisao">.539</span>%</td>
+                <td class="num">14<span class="precisao">.783</span>%</td>
+                <td class="num">4<span class="precisao">.257</span>%</td>
+                <td class="num">1<span class="precisao">.006</span>%</td>
+                <td class="num">0<span class="precisao">.266</span>%</td>
+                <td class="num">0<span class="precisao">.099</span>%</td>
+                <td class="num">0<span class="precisao">.032</span>%</td>
+                <td class="num">0<span class="precisao">.014</span>%</td>
+                <td class="num">0<span class="precisao">.002</span>%</td>
+                <td class="num">0<span class="precisao">.002</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/ars_48x48.png"></td>
+                <td class="timenome">Arsenal</td>
+                <td class="num pts">70.141</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.1);">10<span class="precisao">.023</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.863);">86<span class="precisao">.347</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.062);">6<span class="precisao">.209</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.074);">7<span class="precisao">.444</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num">10<span class="precisao">.023</span>%</td>
+                <td class="num">35<span class="precisao">.670</span>%</td>
+                <td class="num">27<span class="precisao">.965</span>%</td>
+                <td class="num">12<span class="precisao">.689</span>%</td>
+                <td class="num">6<span class="precisao">.209</span>%</td>
+                <td class="num">3<span class="precisao">.356</span>%</td>
+                <td class="num">1<span class="precisao">.882</span>%</td>
+                <td class="num">1<span class="precisao">.054</span>%</td>
+                <td class="num">0<span class="precisao">.590</span>%</td>
+                <td class="num">0<span class="precisao">.307</span>%</td>
+                <td class="num">0<span class="precisao">.135</span>%</td>
+                <td class="num">0<span class="precisao">.088</span>%</td>
+                <td class="num">0<span class="precisao">.023</span>%</td>
+                <td class="num">0<span class="precisao">.006</span>%</td>
+                <td class="num">0<span class="precisao">.003</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/che_48x48.png"></td>
+                <td class="timenome">Chelsea</td>
+                <td class="num pts">69.980</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.09);">8<span class="precisao">.980</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.862);">86<span class="precisao">.159</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.064);">6<span class="precisao">.414</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.074);">7<span class="precisao">.427</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num">8<span class="precisao">.980</span>%</td>
+                <td class="num">34<span class="precisao">.608</span>%</td>
+                <td class="num">29<span class="precisao">.266</span>%</td>
+                <td class="num">13<span class="precisao">.305</span>%</td>
+                <td class="num">6<span class="precisao">.414</span>%</td>
+                <td class="num">3<span class="precisao">.429</span>%</td>
+                <td class="num">1<span class="precisao">.908</span>%</td>
+                <td class="num">1<span class="precisao">.088</span>%</td>
+                <td class="num">0<span class="precisao">.493</span>%</td>
+                <td class="num">0<span class="precisao">.293</span>%</td>
+                <td class="num">0<span class="precisao">.126</span>%</td>
+                <td class="num">0<span class="precisao">.062</span>%</td>
+                <td class="num">0<span class="precisao">.022</span>%</td>
+                <td class="num">0<span class="precisao">.005</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/not_48x48.png"></td>
+                <td class="timenome">Nottingham<span class="esconder"> Forest</span></td>
+                <td class="num pts">63.316</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.009);">0<span class="precisao">.881</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.426);">42<span class="precisao">.552</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.163);">16<span class="precisao">.347</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.41);">41<span class="precisao">.101</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.881</span>%</td>
+                <td class="num">7<span class="precisao">.031</span>%</td>
+                <td class="num">14<span class="precisao">.094</span>%</td>
+                <td class="num">20<span class="precisao">.546</span>%</td>
+                <td class="num">16<span class="precisao">.347</span>%</td>
+                <td class="num">12<span class="precisao">.296</span>%</td>
+                <td class="num">9<span class="precisao">.216</span>%</td>
+                <td class="num">6<span class="precisao">.822</span>%</td>
+                <td class="num">4<span class="precisao">.931</span>%</td>
+                <td class="num">3<span class="precisao">.378</span>%</td>
+                <td class="num">2<span class="precisao">.219</span>%</td>
+                <td class="num">1<span class="precisao">.237</span>%</td>
+                <td class="num">0<span class="precisao">.630</span>%</td>
+                <td class="num">0<span class="precisao">.269</span>%</td>
+                <td class="num">0<span class="precisao">.084</span>%</td>
+                <td class="num">0<span class="precisao">.017</span>%</td>
+                <td class="num">0<span class="precisao">.002</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/new_48x48.png"></td>
+                <td class="timenome">Newcastle<span class="esconder"> United</span></td>
+                <td class="num pts">59.015</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.002);">0<span class="precisao">.173</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.192);">19<span class="precisao">.231</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.133);">13<span class="precisao">.326</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.674);">67<span class="precisao">.434</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.009</span>%</td>
+                <td class="num">0<span class="precisao">.173</span>%</td>
+                <td class="num">2<span class="precisao">.079</span>%</td>
+                <td class="num">5<span class="precisao">.699</span>%</td>
+                <td class="num">11<span class="precisao">.280</span>%</td>
+                <td class="num">13<span class="precisao">.326</span>%</td>
+                <td class="num">13<span class="precisao">.046</span>%</td>
+                <td class="num">12<span class="precisao">.342</span>%</td>
+                <td class="num">10<span class="precisao">.805</span>%</td>
+                <td class="num">9<span class="precisao">.243</span>%</td>
+                <td class="num">7<span class="precisao">.598</span>%</td>
+                <td class="num">5<span class="precisao">.888</span>%</td>
+                <td class="num">4<span class="precisao">.084</span>%</td>
+                <td class="num">2<span class="precisao">.441</span>%</td>
+                <td class="num">1<span class="precisao">.302</span>%</td>
+                <td class="num">0<span class="precisao">.513</span>%</td>
+                <td class="num">0<span class="precisao">.134</span>%</td>
+                <td class="num">0<span class="precisao">.038</span>%</td>
+                <td class="num">0<span class="precisao">.008</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/bou_48x48.png"></td>
+                <td class="timenome">Bournemouth</td>
+                <td class="num pts">58.991</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.141</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.185);">18<span class="precisao">.487</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.13);">13<span class="precisao">.085</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.684);">68<span class="precisao">.419</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.009</span>%</td>
+                <td class="num">0<span class="precisao">.141</span>%</td>
+                <td class="num">1<span class="precisao">.973</span>%</td>
+                <td class="num">5<span class="precisao">.461</span>%</td>
+                <td class="num">10<span class="precisao">.912</span>%</td>
+                <td class="num">13<span class="precisao">.085</span>%</td>
+                <td class="num">12<span class="precisao">.944</span>%</td>
+                <td class="num">12<span class="precisao">.226</span>%</td>
+                <td class="num">10<span class="precisao">.919</span>%</td>
+                <td class="num">9<span class="precisao">.481</span>%</td>
+                <td class="num">7<span class="precisao">.849</span>%</td>
+                <td class="num">6<span class="precisao">.147</span>%</td>
+                <td class="num">4<span class="precisao">.214</span>%</td>
+                <td class="num">2<span class="precisao">.637</span>%</td>
+                <td class="num">1<span class="precisao">.284</span>%</td>
+                <td class="num">0<span class="precisao">.511</span>%</td>
+                <td class="num">0<span class="precisao">.164</span>%</td>
+                <td class="num">0<span class="precisao">.043</span>%</td>
+                <td class="num">0<span class="precisao">.008</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/mci_48x48.png"></td>
+                <td class="timenome">Man<span class="esconder">chester</span> City</td>
+                <td class="num pts">57.586</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.101</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.13);">12<span class="precisao">.975</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.104);">10<span class="precisao">.412</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.766);">76<span class="precisao">.583</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.030</span>%</td>
+                <td class="num">0<span class="precisao">.101</span>%</td>
+                <td class="num">1<span class="precisao">.101</span>%</td>
+                <td class="num">3<span class="precisao">.824</span>%</td>
+                <td class="num">7<span class="precisao">.949</span>%</td>
+                <td class="num">10<span class="precisao">.412</span>%</td>
+                <td class="num">11<span class="precisao">.620</span>%</td>
+                <td class="num">11<span class="precisao">.798</span>%</td>
+                <td class="num">11<span class="precisao">.360</span>%</td>
+                <td class="num">10<span class="precisao">.756</span>%</td>
+                <td class="num">9<span class="precisao">.575</span>%</td>
+                <td class="num">8<span class="precisao">.025</span>%</td>
+                <td class="num">5<span class="precisao">.991</span>%</td>
+                <td class="num">3<span class="precisao">.945</span>%</td>
+                <td class="num">2<span class="precisao">.096</span>%</td>
+                <td class="num">0<span class="precisao">.974</span>%</td>
+                <td class="num">0<span class="precisao">.334</span>%</td>
+                <td class="num">0<span class="precisao">.109</span>%</td>
+                <td class="num">0<span class="precisao">.025</span>%</td>
+                <td class="num">0<span class="precisao">.005</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/tot_48x48.png"></td>
+                <td class="timenome">Tottenham<span class="esconder"> Hotspur</span></td>
+                <td class="num pts">56.267</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.058</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.1);">10<span class="precisao">.197</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.09);">8<span class="precisao">.996</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.807);">80<span class="precisao">.748</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.059</span>%</td>
+                <td class="num">0<span class="precisao">.058</span>%</td>
+                <td class="num">0<span class="precisao">.910</span>%</td>
+                <td class="num">2<span class="precisao">.839</span>%</td>
+                <td class="num">6<span class="precisao">.390</span>%</td>
+                <td class="num">8<span class="precisao">.996</span>%</td>
+                <td class="num">10<span class="precisao">.527</span>%</td>
+                <td class="num">11<span class="precisao">.316</span>%</td>
+                <td class="num">11<span class="precisao">.644</span>%</td>
+                <td class="num">11<span class="precisao">.214</span>%</td>
+                <td class="num">10<span class="precisao">.276</span>%</td>
+                <td class="num">8<span class="precisao">.834</span>%</td>
+                <td class="num">6<span class="precisao">.946</span>%</td>
+                <td class="num">4<span class="precisao">.904</span>%</td>
+                <td class="num">2<span class="precisao">.883</span>%</td>
+                <td class="num">1<span class="precisao">.437</span>%</td>
+                <td class="num">0<span class="precisao">.587</span>%</td>
+                <td class="num">0<span class="precisao">.180</span>%</td>
+                <td class="num">0<span class="precisao">.053</span>%</td>
+                <td class="num">0<span class="precisao">.006</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/ful_48x48.png"></td>
+                <td class="timenome">Fulham</td>
+                <td class="num pts">56.198</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.043</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.087);">8<span class="precisao">.664</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.08);">7<span class="precisao">.998</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.83);">83<span class="precisao">.305</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.033</span>%</td>
+                <td class="num">0<span class="precisao">.043</span>%</td>
+                <td class="num">0<span class="precisao">.676</span>%</td>
+                <td class="num">2<span class="precisao">.423</span>%</td>
+                <td class="num">5<span class="precisao">.522</span>%</td>
+                <td class="num">7<span class="precisao">.998</span>%</td>
+                <td class="num">9<span class="precisao">.504</span>%</td>
+                <td class="num">10<span class="precisao">.768</span>%</td>
+                <td class="num">11<span class="precisao">.024</span>%</td>
+                <td class="num">11<span class="precisao">.452</span>%</td>
+                <td class="num">11<span class="precisao">.140</span>%</td>
+                <td class="num">9<span class="precisao">.843</span>%</td>
+                <td class="num">8<span class="precisao">.135</span>%</td>
+                <td class="num">5<span class="precisao">.699</span>%</td>
+                <td class="num">3<span class="precisao">.316</span>%</td>
+                <td class="num">1<span class="precisao">.626</span>%</td>
+                <td class="num">0<span class="precisao">.624</span>%</td>
+                <td class="num">0<span class="precisao">.174</span>%</td>
+                <td class="num">0<span class="precisao">.032</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/ast_48x48.png"></td>
+                <td class="timenome">Aston Villa</td>
+                <td class="num pts">55.660</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.029</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.07);">6<span class="precisao">.860</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.068);">6<span class="precisao">.776</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.863);">86<span class="precisao">.276</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.088</span>%</td>
+                <td class="num">0<span class="precisao">.029</span>%</td>
+                <td class="num">0<span class="precisao">.534</span>%</td>
+                <td class="num">1<span class="precisao">.923</span>%</td>
+                <td class="num">4<span class="precisao">.374</span>%</td>
+                <td class="num">6<span class="precisao">.776</span>%</td>
+                <td class="num">8<span class="precisao">.586</span>%</td>
+                <td class="num">9<span class="precisao">.551</span>%</td>
+                <td class="num">10<span class="precisao">.782</span>%</td>
+                <td class="num">11<span class="precisao">.323</span>%</td>
+                <td class="num">11<span class="precisao">.384</span>%</td>
+                <td class="num">10<span class="precisao">.683</span>%</td>
+                <td class="num">9<span class="precisao">.352</span>%</td>
+                <td class="num">7<span class="precisao">.025</span>%</td>
+                <td class="num">4<span class="precisao">.253</span>%</td>
+                <td class="num">2<span class="precisao">.125</span>%</td>
+                <td class="num">0<span class="precisao">.945</span>%</td>
+                <td class="num">0<span class="precisao">.267</span>%</td>
+                <td class="num">0<span class="precisao">.080</span>%</td>
+                <td class="num">0<span class="precisao">.008</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/bha_48x48.png"></td>
+                <td class="timenome">Brighton</td>
+                <td class="num pts">54.606</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.021</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.06);">5<span class="precisao">.765</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.06);">5<span class="precisao">.812</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.883);">88<span class="precisao">.288</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0);">0<span class="precisao">.135</span>%</td>
+                <td class="num">0<span class="precisao">.021</span>%</td>
+                <td class="num">0<span class="precisao">.456</span>%</td>
+                <td class="num">1<span class="precisao">.496</span>%</td>
+                <td class="num">3<span class="precisao">.792</span>%</td>
+                <td class="num">5<span class="precisao">.812</span>%</td>
+                <td class="num">7<span class="precisao">.536</span>%</td>
+                <td class="num">8<span class="precisao">.741</span>%</td>
+                <td class="num">9<span class="precisao">.945</span>%</td>
+                <td class="num">10<span class="precisao">.848</span>%</td>
+                <td class="num">11<span class="precisao">.251</span>%</td>
+                <td class="num">11<span class="precisao">.307</span>%</td>
+                <td class="num">10<span class="precisao">.392</span>%</td>
+                <td class="num">8<span class="precisao">.183</span>%</td>
+                <td class="num">5<span class="precisao">.394</span>%</td>
+                <td class="num">2<span class="precisao">.949</span>%</td>
+                <td class="num">1<span class="precisao">.287</span>%</td>
+                <td class="num">0<span class="precisao">.455</span>%</td>
+                <td class="num">0<span class="precisao">.121</span>%</td>
+                <td class="num">0<span class="precisao">.014</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/bre_48x48.png"></td>
+                <td class="timenome">Brentford</td>
+                <td class="num pts">51.614</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.010</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.023);">2<span class="precisao">.293</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.028);">2<span class="precisao">.802</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.94);">94<span class="precisao">.299</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.006);">0<span class="precisao">.606</span>%</td>
+                <td class="num">0<span class="precisao">.010</span>%</td>
+                <td class="num">0<span class="precisao">.142</span>%</td>
+                <td class="num">0<span class="precisao">.569</span>%</td>
+                <td class="num">1<span class="precisao">.572</span>%</td>
+                <td class="num">2<span class="precisao">.802</span>%</td>
+                <td class="num">4<span class="precisao">.126</span>%</td>
+                <td class="num">5<span class="precisao">.418</span>%</td>
+                <td class="num">7<span class="precisao">.042</span>%</td>
+                <td class="num">8<span class="precisao">.513</span>%</td>
+                <td class="num">10<span class="precisao">.435</span>%</td>
+                <td class="num">12<span class="precisao">.025</span>%</td>
+                <td class="num">13<span class="precisao">.174</span>%</td>
+                <td class="num">12<span class="precisao">.648</span>%</td>
+                <td class="num">9<span class="precisao">.856</span>%</td>
+                <td class="num">6<span class="precisao">.182</span>%</td>
+                <td class="num">3<span class="precisao">.449</span>%</td>
+                <td class="num">1<span class="precisao">.431</span>%</td>
+                <td class="num">0<span class="precisao">.502</span>%</td>
+                <td class="num">0<span class="precisao">.101</span>%</td>
+                <td class="num">0<span class="precisao">.003</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/mud_48x48.png"></td>
+                <td class="timenome">Man<span class="esconder">chester</span> United</td>
+                <td class="num pts">49.020</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.001</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.006);">0<span class="precisao">.614</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.01);">0<span class="precisao">.987</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.97);">97<span class="precisao">.023</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.014);">1<span class="precisao">.376</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.024</span>%</td>
+                <td class="num">0<span class="precisao">.136</span>%</td>
+                <td class="num">0<span class="precisao">.453</span>%</td>
+                <td class="num">0<span class="precisao">.987</span>%</td>
+                <td class="num">1<span class="precisao">.756</span>%</td>
+                <td class="num">2<span class="precisao">.774</span>%</td>
+                <td class="num">4<span class="precisao">.106</span>%</td>
+                <td class="num">5<span class="precisao">.726</span>%</td>
+                <td class="num">7<span class="precisao">.890</span>%</td>
+                <td class="num">10<span class="precisao">.733</span>%</td>
+                <td class="num">13<span class="precisao">.625</span>%</td>
+                <td class="num">16<span class="precisao">.113</span>%</td>
+                <td class="num">14<span class="precisao">.771</span>%</td>
+                <td class="num">10<span class="precisao">.480</span>%</td>
+                <td class="num">6<span class="precisao">.132</span>%</td>
+                <td class="num">2<span class="precisao">.917</span>%</td>
+                <td class="num">1<span class="precisao">.100</span>%</td>
+                <td class="num">0<span class="precisao">.264</span>%</td>
+                <td class="num">0<span class="precisao">.012</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/whu_48x48.png"></td>
+                <td class="timenome">West Ham<span class="esconder"> United</span></td>
+                <td class="num pts">47.171</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0.002);">0<span class="precisao">.226</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0.005);">0<span class="precisao">.491</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.96);">96<span class="precisao">.147</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.03);">3<span class="precisao">.136</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.013</span>%</td>
+                <td class="num">0<span class="precisao">.042</span>%</td>
+                <td class="num">0<span class="precisao">.171</span>%</td>
+                <td class="num">0<span class="precisao">.491</span>%</td>
+                <td class="num">0<span class="precisao">.901</span>%</td>
+                <td class="num">1<span class="precisao">.513</span>%</td>
+                <td class="num">2<span class="precisao">.349</span>%</td>
+                <td class="num">3<span class="precisao">.557</span>%</td>
+                <td class="num">5<span class="precisao">.210</span>%</td>
+                <td class="num">7<span class="precisao">.691</span>%</td>
+                <td class="num">11<span class="precisao">.182</span>%</td>
+                <td class="num">14<span class="precisao">.898</span>%</td>
+                <td class="num">17<span class="precisao">.833</span>%</td>
+                <td class="num">15<span class="precisao">.161</span>%</td>
+                <td class="num">10<span class="precisao">.209</span>%</td>
+                <td class="num">5<span class="precisao">.643</span>%</td>
+                <td class="num">2<span class="precisao">.453</span>%</td>
+                <td class="num">0<span class="precisao">.653</span>%</td>
+                <td class="num">0<span class="precisao">.030</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/eve_48x48.png"></td>
+                <td class="timenome">Everton</td>
+                <td class="num pts">42.191</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0);">0<span class="precisao">.024</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.043</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.861);">86<span class="precisao">.071</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.139);">13<span class="precisao">.862</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.004</span>%</td>
+                <td class="num">0<span class="precisao">.020</span>%</td>
+                <td class="num">0<span class="precisao">.043</span>%</td>
+                <td class="num">0<span class="precisao">.145</span>%</td>
+                <td class="num">0<span class="precisao">.269</span>%</td>
+                <td class="num">0<span class="precisao">.518</span>%</td>
+                <td class="num">0<span class="precisao">.891</span>%</td>
+                <td class="num">1<span class="precisao">.587</span>%</td>
+                <td class="num">2<span class="precisao">.734</span>%</td>
+                <td class="num">4<span class="precisao">.790</span>%</td>
+                <td class="num">8<span class="precisao">.171</span>%</td>
+                <td class="num">13<span class="precisao">.196</span>%</td>
+                <td class="num">18<span class="precisao">.614</span>%</td>
+                <td class="num">19<span class="precisao">.789</span>%</td>
+                <td class="num">15<span class="precisao">.367</span>%</td>
+                <td class="num">9<span class="precisao">.352</span>%</td>
+                <td class="num">4<span class="precisao">.108</span>%</td>
+                <td class="num">0<span class="precisao">.402</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/cry_48x48.png"></td>
+                <td class="timenome">C<span class="esconder">rystal</span> Palace</td>
+                <td class="num pts">41.835</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0);">0<span class="precisao">.020</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.032</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.85);">85<span class="precisao">.196</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.15);">14<span class="precisao">.752</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.002</span>%</td>
+                <td class="num">0<span class="precisao">.018</span>%</td>
+                <td class="num">0<span class="precisao">.032</span>%</td>
+                <td class="num">0<span class="precisao">.106</span>%</td>
+                <td class="num">0<span class="precisao">.192</span>%</td>
+                <td class="num">0<span class="precisao">.418</span>%</td>
+                <td class="num">0<span class="precisao">.748</span>%</td>
+                <td class="num">1<span class="precisao">.356</span>%</td>
+                <td class="num">2<span class="precisao">.545</span>%</td>
+                <td class="num">4<span class="precisao">.429</span>%</td>
+                <td class="num">7<span class="precisao">.609</span>%</td>
+                <td class="num">12<span class="precisao">.914</span>%</td>
+                <td class="num">18<span class="precisao">.649</span>%</td>
+                <td class="num">20<span class="precisao">.105</span>%</td>
+                <td class="num">16<span class="precisao">.125</span>%</td>
+                <td class="num">9<span class="precisao">.814</span>%</td>
+                <td class="num">4<span class="precisao">.453</span>%</td>
+                <td class="num">0<span class="precisao">.485</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/wol_48x48.png"></td>
+                <td class="timenome">Wolve<span class="esconder">rhampton Wander</span>s</td>
+                <td class="num pts">37.909</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0);">0<span class="precisao">.001</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.004</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.62);">61<span class="precisao">.906</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.38);">38<span class="precisao">.089</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.004</span>%</td>
+                <td class="num">0<span class="precisao">.019</span>%</td>
+                <td class="num">0<span class="precisao">.047</span>%</td>
+                <td class="num">0<span class="precisao">.080</span>%</td>
+                <td class="num">0<span class="precisao">.169</span>%</td>
+                <td class="num">0<span class="precisao">.338</span>%</td>
+                <td class="num">0<span class="precisao">.693</span>%</td>
+                <td class="num">1<span class="precisao">.457</span>%</td>
+                <td class="num">3<span class="precisao">.036</span>%</td>
+                <td class="num">5<span class="precisao">.995</span>%</td>
+                <td class="num">10<span class="precisao">.602</span>%</td>
+                <td class="num">16<span class="precisao">.791</span>%</td>
+                <td class="num">22<span class="precisao">.679</span>%</td>
+                <td class="num">21<span class="precisao">.237</span>%</td>
+                <td class="num">14<span class="precisao">.665</span>%</td>
+                <td class="num">2<span class="precisao">.187</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/lei_48x48.png"></td>
+                <td class="timenome">Leicester<span class="esconder"> City</span></td>
+                <td class="num pts">35.592</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.415);">41<span class="precisao">.518</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.585);">58<span class="precisao">.482</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.003</span>%</td>
+                <td class="num">0<span class="precisao">.003</span>%</td>
+                <td class="num">0<span class="precisao">.023</span>%</td>
+                <td class="num">0<span class="precisao">.043</span>%</td>
+                <td class="num">0<span class="precisao">.089</span>%</td>
+                <td class="num">0<span class="precisao">.258</span>%</td>
+                <td class="num">0<span class="precisao">.549</span>%</td>
+                <td class="num">1<span class="precisao">.322</span>%</td>
+                <td class="num">2<span class="precisao">.965</span>%</td>
+                <td class="num">6<span class="precisao">.164</span>%</td>
+                <td class="num">11<span class="precisao">.204</span>%</td>
+                <td class="num">18<span class="precisao">.895</span>%</td>
+                <td class="num">26<span class="precisao">.809</span>%</td>
+                <td class="num">26<span class="precisao">.511</span>%</td>
+                <td class="num">5<span class="precisao">.162</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/ips_48x48.png"></td>
+                <td class="timenome">Ipswich<span class="esconder"> Town</span></td>
+                <td class="num pts">33.672</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.29);">29<span class="precisao">.208</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.71);">70<span class="precisao">.792</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.001</span>%</td>
+                <td class="num">0<span class="precisao">.004</span>%</td>
+                <td class="num">0<span class="precisao">.007</span>%</td>
+                <td class="num">0<span class="precisao">.020</span>%</td>
+                <td class="num">0<span class="precisao">.042</span>%</td>
+                <td class="num">0<span class="precisao">.114</span>%</td>
+                <td class="num">0<span class="precisao">.290</span>%</td>
+                <td class="num">0<span class="precisao">.688</span>%</td>
+                <td class="num">1<span class="precisao">.647</span>%</td>
+                <td class="num">3<span class="precisao">.834</span>%</td>
+                <td class="num">7<span class="precisao">.927</span>%</td>
+                <td class="num">14<span class="precisao">.634</span>%</td>
+                <td class="num">24<span class="precisao">.905</span>%</td>
+                <td class="num">37<span class="precisao">.109</span>%</td>
+                <td class="num">8<span class="precisao">.778</span>%</td>
+            </tr>
+            <tr>
+                <td class="quali"></td>
+                <td class="pos"></td>
+                <td class="escudo"><img src="../imagem/sou_48x48.png"></td>
+                <td class="timenome">Southampton</td>
+                <td class="num pts">24.003</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(0, 0, 255, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(255, 255, 0, 0);">0<span class="precisao">.000</span>%</td>
+                <td class="num" style="background-color: rgba(120, 64, 8, 0.015);">1<span class="precisao">.458</span>%</td>
+                <td class="num" style="background-color: rgba(255, 0, 0, 0.985);">98<span class="precisao">.542</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.000</span>%</td>
+                <td class="num">0<span class="precisao">.003</span>%</td>
+                <td class="num">0<span class="precisao">.006</span>%</td>
+                <td class="num">0<span class="precisao">.015</span>%</td>
+                <td class="num">0<span class="precisao">.091</span>%</td>
+                <td class="num">0<span class="precisao">.302</span>%</td>
+                <td class="num">1<span class="precisao">.041</span>%</td>
+                <td class="num">3<span class="precisao">.501</span>%</td>
+                <td class="num">12<span class="precisao">.100</span>%</td>
+                <td class="num">82<span class="precisao">.941</span>%</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <link rel="stylesheet" href="../../estilodetabela.css">
+</body>
+</html>
