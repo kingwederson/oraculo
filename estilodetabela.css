@@ -1,0 +1,73 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+table {
+    border-collapse: collapse; /* Faz com que as bordas da tabela fiquem unidas */
+    counter-reset: posicao;
+}
+td.pts, td.der, td.golc{
+    border-right: 1px solid #aaa;
+}
+tr{
+    border-bottom: 1px solid #aaa;
+}
+th{
+    padding:5px;
+    min-width: 23px;
+}
+td{
+    text-align: center;
+    white-space: nowrap;
+}
+th.quali,td.quali{
+    padding:1px;
+    width: 3px;
+}
+td.pos{
+    text-align: right;
+}
+td.timenome{
+    text-align: left;
+}
+td.pts{
+    font-weight: bold;
+}
+td.num{
+    text-align: right;
+    white-space: nowrap;
+}
+table#probabilidades td.num{
+    padding:0px 4px;
+    min-width: 50px;
+}
+table#probabilidades td.pos::before{
+    counter-increment: posicao;
+    content: counter(posicao);
+}
+td.escudo img{
+    max-height: 24px;
+}
+tr:hover{
+    background-color: #ccc;
+    transition: 0.9s;
+}
+@media only screen and (max-width: 538px) {
+    .esconder{
+        display: none;
+    }
+}
+table#probabilidades{
+    .esconder{
+        display: none;
+    }
+    & td.num{
+        padding:0px 10px;
+        text-shadow: 0px 0px 3px white;
+    }
+}
+td.num .precisao{
+    display:none;
+}
+td.num:hover .precisao{
+    display:inline-block;
+}
