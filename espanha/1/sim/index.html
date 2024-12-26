@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oráculo: Itália Serie A | Simulador de Ligas Futebolísticas</title>
+</head>
+<body>
+    <table id="ligaA">
+        <thead>
+            <tr>
+                <th class="pos" colspan="3">posição<img class="crest" src=""></th>
+                <th class="timenome">Equipe</th>
+                <th class="pts">Pts</th>
+                <th class="vit">V</th>
+                <th class="emp">E</th>
+                <th class="der">D</th>
+                <th class="golb">g</th>
+                <th class="golp">g+</th>
+                <th class="golc">g-</th>
+                <th class="jogos">J</th>
+            </tr>
+        </thead>
+        <tbody id="ligastandings">
+
+        </tbody>
+    </table>
+    <link rel="stylesheet" href="../../estilodetabela.css">
+    <link rel="stylesheet" href="regras.css">
+    <script src="ficheiro.js"></script>
+    <script src="../../fazerstandings.js"></script>
+    <script src="../../classificador.js"></script>
+    <script src="../../poisson.js"></script>
+    <script src="../../simulador.js"></script>
+    <script>
+        fazerstandings()
+        var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial))
+        var listagem = JSON.parse(JSON.stringify(listagem0))
+        simular()
+        lerlistagem()
+        listagem.sort(compara)
+        arrumaposicao()
+        var copta = JSON.parse(JSON.stringify(listagem))
+        copta.sort(alfabetica)
+        inserirdados()
+    </script>
+</body>
+</html>
