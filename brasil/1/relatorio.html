@@ -15,9 +15,9 @@
                 <th>Team</th>
                 <th>Average<br>points</th>
                 <th>League<br>winner</th>
-                <th>Champions<br>League</th>
-                <th>Europa<br>League</th>
-                <th>Conference<br>League</th>
+                <th>Libertadores<br>Cup</th>
+                <th>Preliminar<br>CONMEBOL</th>
+                <th>Sudamericana<br>Cup</th>
                 <th>Relegation</th>
                 <th>#1</th>
                 <th>#2</th>
@@ -692,7 +692,7 @@
     <script src="../../poisson.js"></script>
     <script src="../../simulador.js"></script>
     <script>
-        var repeticoes = 1
+        var repeticoes = 100000
         var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial))
         var listagem = JSON.parse(JSON.stringify(listagem0))
         simular()
@@ -778,10 +778,10 @@
         for(let n=1;n<equipe.length;n++){
 
             relatorio[n][3] = relatorio[n][8]
-            relatorio[n][4] = relatorio[n][8]+relatorio[n][9]+relatorio[n][10]+relatorio[n][11]
-            relatorio[n][5] = relatorio[n][12]
-            relatorio[n][6] = relatorio[n][13]
-            relatorio[n][7] = relatorio[n][25]+relatorio[n][26]+relatorio[n][27]
+            relatorio[n][4] = relatorio[n][8]+relatorio[n][9]+relatorio[n][10]+relatorio[n][11]+relatorio[n][12]+relatorio[n][13]
+            relatorio[n][5] = relatorio[n][14]+relatorio[n][15]
+            relatorio[n][6] = relatorio[n][16]+relatorio[n][17]+relatorio[n][18]+relatorio[n][19]+relatorio[n][20]+relatorio[n][21]
+            relatorio[n][7] = relatorio[n][24]+relatorio[n][25]+relatorio[n][26]+relatorio[n][27]
 
             for(let u=1;u<21;u++){
                 document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(${u+10})`).innerHTML = `${Math.trunc(100*(relatorio[n][u+7]/repeticoes))}<span class="precisao">.${((100*(relatorio[n][u+7]/repeticoes))%1).toFixed(3).slice(-3).toString()}</span>%`
