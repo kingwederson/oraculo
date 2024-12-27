@@ -798,10 +798,10 @@
         }
         for(let n=1;n<21;n++){
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(6)`).style.backgroundColor = `rgba(255, 255, 0, ${(relatorio[n][3] / repeticoes).toFixed(3)})`;
-            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(7)`).style.backgroundColor = `rgba(0, 0, 255, ${(relatorio[n][4] / repeticoes).toFixed(3)})`;
+            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(7)`).style.backgroundColor = `rgba(64, 64, 255, ${(relatorio[n][4] / repeticoes).toFixed(3)})`;
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(8)`).style.backgroundColor = `rgba(255, 255, 0, ${(relatorio[n][5] / repeticoes).toFixed(3)})`;
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(9)`).style.backgroundColor = `rgba(0, 128, 0, ${(relatorio[n][6] / repeticoes).toFixed(3)})`;
-            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(10)`).style.backgroundColor = `rgba(255, 0, 0, ${(relatorio[n][7] / repeticoes).toFixed(3)})`;
+            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(10)`).style.backgroundColor = `rgba(255, 64, 64, ${(relatorio[n][7] / repeticoes).toFixed(3)})`;
         }
     </script>
 </body>
