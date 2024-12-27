@@ -1,0 +1,41 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+details{
+    margin-left: 18px;
+}
+img.icone{
+    width:24px;
+    display: inline-block;
+}
+summary {
+    /*vertical-align: baseline;*/
+    list-style: none;
+    padding: 10px 10px 10px 40px;
+    background-size: 30px;
+    font-weight: bold;
+    background-color: #e0d9d8;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px 25px 0 0;
+}
+
+summary:before {
+    content: ' ►';
+    color:black;
+    font-size: 30px;
+}
+
+details[open] summary:before {
+    content: " ▼";
+    color:black;
+    font-size: 30px;
+}
+  
+details{
+    border-radius: 5px;
+    margin:7px 0px;
+    padding:3px;
+    break-inside: avoid;
+    margin-left: 25px;
+}
