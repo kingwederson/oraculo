@@ -684,12 +684,12 @@
             </tr>
         </tbody>
     </table>
-    <link rel="stylesheet" href="../../estilodetabela.css">
+    <link rel="stylesheet" href="http://oraculo.wederson.net.br/estilodetabela.css">
     <link rel="stylesheet" href="regras.css">
-    <script src="ficheiro.js"></script>
-    <script src="../../classificador.js"></script>
-    <script src="../../poisson.js"></script>
-    <script src="../../simulador.js"></script>
+    <script src="http://oraculo.wederson.net.br/italia/1/ficheiro.js"></script>
+    <script src="http://oraculo.wederson.net.br/classificador.js"></script>
+    <script src="http://oraculo.wederson.net.br/poisson.js"></script>
+    <script src="http://oraculo.wederson.net.br/simulador.js"></script>
     <script>
         var repeticoes = 100000
         var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial))
@@ -779,7 +779,7 @@
             relatorio[n][3] = relatorio[n][8]
             relatorio[n][4] = relatorio[n][8]+relatorio[n][9]+relatorio[n][10]+relatorio[n][11]
             relatorio[n][5] = relatorio[n][12]
-            relatorio[n][6] = relatorio[n][13]+relatorio[n][14]+relatorio[n][15]+relatorio[n][16]+relatorio[n][17]+relatorio[n][18]+relatorio[n][19]+relatorio[n][20]+relatorio[n][21]+relatorio[n][22]+relatorio[n][23]+relatorio[n][24]
+            relatorio[n][6] = relatorio[n][13]
             relatorio[n][7] = relatorio[n][25]+relatorio[n][26]+relatorio[n][27]
 
             for(let u=1;u<21;u++){
@@ -798,10 +798,10 @@
         }
         for(let n=1;n<21;n++){
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(6)`).style.backgroundColor = `rgba(255, 255, 0, ${(relatorio[n][3] / repeticoes).toFixed(3)})`;
-            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(7)`).style.backgroundColor = `rgba(0, 0, 255, ${(relatorio[n][4] / repeticoes).toFixed(3)})`;
-            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(8)`).style.backgroundColor = `rgba(255, 255, 0, ${(relatorio[n][5] / repeticoes).toFixed(3)})`;
+            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(7)`).style.backgroundColor = `rgba(64, 64, 255, ${(relatorio[n][4] / repeticoes).toFixed(3)})`;
+            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(8)`).style.backgroundColor = `rgba(255, 255, 64, ${(relatorio[n][5] / repeticoes).toFixed(3)})`;
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(9)`).style.backgroundColor = `rgba(0, 128, 0, ${(relatorio[n][6] / repeticoes).toFixed(3)})`;
-            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(10)`).style.backgroundColor = `rgba(255, 0, 0, ${(relatorio[n][7] / repeticoes).toFixed(3)})`;
+            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(10)`).style.backgroundColor = `rgba(255, 64, 64, ${(relatorio[n][7] / repeticoes).toFixed(3)})`;
         }
     </script>
 </body>
