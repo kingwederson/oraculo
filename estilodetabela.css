@@ -36,6 +36,12 @@ td.num{
     text-align: right;
     white-space: nowrap;
 }
+td.num .precisao{
+    display:none;
+}
+td.num:hover .precisao{
+    display:inline-block;
+}
 table#probabilidades td.num{
     padding:0px 4px;
     min-width: 50px;
@@ -51,11 +57,6 @@ tr:hover{
     background-color: #ccc;
     transition: 0.9s;
 }
-@media only screen and (max-width: 538px) {
-    .esconder{
-        display: none;
-    }
-}
 table#probabilidades{
     .esconder{
         display: none;
@@ -65,9 +66,8 @@ table#probabilidades{
         text-shadow: 0px 0px 3px white;
     }
 }
-td.num .precisao{
-    display:none;
-}
-td.num:hover .precisao{
-    display:inline-block;
+@media only screen and (max-width: 538px) {
+    .esconder{
+        display: none;
+    }
 }
