@@ -36,7 +36,13 @@ td.num{
     text-align: right;
     white-space: nowrap;
 }
+td.num .resumo{
+    display:display;
+}
 td.num .precisao{
+    display:none;
+}
+td.num:hover .resumo{
     display:none;
 }
 td.num:hover .precisao{
