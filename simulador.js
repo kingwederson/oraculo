@@ -10,3 +10,8 @@ function simular(){
         }
     }
 }
+function partida(mandante,visitante){
+    casa = (equipe[mandante][2].a+equipe[visitante][2].d)/2
+    fora = (equipe[visitante][2].a+equipe[mandante][2].d)/2
+    return `${equipe[mandante][0]} ${golmarcado(casa*1.1)}-${golmarcado(fora/1.1)} ${equipe[visitante][0]}`
+}
