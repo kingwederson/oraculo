@@ -25,18 +25,19 @@
 
         </tbody>
     </table>
-    <link rel="stylesheet" href="../../estilodetabela.css">
-    <link rel="stylesheet" href="regras.css">
-    <script src="ficheiro.js"></script>
-    <script src="../../fazerstandings.js"></script>
-    <script src="../../classificador.js"></script>
-    <script src="../../poisson.js"></script>
-    <script src="../../simulador.js"></script>
+    <link rel="stylesheet" href="../../../estilodetabela.css">
+    <link rel="stylesheet" href="../regras.css">
+    <script src="../ficheiro.js"></script>
+    <script src="../regras.js"></script>
+    <script src="../../../fazerstandings.js"></script>
+    <script src="../../../classificador.js"></script>
+    <script src="../../../poisson.js"></script>
+    <script src="../../../simulador.js"></script>
     <script>
         fazerstandings()
         var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial))
         var listagem = JSON.parse(JSON.stringify(listagem0))
-        simular()
+        //simular()
         lerlistagem()
         listagem.sort(compara)
         arrumaposicao()
