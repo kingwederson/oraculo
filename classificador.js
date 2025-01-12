@@ -1,7 +1,4 @@
-// Adicionar as partidas
 //tabelaRR[12][13] = [,]
-
-//
 
 var listagem0 = []
 
@@ -92,5 +89,5 @@ function inserirdados(){
 }
 
 function confronto(casa,fora){
-    return console.log( `${copta[casa][2]} ${tabelaRR[casa][fora][0]}-${tabelaRR[casa][fora][1]} ${copta[fora][2]} | ${copta[fora][2]} ${tabelaRR[fora][casa][0]}-${tabelaRR[fora][casa][1]} ${copta[casa][2]}` )
+    return console.log( `${tabelaRR[casa][0]} ${tabelaRR[casa][fora][0]}-${tabelaRR[casa][fora][1]} ${tabelaRR[fora][0]} | ${tabelaRR[fora][0]} ${tabelaRR[fora][casa][0]}-${tabelaRR[fora][casa][1]} ${tabelaRR[casa][0]}` )
 }
