@@ -3,7 +3,7 @@ var equipe = [
     [`Arsenal`,`https://oraculo.wederson.net.br/inglaterra/imagem/arsenal.png`,
         {a:18/10,d:7/10},1], // 1
     [`Aston Villa`,`https://oraculo.wederson.net.br/inglaterra/imagem/astonvilla.png`,
-        {a:15/10,d:13/10},2],// 2
+        {a:12/10,d:14/10},2],// 2
     [`Bournemouth`,`https://oraculo.wederson.net.br/inglaterra/imagem/bournemouth.png`,
         {a:20/10,d:9/10},3],// 3
     [`Brentford`,`https://oraculo.wederson.net.br/inglaterra/imagem/brentford.png`,
@@ -39,7 +39,7 @@ var equipe = [
     [`West Ham`,`https://oraculo.wederson.net.br/inglaterra/imagem/westham.png`,
         {a:11/10,d:20/10},19],// 19
     [`Wolves`,`https://oraculo.wederson.net.br/inglaterra/imagem/wolves.png`,
-        {a:10/10,d:20/10},20]// 20
+        {a:12/10,d:16/10},20]// 20
 ]
 
 var tabelaRRinicial = [
@@ -63,5 +63,5 @@ var tabelaRRinicial = [
     /*SOU*/[equipe[17][0],[,]/*ARS*/,[,]/*AVL*/,[,]/*BOU*/,[0,5]/*BRE*/,[,]/*BHA*/,[1,5]/*CHE*/,[,]/*CRY*/,[1,0]/*EVE*/,[,]/*FUL*/,[1,1]/*IPS*/,[2,3]/*LEI*/,[2,3]/*LIV*/,[,]/*MCI*/,[0,3]/*MUN*/,[1,3]/*NEW*/,[0,1]/*NFO*/,[,]/*SOU*/,[0,5]/*TOT*/,[0,1]/*WHU*/,[,]/*WOL*/],
     /*TOT*/[equipe[18][0],[0,1]/*ARS*/,[4,1]/*AVL*/,[,]/*BOU*/,[3,1]/*BRE*/,[,]/*BHA*/,[3,4]/*CHE*/,[,]/*CRY*/,[4,0]/*EVE*/,[1,1]/*FUL*/,[1,2]/*IPS*/,[1,2]/*LEI*/,[3,6]/*LIV*/,[,]/*MCI*/,[,]/*MUN*/,[1,2]/*NEW*/,[,]/*NFO*/,[,]/*SOU*/,[,]/*TOT*/,[4,1]/*WHU*/,[2,2]/*WOL*/],
     /*WHU*/[equipe[19][0],[2,5]/*ARS*/,[1,2]/*AVL*/,[,]/*BOU*/,[,]/*BRE*/,[1,1]/*BHA*/,[0,3]/*CHE*/,[0,2]/*CRY*/,[0,0]/*EVE*/,[3,2]/*FUL*/,[4,1]/*IPS*/,[,]/*LEI*/,[0,5]/*LIV*/,[1,3]/*MCI*/,[2,1]/*MUN*/,[,]/*NEW*/,[,]/*NFO*/,[,]/*SOU*/,[,]/*TOT*/,[,]/*WHU*/,[2,1]/*WOL*/],
-    /*WOL*/[equipe[20][0],[0,1]/*ARS*/,[,]/*AVL*/,[2,4]/*BOU*/,[,]/*BRE*/,[,]/*BHA*/,[2,6]/*CHE*/,[2,2]/*CRY*/,[,]/*EVE*/,[,]/*FUL*/,[1,2]/*IPS*/,[,]/*LEI*/,[1,2]/*LIV*/,[1,2]/*MCI*/,[2,0]/*MUN*/,[1,2]/*NEW*/,[0,3]/*NFO*/,[2,0]/*SOU*/,[,]/*TOT*/,[,]/*WHU*/,[,]/*WOL*/]
+    /*WOL*/[equipe[20][0],[0,1]/*ARS*/,[2,0]/*AVL*/,[2,4]/*BOU*/,[,]/*BRE*/,[,]/*BHA*/,[2,6]/*CHE*/,[2,2]/*CRY*/,[,]/*EVE*/,[,]/*FUL*/,[1,2]/*IPS*/,[,]/*LEI*/,[1,2]/*LIV*/,[1,2]/*MCI*/,[2,0]/*MUN*/,[1,2]/*NEW*/,[0,3]/*NFO*/,[2,0]/*SOU*/,[,]/*TOT*/,[,]/*WHU*/,[,]/*WOL*/]
 ]
