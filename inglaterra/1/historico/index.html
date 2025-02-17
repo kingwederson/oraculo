@@ -21,14 +21,14 @@
                     type: 'line'
                 },
                 title: {
-                    text: 'Evolução da pontuação final esperada'
+                    text: 'Evolution of final expected points'
                 },
                 xAxis: {
                     categories: ['R17', 'R18', 'R19', 'R20', 'R21', 'R22', 'R23', 'R24', 'S', 'R25']
                 },
                 yAxis: [{
                     title: {
-                        text: 'Pontuação esperada'
+                        text: 'Expected points'
                     },
                     labels: {
                         format: '{value}'
@@ -224,7 +224,12 @@
                             height: 20
                         }
                     }
-                ]
+                ],
+                credits: {
+                    enabled: true,  // Ativa os créditos (true) ou desativa (false)
+                    text: 'Source: oraculo.wederson.net.br',
+                    href: 'http://oraculo.wederson.net.br'
+                }
             });
         });
     </script>
