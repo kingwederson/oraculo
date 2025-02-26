@@ -158,10 +158,10 @@
         for(let n=1;n<equipe.length;n++){
 
             relatorio[n][3] = relatorio[n][8]
-            relatorio[n][4] = relatorio[n][8]+relatorio[n][9]+relatorio[n][10]+relatorio[n][11]
-            relatorio[n][5] = relatorio[n][12]
-            relatorio[n][6] = relatorio[n][13]
-            relatorio[n][7] = relatorio[n][25]+relatorio[n][26]+relatorio[n][27]
+            relatorio[n][4] = relatorio[n][8]+relatorio[n][9]
+            relatorio[n][5] = relatorio[n][10]+relatorio[n][11]+relatorio[n][12]+relatorio[n][13]
+            relatorio[n][6] = relatorio[n][4]+relatorio[n][5]
+            relatorio[n][7] = relatorio[n][29]+relatorio[n][30]+relatorio[n][31]
 
             for(let u=1;u<equipe.length;u++){
                 document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(${u+10})`).innerHTML = `${Math.trunc(100*(relatorio[n][u+7]/repeticoes))}<span class="precisao">.${((100*(relatorio[n][u+7]/repeticoes))%1).toFixed(3).slice(-3).toString()}</span>%`
