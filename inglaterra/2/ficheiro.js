@@ -1,53 +1,53 @@
 var equipe = [
     [`Premier League`,`https://oraculo.wederson.net.br/inglaterra/imagem/eng1.png`,,0],// 0
     [`Blackburn`,`https://oraculo.wederson.net.br/inglaterra/imagem/blackburn.png`,
-        {a:22/10,d:8/10},1], // 1
+        {a:9/10,d:13/10},1], // 1
     [`Bristol`,`https://oraculo.wederson.net.br/inglaterra/imagem/bristol.png`,
-        {a:13/10,d:14/10},2],// 2
+        {a:13/10,d:10/10},2],// 2
     [`Burnley`,`https://oraculo.wederson.net.br/inglaterra/imagem/burnley.png`,
-        {a:20/10,d:9/10},3],// 3
+        {a:13/10,d:0/10},3],// 3
     [`Cardiff`,`https://oraculo.wederson.net.br/inglaterra/imagem/cardiff.png`,
-        {a:15/10,d:12/10},4],// 4
+        {a:13/10,d:16/10},4],// 4
     [`Coventry`,`https://oraculo.wederson.net.br/inglaterra/imagem/coventry.png`,
-        {a:16/10,d:13/10},5],// 5
+        {a:14/10,d:8/10},5],// 5
     [`Derby County`,`https://oraculo.wederson.net.br/inglaterra/imagem/derby.png`,
-        {a:11/10,d:17/10},6],// 6
+        {a:4/10,d:17/10},6],// 6
     [`Hull City`,`https://oraculo.wederson.net.br/inglaterra/imagem/hull.png`,
-        {a:14/10,d:11/10},7],// 7
+        {a:11/10,d:12/10},7],// 7
     [`Leeds United`,`https://oraculo.wederson.net.br/inglaterra/imagem/leeds.png`,
-        {a:13/10,d:10/10},8],// 8
+        {a:27/10,d:6/10},8],// 8
     [`Luton Town`,`https://oraculo.wederson.net.br/inglaterra/imagem/luton.png`,
-        {a:14/10,d:13/10},9],// 9
+        {a:5/10,d:14/10},9],// 9
     [`Middlesbrough`,`https://oraculo.wederson.net.br/inglaterra/imagem/middlesbrough.png`,
-        {a:8/10,d:26/10},10],// 10
+        {a:13/10,d:15/10},10],// 10
     [`Millwall`,`https://oraculo.wederson.net.br/inglaterra/imagem/millwall.png`,
-        {a:4/10,d:25/10},11],// 11
+        {a:11/10,d:14/10},11],// 11
     [`Norwich`,`https://oraculo.wederson.net.br/inglaterra/imagem/norwich.png`,
-        {a:29/10,d:9/10},12],// 12
+        {a:15/10,d:11/10},12],// 12
     [`Oxford United`,`https://oraculo.wederson.net.br/inglaterra/imagem/oxford.png`,
-        {a:24/10,d:14/10},13],// 13
+        {a:7/10,d:9/10},13],// 13
     [`Plymouth Argyle`,`https://oraculo.wederson.net.br/inglaterra/imagem/plymouth.png`,
-        {a:9/10,d:18/10},14],// 14
+        {a:13/10,d:16/10},14],// 14
     [`Preston North End`,`https://oraculo.wederson.net.br/inglaterra/imagem/preston.png`,
-        {a:23/10,d:15/10},15],// 15
+        {a:10/10,d:11/10},15],// 15
     [`Portsmouth`,`https://oraculo.wederson.net.br/inglaterra/imagem/portsmouth.png`,
-        {a:23/10,d:14/10},16],// 16
+        {a:17/10,d:12/10},16],// 16
     [`Queens Park Rangers`,`https://oraculo.wederson.net.br/inglaterra/imagem/qpr.png`,
-        {a:8/10,d:25/10},17],// 17
+        {a:16/10,d:11/10},17],// 17
     [`Sheffield United`,`https://oraculo.wederson.net.br/inglaterra/imagem/sheffieldu.png`,
-        {a:18/10,d:18/10},18],// 18
+        {a:15/10,d:12/10},18],// 18
     [`Sheffield Wednesday`,`https://oraculo.wederson.net.br/inglaterra/imagem/sheffieldw.png`,
-        {a:9/10,d:19/10},19],// 19
+        {a:14/10,d:18/10},19],// 19
     [`Stoke City`,`https://oraculo.wederson.net.br/inglaterra/imagem/stoke.png`,
-        {a:12/10,d:14/10},20],// 20
+        {a:10/10,d:15/10},20],// 20
     [`Sunderland`,`https://oraculo.wederson.net.br/inglaterra/imagem/sunderland.png`,
-        {a:12/10,d:14/10},20],// 21
+        {a:14/10,d:10/10},20],// 21
     [`Swansea City`,`https://oraculo.wederson.net.br/inglaterra/imagem/swansea.png`,
-        {a:12/10,d:14/10},20],// 22
+        {a:8/10,d:21/10},20],// 22
     [`Watford`,`https://oraculo.wederson.net.br/inglaterra/imagem/watford.png`,
-        {a:12/10,d:14/10},20],// 23
+        {a:11/10,d:16/10},20],// 23
     [`West Bromwich Albion`,`https://oraculo.wederson.net.br/inglaterra/imagem/wba.png`,
-        {a:12/10,d:14/10},20],// 24
+        {a:16/10,d:12/10},20],// 24
 ]
 
 var tabelaRRinicial = [
