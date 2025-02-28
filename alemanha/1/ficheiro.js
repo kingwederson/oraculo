@@ -27,7 +27,7 @@ var equipe = [
         {a:10/10,d:17/10},12],
     [`RB Leipzig`,`https://oraculo.wederson.net.br/alemanha/imagem/leipzig.png`,
         {a:13/10,d:10/10},13],
-    [`St. pauli`,`https://oraculo.wederson.net.br/alemanha/imagem/stpauli.png`,
+    [`St. Pauli`,`https://oraculo.wederson.net.br/alemanha/imagem/stpauli.png`,
         {a:7/10,d:22/10},14],
     [`Stuttgart`,`https://oraculo.wederson.net.br/alemanha/imagem/stuttgart.png`,
         {a:18/10,d:10/10},15],
