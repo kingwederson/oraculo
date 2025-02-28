@@ -31,7 +31,7 @@ var equipe = [
         {a:7/10,d:22/10},14],
     [`Stuttgart`,`https://oraculo.wederson.net.br/italia/imagem/stuttgart.png`,
         {a:18/10,d:10/10},15],
-    [`union Berlin`,`https://oraculo.wederson.net.br/italia/imagem/berlin.png`,
+    [`Union Berlin`,`https://oraculo.wederson.net.br/italia/imagem/berlin.png`,
         {a:9/10,d:17/10},16],
     [`Werder Bremen`,`https://oraculo.wederson.net.br/italia/imagem/werder.png`,
         {a:22/10,d:6/10},17],
