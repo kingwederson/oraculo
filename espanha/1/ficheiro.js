@@ -1,25 +1,46 @@
 var equipe = [
-    [`LaLiga`,`https://oraculo.wederson.net.br/espanha/imagem/spa1.png`,,0],// 0
-    [`Alavés`,`https://oraculo.wederson.net.br/espanha/imagem/alaves.png`,{a:29/16,d:15/16},1], // 1
-    [`Athletic Bilbao`,`https://oraculo.wederson.net.br/espanha/imagem/athletic.png`,{a:20/16,d:28/16},2],// 2
-    [`Atlético Madrid`,`https://oraculo.wederson.net.br/espanha/imagem/atletico.png`,{a:28/16,d:10/16},3],// 3
-    [`Barcelona`,`https://oraculo.wederson.net.br/espanha/imagem/barcelona.png`,{a:42/16,d:19/16},4],// 4
-    [`Celta Vigo`,`https://oraculo.wederson.net.br/espanha/imagem/celta.png`,{a:22/16,d:26/16},5],// 5
-    [`Espanyol`,`https://oraculo.wederson.net.br/espanha/imagem/espanyol.png`,{a:16/16,d:28/16},6],// 6
-    [`Getafe`,`https://oraculo.wederson.net.br/espanha/imagem/getafe.png`,{a:10/16,d:14/16},7],// 7
-    [`Girona`,`https://oraculo.wederson.net.br/espanha/imagem/girona.png`,{a:25/16,d:21/16},8],// 8
-    [`Las Palmas`,`https://oraculo.wederson.net.br/espanha/imagem/laspalmas.png`,{a:20/16,d:23/16},9],// 9
-    [`Leganés`,`https://oraculo.wederson.net.br/espanha/imagem/leganes.png`,{a:14/16,d:22/16},10],// 10
-    [`Mallorca`,`https://oraculo.wederson.net.br/espanha/imagem/mallorca.png`,{a:17/16,d:14/16},11],// 11
-    [`Osasuna`,`https://oraculo.wederson.net.br/espanha/imagem/osasuna.png`,{a:21/16,d:26/16},12],// 12
-    [`Rayo Vallecano`,`https://oraculo.wederson.net.br/espanha/imagem/rayo.png`,{a:18/16,d:20/16},13],// 13
-    [`Real Betis`,`https://oraculo.wederson.net.br/espanha/imagem/betis.png`,{a:20/16,d:21/16},14],// 14
-    [`Real Madrid`,`https://oraculo.wederson.net.br/espanha/imagem/madrid.png`,{a:36/15,d:15/15},15],// 15
-    [`Real Sociedad`,`https://oraculo.wederson.net.br/espanha/imagem/sociedad.png`,{a:14/16,d:11/16},16],// 16
-    [`Sevilla`,`https://oraculo.wederson.net.br/espanha/imagem/sevilla.png`,{a:17/16,d:23/16},17],// 17
-    [`Valencia`,`https://oraculo.wederson.net.br/espanha/imagem/valencia.png`,{a:14/16,d:21/16},18],// 18
-    [`Valladolid`,`https://oraculo.wederson.net.br/espanha/imagem/valladolid.png`,{a:11/16,d:34/16},19],// 19
-    [`Villarreal`,`https://oraculo.wederson.net.br/espanha/imagem/villarreal.png`,{a:30/16,d:27/16},20]// 20
+    [`La Liga`,`https://oraculo.wederson.net.br/espanha/imagem/spa1.png`,,0],// 0
+
+    [`Alavés`,`https://oraculo.wederson.net.br/espanha/imagem/alaves.png`,
+        {a:12/10,d:14/10},1], // 1
+    [`Athletic Bilbao`,`https://oraculo.wederson.net.br/espanha/imagem/athletic.png`,
+        {a:20/10,d:9/10},2],// 2
+    [`Atlético Madrid`,`https://oraculo.wederson.net.br/espanha/imagem/atletico.png`,
+        {a:13/10,d:5/10},3],// 3
+    [`Barcelona`,`https://oraculo.wederson.net.br/espanha/imagem/barcelona.png`,
+        {a:24/10,d:9/10},4],// 4
+    [`Celta Vigo`,`https://oraculo.wederson.net.br/espanha/imagem/celta.png`,
+        {a:13/10,d:13/10},5],// 5
+    [`Espanyol`,`https://oraculo.wederson.net.br/espanha/imagem/espanyol.png`,
+        {a:8/10,d:8/10},6],// 6
+    [`Getafe`,`https://oraculo.wederson.net.br/espanha/imagem/getafe.png`,
+        {a:11/10,d:7/10},7],// 7
+    [`Girona`,`https://oraculo.wederson.net.br/espanha/imagem/girona.png`,
+        {a:12/10,d:16/10},8],// 8
+    [`Las Palmas`,`https://oraculo.wederson.net.br/espanha/imagem/laspalmas.png`,
+        {a:8/10,d:17/10},9],// 9
+    [`Leganés`,`https://oraculo.wederson.net.br/espanha/imagem/leganes.png`,
+        {a:8/10,d:18/10},10],// 10
+    [`Mallorca`,`https://oraculo.wederson.net.br/espanha/imagem/mallorca.png`,
+        {a:9/10,d:18/10},11],// 11
+    [`Osasuna`,`https://oraculo.wederson.net.br/espanha/imagem/osasuna.png`,
+        {a:9/10,d:11/10},12],// 12
+    [`Rayo Vallecano`,`https://oraculo.wederson.net.br/espanha/imagem/rayo.png`,
+        {a:12/10,d:10/10},13],// 13
+    [`Real Betis`,`https://oraculo.wederson.net.br/espanha/imagem/betis.png`,
+        {a:16/10,d:13/10},14],// 14
+    [`Real Madrid`,`https://oraculo.wederson.net.br/espanha/imagem/madrid.png`,
+        {a:20/10,d:13/10},15],// 15
+    [`Real Sociedad`,`https://oraculo.wederson.net.br/espanha/imagem/sociedad.png`,
+        {a:10/10,d:12/10},16],// 16
+    [`Sevilla`,`https://oraculo.wederson.net.br/espanha/imagem/sevilla.png`,
+        {a:14/10,d:13/10},17],// 17
+    [`Valencia`,`https://oraculo.wederson.net.br/espanha/imagem/valencia.png`,
+        {a:10/10,d:17/10},18],// 18
+    [`Valladolid`,`https://oraculo.wederson.net.br/espanha/imagem/valladolid.png`,
+        {a:6/10,d:26/10},19],// 19
+    [`Villarreal`,`https://oraculo.wederson.net.br/espanha/imagem/villarreal.png`,
+        {a:20/10,d:11/10},20]// 20
 ]
 
 var tabelaRRinicial = [
