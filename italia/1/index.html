@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italy: Serie A | Oráculo</title>
     <link rel="stylesheet" href="https://oraculo.wederson.net.br/estilodetabela.css?2025-01-07-00-25-38">
+    <script src="../../simulador.js"></script>
+    <script src="ficheiro.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
     <link rel="stylesheet" href="regras.css">
 </head>
 <body>
@@ -276,8 +279,219 @@
             </tr>
         </tfoot>
     </table>
+    
+    <object type="text/html" data="std/index.html" style="width:450px;height:667px;display:inline-flex;"></object>
 
-    <object type="text/html" data="std/index.html" style="width:450px;height:667px;"></object>
+    <div id="graficospi" style="min-width:600px;height:700px;display:inline-flex;">
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                Highcharts.chart('graficospi', {
+                    chart: {
+                        type: 'scatter',
+                        zoomType: 'xy'
+                    },
+                    title: {
+                        text: `${equipe[0][0]}: Força relativa na liga`
+                                },
+                    subtitle: {
+                        text: 'Análise das 10 últimas partidas utilizadas para calibrar o modelo.'
+                    },
+                    xAxis: {
+                        title: {
+                            text: 'Força ofensiva'
+                        },
+                        min: 0,
+                        max: 3,
+                        tickInterval: 0.5,  // Define marcações a cada 0.2
+                        labels: {
+                            format: '{value:.1f}'  // Mostra apenas uma casa decimal
+                        }
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Fragilidade defensiva'
+                        },
+                        min: 0,
+                        max: 3,
+                        tickInterval: 0.5,  // Define marcações a cada 0.2
+                        labels: {
+                            format: '{value:.1f}'  // Mostra apenas uma casa decimal
+                        },
+                        reversed: true // Inverte a direção do eixo Y
+                    },
+                    legend: {
+                        enabled: true
+                    },
+                    series: [{
+                        name: equipe[1][0],
+                        data: [[equipe[1][2].a, equipe[1][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[1][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    }, {
+                        name: equipe[2][0],
+                        data: [[equipe[2][2].a, equipe[2][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[2][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[3][0],
+                        data: [[equipe[3][2].a, equipe[3][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[3][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[4][0],
+                        data: [[equipe[4][2].a, equipe[4][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[4][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[5][0],
+                        data: [[equipe[5][2].a, equipe[5][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[5][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[6][0],
+                        data: [[equipe[6][2].a, equipe[6][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[6][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[7][0],
+                        data: [[equipe[7][2].a, equipe[7][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[7][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[8][0],
+                        data: [[equipe[8][2].a, equipe[8][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[8][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[9][0],
+                        data: [[equipe[9][2].a, equipe[9][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[9][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[10][0],
+                        data: [[equipe[10][2].a, equipe[10][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[10][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[11][0],
+                        data: [[equipe[11][2].a, equipe[11][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[11][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    }, {
+                        name: equipe[12][0],
+                        data: [[equipe[12][2].a, equipe[12][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[12][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[13][0],
+                        data: [[equipe[13][2].a, equipe[13][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[13][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[14][0],
+                        data: [[equipe[14][2].a, equipe[14][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[14][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[15][0],
+                        data: [[equipe[15][2].a, equipe[15][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[15][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[16][0],
+                        data: [[equipe[16][2].a, equipe[16][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[16][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[17][0],
+                        data: [[equipe[17][2].a, equipe[17][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[17][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[18][0],
+                        data: [[equipe[18][2].a, equipe[18][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[18][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[19][0],
+                        data: [[equipe[19][2].a, equipe[19][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[19][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    },{
+                        name: equipe[20][0],
+                        data: [[equipe[20][2].a, equipe[20][2].d]],
+                        marker: {
+                            symbol: `url(${equipe[20][1]})`, // Substitua pela URL da sua imagem
+                            width: 20,
+                            height: 20
+                        }
+                    }],
+                    credits: {
+                        enabled: true,
+                        text: "Fonte: Oráculo",
+                        href: "https://oraculo.wederson.net.br"
+                    }
+                });
+            });
+        </script>      
+    </div>
 
 </body>
 </html>
