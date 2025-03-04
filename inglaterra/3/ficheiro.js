@@ -1,5 +1,6 @@
 var equipe = [
-    [`Premier League`,`https://oraculo.wederson.net.br/inglaterra/imagem/eng3.png`,,0],// 0
+    [`EFL League One`,`https://oraculo.wederson.net.br/inglaterra/imagem/eng3.png`,,0],// 0
+
     [`Barnsley`,`https://oraculo.wederson.net.br/inglaterra/imagem/barnsley.png`,
         {a:9/10,d:13/10},1], // 1
     [`Birmingham`,`https://oraculo.wederson.net.br/inglaterra/imagem/birmingham.png`,
