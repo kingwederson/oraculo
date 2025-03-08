@@ -1,45 +1,45 @@
 var equipe = [
     [`Premier League`,`https://oraculo.wederson.net.br/inglaterra/imagem/eng1.png`,,0],// 0
     [`Arsenal`,`https://oraculo.wederson.net.br/inglaterra/imagem/arsenal.png`,
-        {a:17/10,d:7/10},1], // 1
+        {a:17/10,d:7/10,rat:2296},1], // 1
     [`Aston Villa`,`https://oraculo.wederson.net.br/inglaterra/imagem/astonvilla.png`,
-        {a:14/10,d:16/10},2],// 2
+        {a:14/10,d:16/10,rat:2296},2],// 2
     [`Bournemouth`,`https://oraculo.wederson.net.br/inglaterra/imagem/bournemouth.png`,
-        {a:18/10,d:11/10},3],// 3
+        {a:18/10,d:11/10,rat:2296},3],// 3
     [`Brentford`,`https://oraculo.wederson.net.br/inglaterra/imagem/brentford.png`,
-        {a:16/10,d:11/10},4],// 4
+        {a:16/10,d:11/10,rat:2296},4],// 4
     [`Brighton`,`https://oraculo.wederson.net.br/inglaterra/imagem/brighton.png`,
-        {a:17/10,d:13/10},5],// 5
+        {a:17/10,d:13/10,rat:2296},5],// 5
     [`Chelsea`,`https://oraculo.wederson.net.br/inglaterra/imagem/chelsea.png`,
-        {a:15/10,d:17/10},6],// 6
+        {a:15/10,d:17/10,rat:2296},6],// 6
     [`Crystal Palace`,`https://oraculo.wederson.net.br/inglaterra/imagem/crystal.png`,
-        {a:17/10,d:7/10},7],// 7
+        {a:17/10,d:7/10,rat:2296},7],// 7
     [`Everton`,`https://oraculo.wederson.net.br/inglaterra/imagem/everton.png`,
-        {a:14/10,d:11/10},8],// 8
+        {a:14/10,d:11/10,rat:2296},8],// 8
     [`Fulham`,`https://oraculo.wederson.net.br/inglaterra/imagem/fulham.png`,
-        {a:16/10,d:14/10},9],// 9
+        {a:16/10,d:14/10,rat:2296},9],// 9
     [`Ipswich`,`https://oraculo.wederson.net.br/inglaterra/imagem/ipswich.png`,
-        {a:10/10,d:25/10},10],// 10
+        {a:10/10,d:25/10,rat:2296},10],// 10
     [`Leicester`,`https://oraculo.wederson.net.br/inglaterra/imagem/leicester.png`,
-        {a:4/10,d:25/10},11],// 11
+        {a:4/10,d:25/10,rat:2296},11],// 11
     [`Liverpool`,`https://oraculo.wederson.net.br/inglaterra/imagem/liverpool.png`,
-        {a:24/10,d:7/10},12],// 12
+        {a:24/10,d:7/10,rat:2296},12],// 12
     [`Man City`,`https://oraculo.wederson.net.br/inglaterra/imagem/mancity.png`,
-        {a:24/10,d:12/10},13],// 13
+        {a:23/10,d:12/10,rat:2296},13],// 13
     [`Man United`,`https://oraculo.wederson.net.br/inglaterra/imagem/manunited.png`,
-        {a:12/10,d:17/10},14],// 14
+        {a:12/10,d:17/10,rat:2296},14],// 14
     [`Newcastle`,`https://oraculo.wederson.net.br/inglaterra/imagem/newcastle.png`,
-        {a:19/10,d:17/10},15],// 15
+        {a:19/10,d:17/10,rat:2296},15],// 15
     [`Nottingham`,`https://oraculo.wederson.net.br/inglaterra/imagem/nottingham.png`,
-        {a:21/10,d:14/10},16],// 16
+        {a:21/10,d:14/10,rat:2296},16],// 16
     [`Southampton`,`https://oraculo.wederson.net.br/inglaterra/imagem/southampton.png`,
-        {a:8/10,d:29/10},17],// 17
+        {a:8/10,d:29/10,rat:2296},17],// 17
     [`Tottenham`,`https://oraculo.wederson.net.br/inglaterra/imagem/tottenham.png`,
-        {a:14/10,d:14/10},18],// 18
+        {a:14/10,d:14/10,rat:2296},18],// 18
     [`West Ham`,`https://oraculo.wederson.net.br/inglaterra/imagem/westham.png`,
-        {a:9/10,d:19/10},19],// 19
+        {a:9/10,d:19/10,rat:2296},19],// 19
     [`Wolves`,`https://oraculo.wederson.net.br/inglaterra/imagem/wolves.png`,
-        {a:10/10,d:16/10},20]// 20
+        {a:10/10,d:16/10,rat:2296},20]// 20
 ]
 
 var tabelaRRinicial = [
