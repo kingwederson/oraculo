@@ -1,45 +1,45 @@
 var equipe = [
     [`Premier League`,`https://oraculo.wederson.net.br/inglaterra/imagem/eng1.png`,,0],// 0
     [`Arsenal`,`https://oraculo.wederson.net.br/inglaterra/imagem/arsenal.png`,
-        {a:17/10,d:8/10,rat:2296},1], // 1
+        {a:15/10,d:7/10},1], // 1
     [`Aston Villa`,`https://oraculo.wederson.net.br/inglaterra/imagem/astonvilla.png`,
-        {a:13/10,d:14/10,rat:2296},2],// 2
+        {a:13/10,d:14/10},2],// 2
     [`Bournemouth`,`https://oraculo.wederson.net.br/inglaterra/imagem/bournemouth.png`,
-        {a:19/10,d:13/10,rat:2296},3],// 3
+        {a:19/10,d:13/10},3],// 3
     [`Brentford`,`https://oraculo.wederson.net.br/inglaterra/imagem/brentford.png`,
-        {a:17/10,d:10/10,rat:2296},4],// 4
+        {a:17/10,d:10/10},4],// 4
     [`Brighton`,`https://oraculo.wederson.net.br/inglaterra/imagem/brighton.png`,
-        {a:19/10,d:14/10,rat:2296},5],// 5
+        {a:19/10,d:14/10},5],// 5
     [`Chelsea`,`https://oraculo.wederson.net.br/inglaterra/imagem/chelsea.png`,
-        {a:15/10,d:15/10,rat:2296},6],// 6
+        {a:15/10,d:14/10},6],// 6
     [`Crystal Palace`,`https://oraculo.wederson.net.br/inglaterra/imagem/crystal.png`,
-        {a:18/10,d:7/10,rat:2296},7],// 7
+        {a:18/10,d:7/10},7],// 7
     [`Everton`,`https://oraculo.wederson.net.br/inglaterra/imagem/everton.png`,
-        {a:17/10,d:11/10,rat:2296},8],// 8
+        {a:17/10,d:11/10},8],// 8
     [`Fulham`,`https://oraculo.wederson.net.br/inglaterra/imagem/fulham.png`,
-        {a:15/10,d:15/10,rat:2296},9],// 9
+        {a:14/10,d:13/10},9],// 9
     [`Ipswich`,`https://oraculo.wederson.net.br/inglaterra/imagem/ipswich.png`,
-        {a:10/10,d:29/10,rat:2296},10],// 10
+        {a:10/10,d:29/10},10],// 10
     [`Leicester`,`https://oraculo.wederson.net.br/inglaterra/imagem/leicester.png`,
-        {a:3/10,d:22/10,rat:2296},11],// 11
+        {a:3/10,d:23/10},11],// 11
     [`Liverpool`,`https://oraculo.wederson.net.br/inglaterra/imagem/liverpool.png`,
-        {a:22/10,d:8/10,rat:2296},12],// 12
+        {a:22/10,d:8/10},12],// 12
     [`Man City`,`https://oraculo.wederson.net.br/inglaterra/imagem/mancity.png`,
-        {a:23/10,d:14/10,rat:2296},13],// 13
+        {a:23/10,d:14/10},13],// 13
     [`Man United`,`https://oraculo.wederson.net.br/inglaterra/imagem/manunited.png`,
-        {a:13/10,d:16/10,rat:2296},14],// 14
+        {a:9/10,d:18/10},14],// 14
     [`Newcastle`,`https://oraculo.wederson.net.br/inglaterra/imagem/newcastle.png`,
-        {a:17/10,d:17/10,rat:2296},15],// 15
+        {a:17/10,d:17/10},15],// 15
     [`Nottingham`,`https://oraculo.wederson.net.br/inglaterra/imagem/nottingham.png`,
-        {a:23/10,d:16/10,rat:2296},16],// 16
+        {a:23/10,d:16/10},16],// 16
     [`Southampton`,`https://oraculo.wederson.net.br/inglaterra/imagem/southampton.png`,
-        {a:9/10,d:31/10,rat:2296},17],// 17
+        {a:9/10,d:31/10},17],// 17
     [`Tottenham`,`https://oraculo.wederson.net.br/inglaterra/imagem/tottenham.png`,
-        {a:16/10,d:15/10,rat:2296},18],// 18
+        {a:14/10,d:15/10},18],// 18
     [`West Ham`,`https://oraculo.wederson.net.br/inglaterra/imagem/westham.png`,
-        {a:10/10,d:14/10,rat:2296},19],// 19
+        {a:10/10,d:14/10},19],// 19
     [`Wolves`,`https://oraculo.wederson.net.br/inglaterra/imagem/wolves.png`,
-        {a:9/10,d:16/10,rat:2296},20]// 20
+        {a:9/10,d:16/10},20]// 20
 ]
 
 var tabelaRRinicial = [
@@ -54,7 +54,7 @@ var tabelaRRinicial = [
     [equipe[8][0],[,]/*ARS */,[0,1]/*AVL */,[2,3]/*BOU */,[0,0]/*BRE */,[0,3]/*BHA */,[0,0]/*CHE */,[2,1]/*CRY */,[,]/*EVE */,[1,1]/*FUL */,[,]/*IPS */,[4,0]/*LEI */,[2,2]/*LIV */,[,]/*MCI */,[2,2]/*MUN */,[0,0]/*NEW */,[0,2]/*NFO */,[,]/*SOU */,[3,2]/*TOT */,[1,1]/*WHU */,[4,0]/*WOL */],
     [equipe[9][0],[1,1]/*ARS */,[1,3]/*AVL */,[2,2]/*BOU */,[2,1]/*BRE */,[3,1]/*BHA */,[,]/*CHE */,[0,2]/*CRY */,[,]/*EVE */,[,]/*FUL */,[2,2]/*IPS */,[2,1]/*LEI */,[,]/*LIV */,[,]/*MCI */,[0,1]/*MUN */,[3,1]/*NEW */,[2,1]/*NFO */,[0,0]/*SOU */,[2,0]/*TOT */,[1,1]/*WHU */,[1,4]/*WOL */],
     [equipe[10][0],[,]/*ARS */,[2,2]/*AVL */,[1,2]/*BOU */,[,]/*BRE */,[0,2]/*BHA */,[2,0]/*CHE */,[0,1]/*CRY */,[0,2]/*EVE */,[1,1]/*FUL */,[,]/*IPS */,[1,1]/*LEI */,[0,2]/*LIV */,[0,6]/*MCI */,[1,1]/*MUN */,[0,4]/*NEW */,[2,4]/*NFO */,[1,2]/*SOU */,[1,4]/*TOT */,[,]/*WHU */,[,]/*WOL */],
-    [equipe[11][0],[0,2]/*ARS */,[1,2]/*AVL */,[1,0]/*BOU */,[0,4]/*BRE */,[2,2]/*BHA */,[1,2]/*CHE */,[0,2]/*CRY */,[1,1]/*EVE */,[0,2]/*FUL */,[,]/*IPS */,[,]/*LEI */,[,]/*LIV */,[0,2]/*MCI */,[,]/*MUN */,[,]/*NEW */,[1,3]/*NFO */,[,]/*SOU */,[1,1]/*TOT */,[3,1]/*WHU */,[0,3]/*WOL */],
+    [equipe[11][0],[0,2]/*ARS */,[1,2]/*AVL */,[1,0]/*BOU */,[0,4]/*BRE */,[2,2]/*BHA */,[1,2]/*CHE */,[0,2]/*CRY */,[1,1]/*EVE */,[0,2]/*FUL */,[,]/*IPS */,[,]/*LEI */,[,]/*LIV */,[0,2]/*MCI */,[0,3]/*MUN */,[,]/*NEW */,[1,3]/*NFO */,[,]/*SOU */,[1,1]/*TOT */,[3,1]/*WHU */,[0,3]/*WOL */],
     [equipe[12][0],[,]/*ARS */,[2,0]/*AVL */,[3,0]/*BOU */,[2,0]/*BRE */,[2,1]/*BHA */,[2,1]/*CHE */,[,]/*CRY */,[,]/*EVE */,[2,2]/*FUL */,[4,1]/*IPS */,[3,1]/*LEI */,[,]/*LIV */,[2,0]/*MCI */,[2,2]/*MUN */,[2,0]/*NEW */,[0,1]/*NFO */,[3,1]/*SOU */,[,]/*TOT */,[,]/*WHU */,[2,1]/*WOL */],
     [equipe[13][0],[2,2]/*ARS */,[,]/*AVL */,[,]/*BOU */,[2,1]/*BRE */,[2,2]/*BHA */,[3,1]/*CHE */,[,]/*CRY */,[1,1]/*EVE */,[3,2]/*FUL */,[4,1]/*IPS */,[,]/*LEI */,[0,2]/*LIV */,[,]/*MCI */,[1,2]/*MUN */,[4,0]/*NEW */,[3,0]/*NFO */,[1,0]/*SOU */,[0,4]/*TOT */,[4,1]/*WHU */,[,]/*WOL */],
     [equipe[14][0],[1,1]/*ARS */,[,]/*AVL */,[0,3]/*BOU */,[2,1]/*BRE */,[1,3]/*BHA */,[1,1]/*CHE */,[0,2]/*CRY */,[4,0]/*EVE */,[1,0]/*FUL */,[3,2]/*IPS */,[3,0]/*LEI */,[0,3]/*LIV */,[,]/*MCI */,[,]/*MUN */,[0,2]/*NEW */,[2,3]/*NFO */,[3,1]/*SOU */,[0,3]/*TOT */,[,]/*WHU */,[,]/*WOL */],
