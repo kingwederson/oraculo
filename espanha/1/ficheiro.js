@@ -43,7 +43,7 @@ var equipe = [
 ]
 
 var tabelaRRinicial = [
-    [0,equipe[0][0],equipe[1][0],equipe[2][0],equipe[3][0],equipe[4][0],equipe[5][0],equipe[6][0],equipe[7][0],equipe[8][0],equipe[9][0],equipe[10][0],equipe[11][0],equipe[12][0],equipe[13][0],equipe[14][0],equipe[15][0],equipe[16][0],equipe[17][0],equipe[18][0],equipe[19][0],equipe[20][0]],[equipe[1][0],[,]/*ALA */,[1,1]/*ATH */,[,]/*ATM */,[0,3]/*BAR */,[1,1]/*CEL */,[0,1]/*ESP */,[0,1]/*GET */,[0,1]/*GIR */,[2,0]/*LPA */,[1,1]/*LEG */,[1,0]/*MLL */,[,]/*OSA */,[,]/*RAY */,[0,0]/*BET */,[,]/*RMA */,[,]/*RSO */,[2,1]/*SEV */,[,]/*VAL */,[2,3]/*VLL */,[,]/*VIL */],
+    [0,equipe[0][0],equipe[1][0],equipe[2][0],equipe[3][0],equipe[4][0],equipe[5][0],equipe[6][0],equipe[7][0],equipe[8][0],equipe[9][0],equipe[10][0],equipe[11][0],equipe[12][0],equipe[13][0],equipe[14][0],equipe[15][0],equipe[16][0],equipe[17][0],equipe[18][0],equipe[19][0],equipe[20][0]],
     [equipe[1][0],[,]/*ALA */,[1,1]/*ATH */,[,]/*ATM */,[0,3]/*BAR */,[1,1]/*CEL */,[0,1]/*ESP */,[0,1]/*GET */,[0,1]/*GIR */,[2,0]/*LPA */,[1,1]/*LEG */,[1,0]/*MLL */,[,]/*OSA */,[,]/*RAY */,[0,0]/*BET */,[,]/*RMA */,[,]/*RSO */,[2,1]/*SEV */,[,]/*VAL */,[2,3]/*VLL */,[1,0]/*VIL */],
     [equipe[2][0],[,]/*ALA */,[,]/*ATH */,[0,1]/*ATM */,[,]/*BAR */,[3,1]/*CEL */,[4,1]/*ESP */,[1,1]/*GET */,[3,0]/*GIR */,[,]/*LPA */,[0,0]/*LEG */,[1,1]/*MLL */,[,]/*OSA */,[,]/*RAY */,[1,1]/*BET */,[2,1]/*RMA */,[1,0]/*RSO */,[1,1]/*SEV */,[1,0]/*VAL */,[7,1]/*VLL */,[2,0]/*VIL */],
     [equipe[3][0],[2,1]/*ALA */,[1,0]/*ATH */,[,]/*ATM */,[2,4]/*BAR */,[1,1]/*CEL */,[0,0]/*ESP */,[1,0]/*GET */,[3,0]/*GIR */,[2,0]/*LPA */,[3,1]/*LEG */,[2,0]/*MLL */,[1,0]/*OSA */,[,]/*RAY */,[,]/*BET */,[1,1]/*RMA */,[,]/*RSO */,[4,3]/*SEV */,[3,0]/*VAL */,[,]/*VLL */,[1,1]/*VIL */],
