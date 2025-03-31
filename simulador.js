@@ -15,3 +15,7 @@ function partida(mandante,visitante){
     fora = (equipe[visitante][2].a+equipe[mandante][2].d)/2
     return `${equipe[mandante][0]} ${golmarcado(casa*1.1)}-${golmarcado(fora/1.1)} ${equipe[visitante][0]}`
 }
+function ajuste(range,rodada,passada,atual){
+    let media = (passada*(range-rodada)+atual*rodada)/range
+    return Number(media.toFixed(2))
+}
