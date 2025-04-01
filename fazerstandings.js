@@ -4,10 +4,10 @@ function fazerstandings(){
     // Percorre o array e cria as linhas
     for (let q = 1; q < equipe.length; q++) { // Começa em 1 para ignorar o índice vazio
         // Cria uma nova linha <tr>
-        const tr = document.createElement("tr");
+        const linhadetabela = document.createElement("tr");
     
         // Preenche as células <td>
-        tr.innerHTML = `
+        linhadetabela.innerHTML = `
             <td class="quali"></td>
             <td class="pos">${q}</td>
             <td class="escudo"><img class="crest" src="${equipe[q][1]}"></td>
@@ -23,6 +23,6 @@ function fazerstandings(){
         `;
     
         // Adiciona a linha à tabela
-        standings.appendChild(tr);
+        standings.appendChild(linhadetabela);
     }
 }

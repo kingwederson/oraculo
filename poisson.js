@@ -18,6 +18,22 @@ function fact(num) {
 function poissonP(lamb,bet){
     return (e(-lamb)*(lamb**bet))/fact(bet)
 }
+
+let PTG = []
+function criarTPG(){
+    for(let f = 1;f<equipe.length;f++){
+        PTG[0].push(equipe[f][0])
+    }
+    for(let g = 1;g<equipe.length;g++){
+        PTG.push([equipe[g][0]])
+    }
+    for(let h = 1;h<equipe.length;h++){
+        for(let s=1;s<equipe.length;s++){
+            PTG[h].push([,])
+        }
+    }
+}
+
 function golmarcado(media){
     let sorte = Math.random()
     let accu = [,,,,,,,,,,,,,,,,,,,,]

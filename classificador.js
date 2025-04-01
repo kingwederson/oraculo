@@ -9,7 +9,7 @@ for (let i = 0; i < equipe.length; i++) {
             i,                     // índice
             equipe[i][1],          // escudo
             equipe[i][0],          // nome
-            i === 0 ? 1000 : 0,    // 1000 pontos para o índice 0, caso contrário 0
+            i === 0 ? 10000 : 0,    // 10000 pontos para o índice 0, caso contrário 0
             0,                     // V
             0,                     // E
             0,                     // D
@@ -22,6 +22,9 @@ for (let i = 0; i < equipe.length; i++) {
     } else {
         // Para o índice 0 (ou outros vazios), se for necessário
         listagem0.push([0, 0, 0, 1000, 0, 0, 0, 0, 0, 0, 0, 0]);
+    }
+    if(equipe[i][0]=="Sheffield United"){
+        listagem0[18][3] = -2
     }
 }
 
