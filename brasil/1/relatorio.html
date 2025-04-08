@@ -181,7 +181,7 @@
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(10)`).style.backgroundColor = `rgba(255, 64, 64, ${(relatorio[n][7] / repeticoes).toFixed(3)})`;
         }
         const agora = new Date();
-        const tempoutc = `${agora.getUTCFullYear()}-${agora.getUTCMonth()}-${agora.getUTCDate()} ${agora.getUTCHours()}:${agora.getUTCMinutes()}:${agora.getUTCSeconds()}`;
+        const tempoutc = `${agora.getUTCFullYear()}-${agora.getUTCMonth()+1}-${agora.getUTCDate()} ${agora.getUTCHours()}:${agora.getUTCMinutes()}:${agora.getUTCSeconds()}`;
         document.querySelector(`#tempoutc`).innerText = tempoutc;
     </script>
 </body>
