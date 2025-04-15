@@ -1,498 +1,107 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>England: Premier League | Oráculo</title>
-    <link rel="stylesheet" href="https://oraculo.wederson.net.br/estilodetabela.css">
-    <script src="../../simulador.js"></script>
-    <script src="ficheiro.js?v=2025-04-12-18-43-27"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <link rel="stylesheet" href="regras.css?v=2025-03-16-19-00-00">
+    <title>Oráculo | Soccer Probabilities</title>
+    <link rel="stylesheet" href="geral.css">
+    <script src="simulador.js"></script>
 </head>
 <body>
-    <a href="../../index.html"><h1>Oráculo</h1></a>
-    <h2>Odds for 2024-05 English Premier League</h2>
+    <h1>Oráculo</h1>
+    <p>Choice your league:</p>
+
+    <details>
+        <summary>
+            <img class="icone" src="brasil/imagem/pais.png"> Brazil
+        </summary>
+        <details>
+            <summary>
+                <a href="brasil/1/"><img class="icone" src="brasil/imagem/div1.png"> Brasileirão Série A</a>
+            </summary>
+        </details>
+    </details>
+
+    <details>
+        <summary>
+            <img class="icone" src="inglaterra/imagem/pais.png"> England
+        </summary>
+        <details>
+            <summary>
+                <a href="inglaterra/1/"><img class="icone" src="inglaterra/imagem/div1.png"> Premier League</a>
+            </summary>
+        </details>
+        <details>
+            <summary>
+                <a href="inglaterra/2/"><img class="icone" src="inglaterra/imagem/div2.png"> EFL Championship</a>
+            </summary>
+        </details>
+        <details>
+            <summary>
+                <a href="inglaterra/3/"><img class="icone" src="inglaterra/imagem/div3.png"> EFL League One</a>
+            </summary>
+        </details>
+        <details>
+            <summary>
+                <a href="inglaterra/4/"><img class="icone" src="inglaterra/imagem/div4.png"> EFL League Two</a>
+            </summary>
+        </details>
+    </details>
     
-    <table id="probabilidades">
-        <thead>
-            </thead><caption>
-                <p>Results for <span id="numsimulacoes">100,000</span> simulations update at <span id="tempoutc">2025-4-12 18:40:54</span> UTC.</p>
-            </caption>
-            <tbody><tr>
-                <th colspan="3">#</th>
-                <th>Team</th>
-                <th>Average<br>points</th><th>League<br>winner<br>1<sup>st</sup></th>
-                <th>Champions<br>League<br>1<sup>st</sup> — 5<sup>th</sup></th>
-                <th>Europa<br>League<br>6<sup>th</sup></th>
-                <th>7<sup>th</sup> — 8<sup>th</sup></th>
-                <th>Relegation<br>18<sup>th</sup> — 20<sup>th</sup></th>
-                <th>#1</th>
-                <th>#2</th>
-                <th>#3</th>
-                <th>#4</th>
-                <th>#5</th>
-                <th>#6</th>
-                <th>#7</th>
-                <th>#8</th>
-                <th>#9</th>
-                <th>#10</th>
-                <th>#11</th>
-                <th>#12</th>
-                <th>#13</th>
-                <th>#14</th>
-                <th>#15</th>
-                <th>#16</th>
-                <th>#17</th>
-                <th>#18</th>
-                <th>#19</th>
-                <th>#20</th>
-            </tr>
-        
-        </tbody><tbody id="ligaprobabilidades">
-        <tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/liverpool.png"></td>
-            <td class="timenome">Liverpool</td>
-            <td class="num pts">86.278</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0.997);"> <span class="resumo">99.7</span><span class="precisao">99.685</span>%</td>
-            <td class="num" style="background-color: rgb(64, 64, 255);">✓ <span class="resumo">100.0</span><span class="precisao">100.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">99<span class="precisao">.685</span>%</td><td class="num">0<span class="precisao">.315</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/arsenal.png"></td>
-            <td class="timenome">Arsenal</td>
-            <td class="num pts">73.228</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0.003);"> <span class="resumo">0.3</span><span class="precisao">0.315</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 1);"> <span class="resumo">99.9</span><span class="precisao">99.939</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.055</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);"> <span class="resumo">0.0</span><span class="precisao">0.006</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.315</span>%</td><td class="num">90<span class="precisao">.640</span>%</td><td class="num">7<span class="precisao">.063</span>%</td><td class="num">1<span class="precisao">.578</span>%</td><td class="num">0<span class="precisao">.343</span>%</td><td class="num">0<span class="precisao">.055</span>%</td><td class="num">0<span class="precisao">.006</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/nottingham.png"></td>
-            <td class="timenome">Nottingham</td>
-            <td class="num pts">65.958</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.793);"> <span class="resumo">79.3</span><span class="precisao">79.287</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.12);"> <span class="resumo">12.2</span><span class="precisao">12.191</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.081);"> <span class="resumo">8.1</span><span class="precisao">8.092</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">3<span class="precisao">.163</span>%</td><td class="num">32<span class="precisao">.047</span>%</td><td class="num">25<span class="precisao">.279</span>%</td><td class="num">18<span class="precisao">.798</span>%</td><td class="num">12<span class="precisao">.191</span>%</td><td class="num">6<span class="precisao">.348</span>%</td><td class="num">1<span class="precisao">.744</span>%</td><td class="num">0<span class="precisao">.371</span>%</td><td class="num">0<span class="precisao">.055</span>%</td><td class="num">0<span class="precisao">.004</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/newcastle.png"></td>
-            <td class="timenome">Newcastle</td>
-            <td class="num pts">64.465</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.62);"> <span class="resumo">62.1</span><span class="precisao">62.121</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.163);"> <span class="resumo">16.3</span><span class="precisao">16.322</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.186);"> <span class="resumo">18.6</span><span class="precisao">18.580</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">3<span class="precisao">.214</span>%</td><td class="num">19<span class="precisao">.938</span>%</td><td class="num">19<span class="precisao">.872</span>%</td><td class="num">19<span class="precisao">.097</span>%</td><td class="num">16<span class="precisao">.322</span>%</td><td class="num">12<span class="precisao">.915</span>%</td><td class="num">5<span class="precisao">.665</span>%</td><td class="num">2<span class="precisao">.055</span>%</td><td class="num">0<span class="precisao">.684</span>%</td><td class="num">0<span class="precisao">.200</span>%</td><td class="num">0<span class="precisao">.038</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/mancity.png"></td>
-            <td class="timenome">Man City</td>
-            <td class="num pts">64.285</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.668);"> <span class="resumo">66.8</span><span class="precisao">66.783</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.163);"> <span class="resumo">16.3</span><span class="precisao">16.305</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.152);"> <span class="resumo">15.2</span><span class="precisao">15.214</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">1<span class="precisao">.530</span>%</td><td class="num">20<span class="precisao">.721</span>%</td><td class="num">23<span class="precisao">.283</span>%</td><td class="num">21<span class="precisao">.249</span>%</td><td class="num">16<span class="precisao">.305</span>%</td><td class="num">10<span class="precisao">.701</span>%</td><td class="num">4<span class="precisao">.513</span>%</td><td class="num">1<span class="precisao">.380</span>%</td><td class="num">0<span class="precisao">.291</span>%</td><td class="num">0<span class="precisao">.026</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/chelsea.png"></td>
-            <td class="timenome">Chelsea</td>
-            <td class="num pts">62.873</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.464);"> <span class="resumo">46.4</span><span class="precisao">46.373</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.209);"> <span class="resumo">20.9</span><span class="precisao">20.932</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.281);"> <span class="resumo">28.1</span><span class="precisao">28.072</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.747</span>%</td><td class="num">12<span class="precisao">.335</span>%</td><td class="num">15<span class="precisao">.061</span>%</td><td class="num">18<span class="precisao">.230</span>%</td><td class="num">20<span class="precisao">.932</span>%</td><td class="num">19<span class="precisao">.023</span>%</td><td class="num">9<span class="precisao">.049</span>%</td><td class="num">3<span class="precisao">.379</span>%</td><td class="num">1<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.206</span>%</td><td class="num">0<span class="precisao">.034</span>%</td><td class="num">0<span class="precisao">.003</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/astonvilla.png"></td>
-            <td class="timenome">Aston Villa</td>
-            <td class="num pts">62.608</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.363);"> <span class="resumo">36.3</span><span class="precisao">36.280</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.209);"> <span class="resumo">20.9</span><span class="precisao">20.876</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.352);"> <span class="resumo">35.2</span><span class="precisao">35.207</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.381</span>%</td><td class="num">7<span class="precisao">.126</span>%</td><td class="num">12<span class="precisao">.414</span>%</td><td class="num">16<span class="precisao">.359</span>%</td><td class="num">20<span class="precisao">.876</span>%</td><td class="num">22<span class="precisao">.401</span>%</td><td class="num">12<span class="precisao">.806</span>%</td><td class="num">5<span class="precisao">.351</span>%</td><td class="num">1<span class="precisao">.821</span>%</td><td class="num">0<span class="precisao">.420</span>%</td><td class="num">0<span class="precisao">.044</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/fulham.png"></td>
-            <td class="timenome">Fulham</td>
-            <td class="num pts">57.909</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.065);"> <span class="resumo">6.5</span><span class="precisao">6.451</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.08);"> <span class="resumo">7.7</span><span class="precisao">7.695</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.394);"> <span class="resumo">39.4</span><span class="precisao">39.367</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.009</span>%</td><td class="num">0<span class="precisao">.649</span>%</td><td class="num">1<span class="precisao">.843</span>%</td><td class="num">3<span class="precisao">.950</span>%</td><td class="num">7<span class="precisao">.695</span>%</td><td class="num">13<span class="precisao">.976</span>%</td><td class="num">25<span class="precisao">.391</span>%</td><td class="num">19<span class="precisao">.936</span>%</td><td class="num">13<span class="precisao">.625</span>%</td><td class="num">7<span class="precisao">.643</span>%</td><td class="num">3<span class="precisao">.794</span>%</td><td class="num">1<span class="precisao">.189</span>%</td><td class="num">0<span class="precisao">.272</span>%</td><td class="num">0<span class="precisao">.028</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/bournemouth.png"></td>
-            <td class="timenome">Bournemouth</td>
-            <td class="num pts">55.558</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.02);"> <span class="resumo">1.9</span><span class="precisao">1.919</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.03);"> <span class="resumo">3.3</span><span class="precisao">3.321</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.26);"> <span class="resumo">25.9</span><span class="precisao">25.853</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.094</span>%</td><td class="num">0<span class="precisao">.484</span>%</td><td class="num">1<span class="precisao">.340</span>%</td><td class="num">3<span class="precisao">.321</span>%</td><td class="num">7<span class="precisao">.763</span>%</td><td class="num">18<span class="precisao">.090</span>%</td><td class="num">22<span class="precisao">.494</span>%</td><td class="num">19<span class="precisao">.905</span>%</td><td class="num">13<span class="precisao">.854</span>%</td><td class="num">8<span class="precisao">.151</span>%</td><td class="num">3<span class="precisao">.074</span>%</td><td class="num">1<span class="precisao">.096</span>%</td><td class="num">0<span class="precisao">.287</span>%</td><td class="num">0<span class="precisao">.044</span>%</td><td class="num">0<span class="precisao">.002</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/brighton.png"></td>
-            <td class="timenome">Brighton</td>
-            <td class="num pts">55.173</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.006);"> <span class="resumo">0.6</span><span class="precisao">0.637</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.016);"> <span class="resumo">1.6</span><span class="precisao">1.592</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.16);"> <span class="resumo">16.1</span><span class="precisao">16.140</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.023</span>%</td><td class="num">0<span class="precisao">.142</span>%</td><td class="num">0<span class="precisao">.472</span>%</td><td class="num">1<span class="precisao">.592</span>%</td><td class="num">4<span class="precisao">.227</span>%</td><td class="num">11<span class="precisao">.913</span>%</td><td class="num">21<span class="precisao">.019</span>%</td><td class="num">23<span class="precisao">.302</span>%</td><td class="num">18<span class="precisao">.663</span>%</td><td class="num">12<span class="precisao">.148</span>%</td><td class="num">4<span class="precisao">.686</span>%</td><td class="num">1<span class="precisao">.481</span>%</td><td class="num">0<span class="precisao">.301</span>%</td><td class="num">0<span class="precisao">.030</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/crystal.png"></td>
-            <td class="timenome">Crystal Palace</td>
-            <td class="num pts">52.812</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.168</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.005);"> <span class="resumo">0.5</span><span class="precisao">0.491</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.073);"> <span class="resumo">7.3</span><span class="precisao">7.349</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.004</span>%</td><td class="num">0<span class="precisao">.044</span>%</td><td class="num">0<span class="precisao">.120</span>%</td><td class="num">0<span class="precisao">.491</span>%</td><td class="num">1<span class="precisao">.633</span>%</td><td class="num">5<span class="precisao">.716</span>%</td><td class="num">11<span class="precisao">.488</span>%</td><td class="num">16<span class="precisao">.432</span>%</td><td class="num">21<span class="precisao">.297</span>%</td><td class="num">20<span class="precisao">.719</span>%</td><td class="num">12<span class="precisao">.022</span>%</td><td class="num">6<span class="precisao">.368</span>%</td><td class="num">2<span class="precisao">.789</span>%</td><td class="num">0<span class="precisao">.749</span>%</td><td class="num">0<span class="precisao">.128</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/brentford.png"></td>
-            <td class="timenome">Brentford</td>
-            <td class="num pts">52.302</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);"> <span class="resumo">0.0</span><span class="precisao">0.042</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.217</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0.06);"> <span class="resumo">5.7</span><span class="precisao">5.697</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.042</span>%</td><td class="num">0<span class="precisao">.217</span>%</td><td class="num">0<span class="precisao">.977</span>%</td><td class="num">4<span class="precisao">.720</span>%</td><td class="num">10<span class="precisao">.570</span>%</td><td class="num">16<span class="precisao">.929</span>%</td><td class="num">22<span class="precisao">.470</span>%</td><td class="num">22<span class="precisao">.517</span>%</td><td class="num">12<span class="precisao">.263</span>%</td><td class="num">5<span class="precisao">.985</span>%</td><td class="num">2<span class="precisao">.591</span>%</td><td class="num">0<span class="precisao">.625</span>%</td><td class="num">0<span class="precisao">.094</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/everton.png"></td>
-            <td class="timenome">Everton</td>
-            <td class="num pts">48.191</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.144</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.007</span>%</td><td class="num">0<span class="precisao">.137</span>%</td><td class="num">0<span class="precisao">.762</span>%</td><td class="num">2<span class="precisao">.535</span>%</td><td class="num">6<span class="precisao">.447</span>%</td><td class="num">13<span class="precisao">.504</span>%</td><td class="num">25<span class="precisao">.959</span>%</td><td class="num">24<span class="precisao">.223</span>%</td><td class="num">17<span class="precisao">.093</span>%</td><td class="num">7<span class="precisao">.328</span>%</td><td class="num">2<span class="precisao">.005</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/manunited.png"></td>
-            <td class="timenome">Man United</td>
-            <td class="num pts">46.729</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);"> <span class="resumo">0.0</span><span class="precisao">0.002</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.133</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.002</span>%</td><td class="num">0<span class="precisao">.012</span>%</td><td class="num">0<span class="precisao">.121</span>%</td><td class="num">0<span class="precisao">.557</span>%</td><td class="num">1<span class="precisao">.485</span>%</td><td class="num">3<span class="precisao">.708</span>%</td><td class="num">7<span class="precisao">.650</span>%</td><td class="num">15<span class="precisao">.327</span>%</td><td class="num">21<span class="precisao">.799</span>%</td><td class="num">24<span class="precisao">.063</span>%</td><td class="num">16<span class="precisao">.790</span>%</td><td class="num">8<span class="precisao">.486</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/tottenham.png"></td>
-            <td class="timenome">Tottenham</td>
-            <td class="num pts">46.331</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);"> <span class="resumo">0.0</span><span class="precisao">0.001</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.143</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);"> <span class="resumo">0.0</span><span class="precisao">0.001</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.011</span>%</td><td class="num">0<span class="precisao">.132</span>%</td><td class="num">0<span class="precisao">.601</span>%</td><td class="num">1<span class="precisao">.709</span>%</td><td class="num">4<span class="precisao">.162</span>%</td><td class="num">8<span class="precisao">.389</span>%</td><td class="num">16<span class="precisao">.200</span>%</td><td class="num">20<span class="precisao">.550</span>%</td><td class="num">21<span class="precisao">.675</span>%</td><td class="num">17<span class="precisao">.088</span>%</td><td class="num">9<span class="precisao">.481</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/westham.png"></td>
-            <td class="timenome">West Ham</td>
-            <td class="num pts">44.412</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);"> <span class="resumo">0.0</span><span class="precisao">0.003</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);"> <span class="resumo">0.0</span><span class="precisao">0.003</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.003</span>%</td><td class="num">0<span class="precisao">.033</span>%</td><td class="num">0<span class="precisao">.188</span>%</td><td class="num">0<span class="precisao">.703</span>%</td><td class="num">2<span class="precisao">.225</span>%</td><td class="num">6<span class="precisao">.703</span>%</td><td class="num">12<span class="precisao">.278</span>%</td><td class="num">19<span class="precisao">.150</span>%</td><td class="num">31<span class="precisao">.891</span>%</td><td class="num">26<span class="precisao">.823</span>%</td><td class="num">0<span class="precisao">.003</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/wolves.png"></td>
-            <td class="timenome">Wolves</td>
-            <td class="num pts">42.231</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 64, 64, 0);"> <span class="resumo">0.0</span><span class="precisao">0.012</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.004</span>%</td><td class="num">0<span class="precisao">.038</span>%</td><td class="num">0<span class="precisao">.197</span>%</td><td class="num">0<span class="precisao">.786</span>%</td><td class="num">2<span class="precisao">.573</span>%</td><td class="num">5<span class="precisao">.948</span>%</td><td class="num">12<span class="precisao">.023</span>%</td><td class="num">25<span class="precisao">.455</span>%</td><td class="num">52<span class="precisao">.964</span>%</td><td class="num">0<span class="precisao">.012</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/ipswich.png"></td>
-            <td class="timenome">Ipswich</td>
-            <td class="num pts">25.954</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgb(255, 64, 64);"> <span class="resumo">100.0</span><span class="precisao">99.985</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.015</span>%</td><td class="num">75<span class="precisao">.063</span>%</td><td class="num">24<span class="precisao">.788</span>%</td><td class="num">0<span class="precisao">.134</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/leicester.png"></td>
-            <td class="timenome">Leicester</td>
-            <td class="num pts">23.208</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgb(255, 64, 64);"> <span class="resumo">100.0</span><span class="precisao">99.999</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.001</span>%</td><td class="num">24<span class="precisao">.809</span>%</td><td class="num">72<span class="precisao">.665</span>%</td><td class="num">2<span class="precisao">.525</span>%</td>
-        </tr><tr>
-            <td class="quali"></td>
-            <td class="pos"></td>
-            <td class="escudo"><img src="https://oraculo.wederson.net.br/inglaterra/imagem/southampton.png"></td>
-            <td class="timenome">Southampton</td>
-            <td class="num pts">14.779</td>
-            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(64, 64, 255, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(255, 140, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgba(0, 128, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
-            <td class="num" style="background-color: rgb(255, 64, 64);">✓ <span class="resumo">100.0</span><span class="precisao">100.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.000</span>%</td><td class="num">0<span class="precisao">.112</span>%</td><td class="num">2<span class="precisao">.547</span>%</td><td class="num">97<span class="precisao">.341</span>%</td>
-        </tr></tbody>
-        <tfoot>
-            <tr>
-                <td colspan="25" style="text-align: left;">
-                    <p>✓ indicates more than 99.999% chance. | ✘ indicates less than 0.001% chance.</p>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <object type="text/html" data="std/index.html" style="width:450px;height:667px;display:inline-flex;"></object>
-
-    <div id="graficospi" style="min-width:600px;height:700px;display:inline-flex;">
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                Highcharts.chart('graficospi', {
-                    chart: {
-                        type: 'scatter',
-                        zoomType: 'xy'
-                    },
-                    title: {
-                        text: `${equipe[0][0]}: Força relativa na liga`
-                                },
-                    subtitle: {
-                        text: 'Análise das 10 últimas partidas utilizadas para calibrar o modelo.'
-                    },
-                    xAxis: {
-                        title: {
-                            text: 'Força ofensiva'
-                        },
-                        min: 0,
-                        max: 3,
-                        //tickInterval: 0.4,  // Define marcações a cada ${tickInterval} unidades
-                        labels: {
-                            format: '{value:.1f}'  // Mostra apenas uma casa decimal
-                        },
-                        reversed: false
-                    },
-                    yAxis: {
-                        title: {
-                            text: 'Fragilidade defensiva'
-                        },
-                        min: 0,
-                        //max: 3.2,
-                        //tickInterval: 0.4,  // Define marcações a cada ${tickInterval} unidades
-                        labels: {
-                            format: '{value:.1f}'  // Mostra apenas uma casa decimal
-                        },
-                        reversed: true // Inverte a direção do eixo Y
-                    },
-                    legend: {
-                        enabled: true
-                    },
-                    series: [{
-                        name: equipe[1][0],
-                        data: [[equipe[1][2].a, equipe[1][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[1][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    }, {
-                        name: equipe[2][0],
-                        data: [[equipe[2][2].a, equipe[2][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[2][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[3][0],
-                        data: [[equipe[3][2].a, equipe[3][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[3][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[4][0],
-                        data: [[equipe[4][2].a, equipe[4][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[4][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[5][0],
-                        data: [[equipe[5][2].a, equipe[5][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[5][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[6][0],
-                        data: [[equipe[6][2].a, equipe[6][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[6][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[7][0],
-                        data: [[equipe[7][2].a, equipe[7][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[7][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[8][0],
-                        data: [[equipe[8][2].a, equipe[8][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[8][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[9][0],
-                        data: [[equipe[9][2].a, equipe[9][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[9][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[10][0],
-                        data: [[equipe[10][2].a, equipe[10][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[10][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[11][0],
-                        data: [[equipe[11][2].a, equipe[11][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[11][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    }, {
-                        name: equipe[12][0],
-                        data: [[equipe[12][2].a, equipe[12][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[12][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[13][0],
-                        data: [[equipe[13][2].a, equipe[13][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[13][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[14][0],
-                        data: [[equipe[14][2].a, equipe[14][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[14][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[15][0],
-                        data: [[equipe[15][2].a, equipe[15][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[15][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[16][0],
-                        data: [[equipe[16][2].a, equipe[16][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[16][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[17][0],
-                        data: [[equipe[17][2].a, equipe[17][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[17][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[18][0],
-                        data: [[equipe[18][2].a, equipe[18][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[18][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[19][0],
-                        data: [[equipe[19][2].a, equipe[19][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[19][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    },{
-                        name: equipe[20][0],
-                        data: [[equipe[20][2].a, equipe[20][2].d]],
-                        marker: {
-                            symbol: `url(${equipe[20][1]})`, // Substitua pela URL da sua imagem
-                            width: 20,
-                            height: 20
-                        }
-                    }],
-                    credits: {
-                        enabled: true,
-                        text: "Fonte: Oráculo",
-                        href: "https://oraculo.wederson.net.br"
-                    }
-                });
-            });
-        </script>      
-    </div>
+    <details>
+        <summary>
+            <img class="icone" src="franca/imagem/pais.png"> France
+        </summary>
+        <details>
+            <summary>
+                <a href="franca/1/"><img class="icone" src="franca/imagem/div1.png"> Ligue 1</a>
+            </summary>
+        </details>
+    </details>
+    
+    <details>
+        <summary>
+            <img class="icone" src="alemanha/imagem/pais.png"> Germany
+        </summary>
+        <details>
+            <summary>
+                <a href="alemanha/1/"><img class="icone" src="alemanha/imagem/div1.png"> 1. Bundesliga</a>
+            </summary>
+        </details>
+    </details>
+    
+    <details>
+        <summary>
+            <img class="icone" src="italia/imagem/pais.png"> Italy
+        </summary>
+        <details>
+            <summary>
+                <a href="italia/1/"><img class="icone" src="italia/imagem/div1.png"> Serie A</a>
+            </summary>
+        </details>
+    </details>
+    
+    <details>
+        <summary>
+            <img class="icone" src="neerlandia/imagem/pais.png"> Netherlands
+        </summary>
+        <details>
+            <summary>
+                <a href="neerlandia/1/"><img class="icone" src="neerlandia/imagem/div1.png"> Eredivisie</a>
+            </summary>
+        </details>
+    </details>
+    
+    <details>
+        <summary>
+            <img class="icone" src="espanha/imagem/pais.png"> Spain
+        </summary>
+        <details>
+            <summary>
+                <a href="espanha/1/"><img class="icone" src="espanha/imagem/div1.png"> La Liga 1</a>
+            </summary>
+        </details>
+    </details>
     
 </body>
 </html>
