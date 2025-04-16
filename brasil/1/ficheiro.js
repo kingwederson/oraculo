@@ -13,7 +13,7 @@ var equipe = [
     [`Botafogo`,`https://oraculo.wederson.net.br/brasil/imagem/botafogo.png`,
         {a:ajuste(10,rodat,1.55,2/3),d:ajuste(10,rodat,0.76,1/3),rat:1932},3],
     [`Ceará`,`https://oraculo.wederson.net.br/brasil/imagem/ceara.png`,
-        {a:ajuste(10,rodat+1,0.95,7/3),d:ajuste(10,rodat+1,1.83,5/3),rat:1932},4],
+        {a:ajuste(10,rodat+1,0.95,7/4),d:ajuste(10,rodat+1,1.83,5/4),rat:1932},4],
     [`Corinthians`,`https://oraculo.wederson.net.br/brasil/imagem/corinthians.png`,
         {a:ajuste(10,rodat,1.42,4/3),d:ajuste(10,rodat,1.18,3/3),rat:1932},5],
     //[`Criciúma`,`https://oraculo.wederson.net.br/brasil/imagem/criciuma.png`,
