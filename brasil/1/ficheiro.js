@@ -1,4 +1,5 @@
 var rodat = 3
+var rodpr = rodat+1
 var equipe = [
     [`Brasileirão Série A`,`https://oraculo.wederson.net.br/brasil/imagem/div1.png`,,0],
     
@@ -15,7 +16,7 @@ var equipe = [
     [`Ceará`,`https://oraculo.wederson.net.br/brasil/imagem/ceara.png`,
         {a:ajuste(10,rodat,0.95,7/rodat),d:ajuste(10,rodat,1.83,5/rodat),rat:1932},4],
     [`Corinthians`,`https://oraculo.wederson.net.br/brasil/imagem/corinthians.png`,
-        {a:ajuste(10,rodat,1.42,4/rodat),d:ajuste(10,rodat,1.18,5/rodat),rat:1932},5],
+        {a:ajuste(10,rodpr,1.42,6/rodpr),d:ajuste(10,rodpr,1.18,6/rodpr),rat:1932},5],
     //[`Criciúma`,`https://oraculo.wederson.net.br/brasil/imagem/criciuma.png`,
     // {a:42.9/rodat8,d:64.8/rodat8,rat:1932},23],
     [`Cruzeiro`,`https://oraculo.wederson.net.br/brasil/imagem/cruzeiro.png`,
@@ -23,7 +24,7 @@ var equipe = [
     //[`Cuiabá`,`https://oraculo.wederson.net.br/brasil/imagem/cuiaba.png`,
     // {a:40.2/rodat8,d:52.9/rodat8,rat:1932},24],
     [`Flamengo`,`https://oraculo.wederson.net.br/brasil/imagem/flamengo.png`,
-        {a:ajuste(10,rodat,1.60,11/rodat),d:ajuste(10,rodat,1.10,2/rodat),rat:1932},7],
+        {a:ajuste(10,rodpr,1.60,11/rodpr),d:ajuste(10,rodpr,1.10,2/rodpr),rat:1932},7],
     [`Fluminense`,`https://oraculo.wederson.net.br/brasil/imagem/fluminense.png`,
         {a:ajuste(10,rodat,0.86,5/rodat),d:ajuste(10,rodat,1.02,3/rodat),rat:1932},8],
     [`Fortaleza`,`https://oraculo.wederson.net.br/brasil/imagem/fortaleza.png`,
@@ -43,11 +44,11 @@ var equipe = [
     [`São Paulo`,`https://oraculo.wederson.net.br/brasil/imagem/saopaulo.png`,
         {a:ajuste(10,rodat,1.39,3/rodat),d:ajuste(10,rodat,1.13,3/rodat),rat:1932},16],
     [`Sport`,`https://oraculo.wederson.net.br/brasil/imagem/sport.png`,
-        {a:ajuste(10,rodat,0.65,2/rodat),d:ajuste(10,rodat,1.47,6/rodat),rat:1932},17],
+        {a:ajuste(10,rodpr,0.65,3/rodpr),d:ajuste(10,rodpr,1.47,8/rodpr),rat:1932},17],
     [`Santos`,`https://oraculo.wederson.net.br/brasil/imagem/santos.png`,
         {a:ajuste(10,rodat,0.90,5/rodat),d:ajuste(10,rodat,1.38,5/rodat),rat:1932},18],
     [`Vasco`,`https://oraculo.wederson.net.br/brasil/imagem/vasco.png`,
-        {a:ajuste(10,rodat,1.13,6/rodat),d:ajuste(10,rodat,1.47,7/rodat),rat:1932},19],
+        {a:ajuste(10,rodpr,1.13,6/rodpr),d:ajuste(10,rodpr,1.47,7/rodpr),rat:1932},19],
     [`Vitória`,`https://oraculo.wederson.net.br/brasil/imagem/vitoria.png`,
         {a:ajuste(10,rodat,1.18,5/rodat),d:ajuste(10,rodat,1.36,7/rodat),rat:1932},20]
 ]
@@ -58,7 +59,7 @@ var tabelaRRinicial = [
     /*BAH*/[equipe[2][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[1,1]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[1,1]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*BOT*/[equipe[3][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[2,0]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[2,2]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*CEA*/[equipe[4][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[2,0]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[2,1]/*VAS*/,[,]/*VIT*/],
-    /*COR*/[equipe[5][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[0,2]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[3,0]/*VAS*/,[,]/*VIT*/],
+    /*COR*/[equipe[5][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[0,2]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[2,1]/*SPO*/,[,]/*SAN*/,[3,0]/*VAS*/,[,]/*VIT*/],
     /*CRU*/[equipe[6][0],[,]/*CAM*/,[3,0]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[2,1]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*FLA*/[equipe[7][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[1,1]/*INT*/,[6,0]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*FLU*/[equipe[8][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[2,1]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[1,0]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
@@ -72,6 +73,6 @@ var tabelaRRinicial = [
     /*SPL*/[equipe[16][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[1,1]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[0,0]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*SPO*/[equipe[17][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[1,2]/*PAL*/,[0,1]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*SAN*/[equipe[18][0],[2,0]/*CAM*/,[2,2]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
-    /*VAS*/[equipe[19][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[,]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[3,1]/*SPO*/,[2,1]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
+    /*VAS*/[equipe[19][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[0,0]/*FLA*/,[,]/*FLU*/,[,]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[3,1]/*SPO*/,[2,1]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/],
     /*VIT*/[equipe[20][0],[,]/*CAM*/,[,]/*BAH*/,[,]/*BOT*/,[,]/*CEA*/,[,]/*COR*/,[,]/*CRU*/,[1,2]/*FLA*/,[,]/*FLU*/,[2,1]/*FOR*/,[,]/*GRE*/,[,]/*INT*/,[,]/*JUV*/,[,]/*MIR*/,[,]/*PAL*/,[,]/*RBB*/,[,]/*SPL*/,[,]/*SPO*/,[,]/*SAN*/,[,]/*VAS*/,[,]/*VIT*/]
 ]
