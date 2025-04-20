@@ -8,8 +8,7 @@ tr:nth-child(5) td.quali{
 tr:nth-child(6) td.quali{
     background-color:orange;
 }
-tr:nth-child(7) td.quali,
-tr:nth-child(8) td.quali{
+tr:nth-child(7) td.quali{
     background-color:darkgreen;
 }
 tr:nth-child(18) td.quali,
