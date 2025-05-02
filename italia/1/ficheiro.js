@@ -18,7 +18,7 @@ var equipe = [
         {a:7/rodat,d:8/rodat,rat:2185},7],
     [`Hellas Verona`,`https://oraculo.wederson.net.br/italia/imagem/verona.png`,
         {a:4/rodat,d:9/rodat,rat:2185},8],
-    [`Inter`,`https://oraculo.wederson.net.br/italia/imagem/inter.png`,
+    [`Internazionale`,`https://oraculo.wederson.net.br/italia/imagem/inter.png`,
         {a:14/rodat,d:10/rodat,rat:2185},9],
     [`Juventus`,`https://oraculo.wederson.net.br/italia/imagem/juventus.png`,
         {a:10/rodat,d:10/rodat,rat:2185},10],
