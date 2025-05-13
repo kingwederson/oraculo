@@ -96,7 +96,7 @@ function confronto(casa,fora){
 }
 
 function competidores(){
-    for (let esse = 1; esse < equipe.length; esse++) {
+    for (let esse = 1; esse != equipe.length; esse++) {
         console.log(`${esse}. ${copta[esse][2]}`);
     }
 }
