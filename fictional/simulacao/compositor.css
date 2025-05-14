@@ -1,0 +1,7 @@
+object{
+    height: 550px; width:460px;
+    border: 1px dotted black;
+}
+div.exibeliga{
+    display:inline-block;
+}

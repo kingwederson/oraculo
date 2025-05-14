@@ -1,0 +1,10 @@
+
+td.quali{
+    background-color:yellow;
+}
+tr:nth-last-child(-n+43) td.quali {
+    background-color: black;
+}
+tr:nth-child(-n+12) td.quali{
+    background-color:blue;
+}
