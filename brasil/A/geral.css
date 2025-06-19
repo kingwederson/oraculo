@@ -1,0 +1,63 @@
+@import url(https://db.onlinewebfonts.com/c/ab596f21664c5582567537d241e2a53e?family=DIN+Next+Rounded+LT+W01+Regular);
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold); 
+
+@font-face {
+    font-family: "DIN Regular";
+    src: url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.eot");
+    src: url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.svg#DIN Next Rounded LT W01 Regular")format("svg");
+}
+@font-face {
+    font-family: "Feather Bold";
+    src: url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.eot");
+    src: url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.svg#Feather Bold")format("svg");
+}
+
+body{
+    font-family: 'DIN Regular', sans-serif;
+}
+details{
+    margin-left: 18px;
+}
+img.icone{
+    width:24px;
+    display: inline-block;
+}
+summary {
+    /*vertical-align: baseline;*/
+    list-style: none;
+    padding: 10px 10px 10px 40px;
+    background-size: 30px;
+    font-weight: bold;
+    background-color: #e0d9d8;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px 25px 0 0;
+}
+
+summary:before {
+    content: ' ►';
+    color:black;
+    font-size: 30px;
+}
+
+details[open] summary:before {
+    content: " ▼";
+    color:black;
+    font-size: 30px;
+}
+  
+details{
+    border-radius: 5px;
+    margin:7px 0px;
+    padding:3px;
+    break-inside: avoid;
+    margin-left: 25px;
+}
