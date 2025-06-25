@@ -6,12 +6,7 @@ tr:nth-child(5) td.quali,
 tr:nth-child(6) td.quali,
 tr:nth-child(7) td.quali,
 tr:nth-child(8) td.quali,
-tr:nth-child(9) td.quali,
-tr:nth-child(10) td.quali,
-tr:nth-child(11) td.quali,
-tr:nth-child(12) td.quali,
-tr:nth-child(13) td.quali,
-tr:nth-child(14) td.quali{
+tr:nth-child(9) td.quali{
     background-color:blue;
 }/*
 tr:nth-child(5) td.quali{
