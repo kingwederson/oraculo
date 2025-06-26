@@ -29,7 +29,7 @@ var equipe = [
         {a:1.3,d:1.3,rat:628},106],
     [`Groelândia`,`http://oraculo.wederson.com/fifa/imagem/groelandia.jpeg`,
         {a:1.3,d:1.3,rat:946},227],
-    [`S. Pierre e Miquelon`,`http://oraculo.wederson.com/fifa/imagem/franca.webp`,
+    [`S.Pierre||Miquelon`,`http://oraculo.wederson.com/fifa/imagem/franca.webp`,
         {a:1.3,d:1.3,rat:677},228],
     [`São Bartolomeu`,`http://oraculo.wederson.com/fifa/imagem/franca.webp`,
         {a:1.3,d:1.3,rat:725},229],
