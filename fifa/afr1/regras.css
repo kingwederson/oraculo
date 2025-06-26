@@ -1,7 +1,8 @@
 tr:nth-child(1) td.quali,
 tr:nth-child(2) td.quali,
 tr:nth-child(3) td.quali,
-tr:nth-child(4) td.quali{
+tr:nth-child(4) td.quali,
+tr:nth-child(5) td.quali{
     background-color:blue;
 }/*
 tr:nth-child(5) td.quali{
