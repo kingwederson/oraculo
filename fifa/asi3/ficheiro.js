@@ -1,6 +1,10 @@
 var equipe = [
     [`AFC`,`http://oraculo.wederson.com/fifa/imagem/asia.png`,,0],
     
+    [`Macau`,`http://oraculo.wederson.com/fifa/imagem/macau.webp`,
+        {a:1.3,d:1.3,rat:594},44],
+    [`Nova Zelândia`,`http://oraculo.wederson.com/fifa/imagem/zelandia.webp`,
+        {a:1.3,d:1.3,rat:432},45],
     [`Brunei`,`http://oraculo.wederson.com/fifa/imagem/brunei.png`,
         {a:1.3,d:1.3,rat:668},42],
     [`Butão`,`http://oraculo.wederson.com/fifa/imagem/butao.webp`,
@@ -28,7 +32,15 @@ var equipe = [
     [`Tonga`,`http://oraculo.wederson.com/fifa/imagem/tonga.webp`,
         {a:1.3,d:1.3,rat:5},56],
     [`Samoa Oc.`,`http://oraculo.wederson.com/fifa/imagem/samoaoc.webp`,
-        {a:1.3,d:1.3,rat:5},57]
+        {a:1.3,d:1.3,rat:5},57],
+    [`Timor-Leste`,`http://oraculo.wederson.com/fifa/imagem/timor.webp`,
+        {a:1.3,d:1.3,rat:688},41],
+    [`Timbete`,`http://oraculo.wederson.com/fifa/imagem/tibete.jpeg`,
+        {a:1.3,d:1.3,rat:630},58],
+    [`Curdistão`,`http://oraculo.wederson.com/fifa/imagem/curdistao.jpeg`,
+        {a:1.3,d:1.3,rat:1425},59],
+    [`Marianas do Norte`,`http://oraculo.wederson.com/fifa/imagem/mariana_norte.jpeg`,
+        {a:1.3,d:1.3,rat:239},60],
 ]
 
 var tabelaRRinicial = [[equipe[0][0]]]

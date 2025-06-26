@@ -37,6 +37,10 @@ var equipe = [
         {a:1.3,d:1.3,rat:1902},17],
     [`Venezuela`,`http://oraculo.wederson.com/fifa/imagem/venezuela.webp`,
         {a:1.3,d:1.3,rat:1746},18],
+    [`Curacao`,`http://oraculo.wederson.com/fifa/imagem/curacao.webp`,
+        {a:1.3,d:1.3,rat:1412},22],
+    [`El Salvador`,`http://oraculo.wederson.com/fifa/imagem/elsalvador.webp`,
+        {a:1.3,d:1.3,rat:1369},24],
 ]
 
 var tabelaRRinicial = [[equipe[0][0]]]

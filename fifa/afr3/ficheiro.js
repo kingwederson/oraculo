@@ -29,6 +29,18 @@ var equipe = [
         {a:1.3,d:1.3,rat:851},55],
     [`Togo`,`http://oraculo.wederson.com/fifa/imagem/togo.webp`,
         {a:1.3,d:1.3,rat:1372},31],
+    [`Somália`,`http://oraculo.wederson.com/fifa/imagem/somalia.webp`,
+        {a:1.3,d:1.3,rat:915},14],
+    [`Somalilândia`,`http://oraculo.wederson.com/fifa/imagem/somalilandia.jpeg`,
+        {a:1.3,d:1.3,rat:1002},57],
+    [`Saara Ocidental`,`http://oraculo.wederson.com/fifa/imagem/saara.jpeg`,
+        {a:1.3,d:1.3,rat:996},58],
+    [`Ilha da Reunião`,`http://oraculo.wederson.com/fifa/imagem/franca.webp`,
+        {a:1.3,d:1.3,rat:700},56],
+    [`Mayotte`,`http://oraculo.wederson.com/fifa/imagem/franca.webp`,
+        {a:1.3,d:1.3,rat:700},59],
+    [`Ilhas Chagos`,`http://oraculo.wederson.com/fifa/imagem/chagos.jpeg`,
+        {a:1.3,d:1.3,rat:700},60],
 ]
 
 var tabelaRRinicial = [[equipe[0][0]]]

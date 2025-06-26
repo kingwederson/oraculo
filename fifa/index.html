@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Níveis</title>
     <style>
+        h1,h2,h3{
+            font-family: 'Feather Bold';
+            text-align: center;
+        }
         object{
             width:460px;
-            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border-left: 1px solid black;
+            border-right: 1px solid black;
         }
         div.ligastanding{
             display: inline-block;
@@ -18,95 +28,76 @@
     </style>
 </head>
 <body>
-    <div class="confederacao">
-        <h2>UEFA</h2>
-        <div class="ligastanding">
-            <h3>Liga A</h3>
-            <object data="eur1/sim.html" type="text/html" style="height:510px"></object>
-        </div>
 
-        <div class="ligastanding">
-            <h3>Liga B</h3>
-            <object data="eur2/sim.html" type="text/html" style="height:510px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga C</h3>
-            <object data="eur3/sim.html" type="text/html" style="height:510px"></object>
-        </div>
-    </div>
-    
-    <hr>
-
-    <div class="confederacao">
-        <h2>CONMEBOL+CONCACAF</h2>
-        <div class="ligastanding">
-            <h3>Liga A</h3>
-            <object data="ame1/sim.html" type="text/html" style="height:510px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga B</h3>
-            <object data="ame2/sim.html" type="text/html" style="height:510px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga C</h3>
-            <object data="ame3/sim.html" type="text/html" style="height:510px"></object>
-        </div>
-    </div>
-    
-    <hr>
-
-        <div class="confederacao">
-        <h2>AFC+OFC</h2>
-        <div class="ligastanding">
-            <h3>Liga A</h3>
-            <object data="asi1/sim.html" type="text/html" style="height:480px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga B</h3>
-            <object data="asi2/sim.html" type="text/html" style="height:480px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga C</h3>
-            <object data="asi3/sim.html" type="text/html" style="height:480px"></object>
-        </div>
-    </div>
-    
-    <hr>
-
-        <div class="confederacao">
-        <h2>CAF</h2>
-        <div class="ligastanding">
-            <h3>Liga A</h3>
-            <object data="afr1/sim.html" type="text/html" style="height:500px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga B</h3>
-            <object data="afr2/sim.html" type="text/html" style="height:500px"></object>
-        </div>
-
-        <div class="ligastanding">
-            <h3>Liga C</h3>
-            <object data="afr3/sim.html" type="text/html" style="height:500px"></object>
-        </div>
-    </div>
-    
-    <hr>
-
-    <div class="confederacao">
-        <h2>UAFA</h2>
-        <div class="ligastanding">
-            <h3>Liga</h3>
-            <object data="uafa/sim.html" type="text/html" style="height:560px"></object>
-        </div>
-    </div>
-    
-    <hr>
-
+    <table>
+        <tr>
+            <th colspan="3"><h2>UEFA</h2></th>
+        </tr>
+        <tr>
+            <td>
+                <h3>Liga A</h3>
+                <object data="eur1/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga B</h3>
+                <object data="eur2/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga C</h3>
+                <object data="eur3/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3"><h2>CONMEBOL+CONCACAF</h2></th>
+        </tr>
+        <tr>
+            <td>
+                <h3>Liga A</h3>
+                <object data="ame1/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga B</h3>
+                <object data="ame2/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga C</h3>
+                <object data="ame3/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3"><h2>AFC+OFC</h2></th>
+        </tr>
+        <tr>
+            <td>
+                <h3>Liga A</h3>
+                <object data="asi1/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga B</h3>
+                <object data="asi2/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga C</h3>
+                <object data="asi3/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3"><h2>CAF</h2></th>
+        </tr>
+        <tr>
+            <td>
+                <h3>Liga A</h3>
+                <object data="afr1/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga B</h3>
+                <object data="afr2/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+            <td>
+                <h3>Liga C</h3>
+                <object data="afr3/sim.html" type="text/html" style="height:560px"></object>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

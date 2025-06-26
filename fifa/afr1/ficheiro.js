@@ -1,8 +1,16 @@
 var equipe = [
     [`CAF`,`http://oraculo.wederson.com/fifa/imagem/afr.png`,,0],
-    
+
+    [`Marrocos`,`http://oraculo.wederson.com/fifa/imagem/marrocos.webp`,
+        {a:1.3,d:1.3,rat:1813},1],    
     [`Senegal`,`http://oraculo.wederson.com/fifa/imagem/senegal.webp`,
         {a:1.3,d:1.3,rat:1785},2],
+    [`Argélia`,`http://oraculo.wederson.com/fifa/imagem/argelia.webp`,
+        {a:1.3,d:1.3,rat:1707},3],
+    [`Egito`,`http://oraculo.wederson.com/fifa/imagem/egito.webp`,
+        {a:1.3,d:1.3,rat:1768},4],
+    [`Tunísia`,`http://oraculo.wederson.com/fifa/imagem/tunisia.webp`,
+        {a:1.3,d:1.3,rat:1615},5],
     [`Angola`,`http://oraculo.wederson.com/fifa/imagem/angola.webp`,
         {a:1.3,d:1.3,rat:1607},6],
     [`Mali`,`http://oraculo.wederson.com/fifa/imagem/mali.webp`,
@@ -25,14 +33,14 @@ var equipe = [
         {a:1.3,d:1.3,rat:1482},15],
     [`Gana`,`http://oraculo.wederson.com/fifa/imagem/gana.webp`,
         {a:1.3,d:1.3,rat:1479},16],
-    [`Gabão`,`http://oraculo.wederson.com/fifa/imagem/gabao.webp`,
-        {a:1.3,d:1.3,rat:1463},17],
-    [`Guiné`,`http://oraculo.wederson.com/fifa/imagem/guine.webp`,
-        {a:1.3,d:1.3,rat:1463},18],
     [`Moçambique`,`http://oraculo.wederson.com/fifa/imagem/mocambique.webp`,
         {a:1.3,d:1.3,rat:1435},19],
     [`Comoros`,`http://oraculo.wederson.com/fifa/imagem/comoros.webp`,
         {a:1.3,d:1.3,rat:1427},20],
+    [`Sudão`,`http://oraculo.wederson.com/fifa/imagem/sudao.webp`,
+        {a:1.3,d:1.3,rat:1396},24],
+    [`Líbia`,`http://oraculo.wederson.com/fifa/imagem/libia.webp`,
+        {a:1.3,d:1.3,rat:1387},26],
 ]
 
 var tabelaRRinicial = [[equipe[0][0]]]

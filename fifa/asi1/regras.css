@@ -1,6 +1,8 @@
 tr:nth-child(1) td.quali,
 tr:nth-child(2) td.quali,
-tr:nth-child(3) td.quali{
+tr:nth-child(3) td.quali,
+tr:nth-child(4) td.quali,
+tr:nth-child(5) td.quali{
     background-color:blue;
 }/*
 tr:nth-child(5) td.quali{
@@ -12,6 +14,8 @@ tr:nth-child(6) td.quali{
 tr:nth-child(16) td.quali{
     background-color:orangered;
 }*/
-tr:nth-last-child(1) td.quali{
+tr:nth-last-child(1) td.quali,
+tr:nth-last-child(2) td.quali,
+tr:nth-last-child(3) td.quali{
     background-color:red;
 }

@@ -7,12 +7,8 @@ var equipe = [
         {a:1.3,d:1.3,rat:1169},20],
     [`Cuba`,`http://oraculo.wederson.com/fifa/imagem/cuba.webp`,
         {a:1.3,d:1.3,rat:1225},21],
-    [`Curacao`,`http://oraculo.wederson.com/fifa/imagem/curacao.webp`,
-        {a:1.3,d:1.3,rat:1412},22],
     [`Dominicana`,`http://oraculo.wederson.com/fifa/imagem/dominicana.webp`,
         {a:1.3,d:1.3,rat:1291},23],
-    [`El Salvador`,`http://oraculo.wederson.com/fifa/imagem/elsalvador.webp`,
-        {a:1.3,d:1.3,rat:1369},24],
     [`Granada`,`http://oraculo.wederson.com/fifa/imagem/grenada.png`,
         {a:1.3,d:1.3,rat:1107},25],
     [`Guadalupe`,`http://oraculo.wederson.com/fifa/imagem/guadalupe.webp`,
@@ -37,6 +33,14 @@ var equipe = [
         {a:1.3,d:1.3,rat:1407},33],
     [`S. Vicente`,`http://oraculo.wederson.com/fifa/imagem/vicente.webp`,
         {a:1.3,d:1.3,rat:1141},34],
+    [`Barbados`,`http://oraculo.wederson.com/fifa/imagem/barbados.webp`,
+        {a:1.3,d:1.3,rat:939},39],
+    [`S. Cristóvão`,`http://oraculo.wederson.com/fifa/imagem/cristovao.webp`,
+        {a:1.3,d:1.3,rat:1026},42],
+    [`Antigua`,`http://oraculo.wederson.com/fifa/imagem/antigua.webp`,
+        {a:1.3,d:1.3,rat:910},36],
+    [`S. Lúcia`,`http://oraculo.wederson.com/fifa/imagem/lucia.webp`,
+        {a:1.3,d:1.3,rat:1045},44],
 ]
 
 var tabelaRRinicial = [[equipe[0][0]]]
