@@ -35,7 +35,7 @@ var equipe = [
         {a:1.3,d:1.3,rat:5},162],
     [`Timor-Leste`,`http://oraculo.wederson.com/fifa/imagem/timor.webp`,
         {a:1.3,d:1.3,rat:688},163],
-    [`Timbete`,`http://oraculo.wederson.com/fifa/imagem/tibete.jpeg`,
+    [`Tibete`,`http://oraculo.wederson.com/fifa/imagem/tibete.jpeg`,
         {a:1.3,d:1.3,rat:630},164],
     [`Curdistão`,`http://oraculo.wederson.com/fifa/imagem/curdistao.jpeg`,
         {a:1.3,d:1.3,rat:1425},165],
