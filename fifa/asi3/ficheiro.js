@@ -1,6 +1,8 @@
 var equipe = [
     [`AFC`,`http://oraculo.wederson.com/fifa/imagem/asia.png`,,0],
     
+    [`Guam`,`http://oraculo.wederson.com/fifa/imagem/guam.webp`,
+        {a:1.3,d:1.3,rat:712},142],
     [`Macau`,`http://oraculo.wederson.com/fifa/imagem/macau.webp`,
         {a:1.3,d:1.3,rat:594},147],
     [`Nova Zelândia`,`http://oraculo.wederson.com/fifa/imagem/zelandia.webp`,
@@ -37,8 +39,6 @@ var equipe = [
         {a:1.3,d:1.3,rat:688},163],
     [`Tibete`,`http://oraculo.wederson.com/fifa/imagem/tibete.jpeg`,
         {a:1.3,d:1.3,rat:630},164],
-    [`Curdistão`,`http://oraculo.wederson.com/fifa/imagem/curdistao.jpeg`,
-        {a:1.3,d:1.3,rat:1425},165],
     [`Marianas do Norte`,`http://oraculo.wederson.com/fifa/imagem/mariana_norte.jpeg`,
         {a:1.3,d:1.3,rat:239},166],
 ]

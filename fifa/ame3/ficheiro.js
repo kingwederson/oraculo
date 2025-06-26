@@ -1,6 +1,10 @@
 var equipe = [
     [`CONAM`,`http://oraculo.wederson.com/fifa/imagem/americas.png`,,0],
     
+    [`Barbados`,`http://oraculo.wederson.com/fifa/imagem/barbados.webp`,
+        {a:1.3,d:1.3,rat:939},92],
+    [`Antigua`,`http://oraculo.wederson.com/fifa/imagem/antigua.webp`,
+        {a:1.3,d:1.3,rat:910},94],
     [`Anguila`,`http://oraculo.wederson.com/fifa/imagem/anguila.webp`,
         {a:1.3,d:1.3,rat:618},96],
     [`Aruba`,`http://oraculo.wederson.com/fifa/imagem/aruba.webp`,

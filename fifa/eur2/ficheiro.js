@@ -1,6 +1,10 @@
 var equipe = [
     [`UEFA`,`http://oraculo.wederson.com/fifa/imagem/europa.png`,,0],
     
+    [`Sérvia`,`http://oraculo.wederson.com/fifa/imagem/servia.webp`,
+        {a:1.3,d:1.3,rat:1838},14],
+    [`Ucrânia`,`http://oraculo.wederson.com/fifa/imagem/ucrania.webp`,
+        {a:1.3,d:1.3,rat:1799},18],
     [`Israel`,`http://oraculo.wederson.com/fifa/imagem/israel.webp`,
         {a:1.3,d:1.3,rat:1629},19],
     [`Albania`,`http://oraculo.wederson.com/fifa/imagem/albania.webp`,
@@ -13,18 +17,10 @@ var equipe = [
         {a:1.3,d:1.3,rat:1666},23],
     [`Eslovênia`,`http://oraculo.wederson.com/fifa/imagem/eslovenia.webp`,
         {a:1.3,d:1.3,rat:1752},24],
-    [`Finlândia`,`http://oraculo.wederson.com/fifa/imagem/finlandia.webp`,
-        {a:1.3,d:1.3,rat:1556},25],
     [`Pais de Gales`,`http://oraculo.wederson.com/fifa/imagem/gales.webp`,
         {a:1.3,d:1.3,rat:1727},26],
-    [`Geórgia`,`http://oraculo.wederson.com/fifa/imagem/georgia.webp`,
-        {a:1.3,d:1.3,rat:1710},27],
-    [`Hungria`,`http://oraculo.wederson.com/fifa/imagem/hungria.webp`,
-        {a:1.3,d:1.3,rat:1702},28],
     [`Irlanda`,`http://oraculo.wederson.com/fifa/imagem/irlanda.webp`,
         {a:1.3,d:1.3,rat:1634},29],
-    [`Irlanda do Norte`,`http://oraculo.wederson.com/fifa/imagem/irlandadonorte.webp`,
-        {a:1.3,d:1.3,rat:1561},30],
     [`Islândia`,`http://oraculo.wederson.com/fifa/imagem/islandia.webp`,
         {a:1.3,d:1.3,rat:1550},31],
     [`Kosovo`,`http://oraculo.wederson.com/fifa/imagem/kosovo.webp`,
@@ -36,7 +32,11 @@ var equipe = [
     [`Romênia`,`http://oraculo.wederson.com/fifa/imagem/romenia.webp`,
         {a:1.3,d:1.3,rat:1681},35],
     [`Tchéquia`,`http://oraculo.wederson.com/fifa/imagem/tchequia.webp`,
-        {a:1.3,d:1.3,rat:1750},36]
+        {a:1.3,d:1.3,rat:1750},36],
+    [`Belarus`,`http://oraculo.wederson.com/fifa/imagem/belarus.webp`,
+        {a:1.3,d:1.3,rat:1492},40],
+    [`Montenegro`,`http://oraculo.wederson.com/fifa/imagem/montenegro.webp`,
+        {a:1.3,d:1.3,rat:1514},53],
 ]
 
 var tabelaRRinicial = [[equipe[0][0]]]
