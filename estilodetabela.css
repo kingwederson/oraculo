@@ -36,6 +36,8 @@ body{
 table {
     border-collapse: collapse; /* Faz com que as bordas da tabela fiquem unidas */
     counter-reset: posicao;
+    /*display: inline-block;*/
+    float:inline-start;
 }
 td.pts, td.der, td.golc{
     border-right: 1px solid #aaa;
@@ -60,10 +62,20 @@ td.pos{
 }
 td.timenome{
     text-align: left;
+    min-width:120px;
+}
+td.timenomedir{
+    text-align: right;
+    min-width:120px;
 }
 td.pts{
     font-weight: bold;
     font-family: 'DIN Bold';
+}
+td.placar{
+    font-weight: bold;
+    font-family: 'DIN Bold';
+    text-align: center;
 }
 td.num{
     text-align: right;
