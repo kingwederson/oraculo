@@ -3,9 +3,9 @@ function compara(alfa, omega){
         if(omega[4]==alfa[4]){
             if(omega[7]==alfa[7]){
                 if(omega[8]==alfa[8]){
+                    console.log(JSON.stringify(listagem))
                     return Math.random()-0.5
                 }
-                console.log('random')
                 return omega[8]-alfa[8]
             }
             return omega[7]-alfa[7]
