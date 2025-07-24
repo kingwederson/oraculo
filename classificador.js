@@ -81,7 +81,7 @@ function inserirdados(){
         document.getElementsByClassName('vit')[k].innerText = listagem[k][4]
         document.getElementsByClassName('emp')[k].innerText = listagem[k][5]
         document.getElementsByClassName('der')[k].innerText = listagem[k][6]
-        document.getElementsByClassName('golb')[k].innerText = listagem[k][7]
+        document.getElementsByClassName('golb')[k].innerText = listagem[k][7] > 0 ? '+'+listagem[k][7] : listagem[k][7]
         document.getElementsByClassName('golp')[k].innerText = listagem[k][8]
         document.getElementsByClassName('golc')[k].innerText = listagem[k][9]
         document.getElementsByClassName('jogos')[k].innerText = listagem[k][10]
