@@ -3,7 +3,7 @@ function compara(alfa, omega){
         if(omega[4]==alfa[4]){
             if(omega[7]==alfa[7]){
                 if(omega[8]==alfa[8]){
-                    console.log(JSON.stringify(listagem))
+                    console.log('empatou')
                     return Math.random()-0.5
                 }
                 return omega[8]-alfa[8]
