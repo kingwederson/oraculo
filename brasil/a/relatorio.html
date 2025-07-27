@@ -10,7 +10,7 @@
     <table id="probabilidades">
         <thead>
             <caption>
-                <p>Resultados para <span id="numsimulacoes">100,000</span> simulações atualizadas para <span id="tempoutc">2025-07-20 13:19:39 BRT</span>.</p>
+                <p>Resultados para <span id="numsimulacoes">100,000</span> simulações atualizadas para <span id="tempoutc">2025-07-27 20:35:14 BRT</span>.</p>
             </caption>
             <tr>
                 <th colspan="3">#</th>
@@ -21,26 +21,26 @@
                 <th>Pre-Libertadores<br>5&dash;6</th>
                 <th>Sulamericana<br>7&dash;12</th>
                 <th>Rebaixamento<br>17&dash;20</th>
-                <th>#1</th>
-                <th>#2</th>
-                <th>#3</th>
-                <th>#4</th>
-                <th>#5</th>
-                <th>#6</th>
-                <th>#7</th>
-                <th>#8</th>
-                <th>#9</th>
-                <th>#10</th>
-                <th>#11</th>
-                <th>#12</th>
-                <th>#13</th>
-                <th>#14</th>
-                <th>#15</th>
-                <th>#16</th>
-                <th>#17</th>
-                <th>#18</th>
-                <th>#19</th>
-                <th>#20</th>
+                <th class="posrep">#1</th>
+                <th class="posrep">#2</th>
+                <th class="posrep">#3</th>
+                <th class="posrep">#4</th>
+                <th class="posrep">#5</th>
+                <th class="posrep">#6</th>
+                <th class="posrep">#7</th>
+                <th class="posrep">#8</th>
+                <th class="posrep">#9</th>
+                <th class="posrep">#10</th>
+                <th class="posrep">#11</th>
+                <th class="posrep">#12</th>
+                <th class="posrep">#13</th>
+                <th class="posrep">#14</th>
+                <th class="posrep">#15</th>
+                <th class="posrep">#16</th>
+                <th class="posrep">#17</th>
+                <th class="posrep">#18</th>
+                <th class="posrep">#19</th>
+                <th class="posrep">#20</th>
             </tr>
         </thead>
         <tbody id="ligaprobabilidades">
@@ -142,9 +142,9 @@
                 relatorio[n][copta[n][0]+7] += 1 //Adiciona 1 à posição no campeonato
             }
             document.querySelector(`#numsimulacoes`).innerText = `${(p+1).toLocaleString('en-us')}`
-            /*if(listagem[3][2]=='Vasco'){
-                        console.log('similacao nº: '+repeticoes+' var equipe = '+JSON.stringify(tabelaRR))
-                        repeticoes = 99999  
+            /*if(listagem[1][2]=='Vasco'){
+                        console.log(`similacao nº: '+${p}+' \n var tabelaRRinicial = '+${JSON.stringify(tabelaRR)}`)
+                        break 
             }*/
         }
         relatorio.sort(ordenaprob)
