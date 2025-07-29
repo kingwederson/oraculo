@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oráculo | Campeonato Brasileiro</title>
+    <link rel="stylesheet" href="http://oraculo.wederson.com/estilodetabela.css">
+    <script src="../../simulador.js"></script>
+    <script src="ficheiro.js?v=2025-07-20_182746"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <link rel="stylesheet" href="../regras.css">
+</head>
+<body>
+    <a href="../../index.html"><h1>Oráculo</h1></a>
+    <h2>Probabilidades para a edição 2023 do Brasileirão Série A</h2>
+
+    <table id="probabilidades">
+        <thead>
+            </thead><caption>
+                <p>Resultados para <span id="numsimulacoes">100,000</span> simulações atualizadas para <span id="tempoutc">o término da 4ª rodada</span>.</p>
+            </caption>
+            <tbody><tr>
+                <th colspan="3">#</th>
+                <th>Equipe</th>
+                <th>Média de<br>pontos</th>
+                <th>Campeão</th>
+                <th>Libertadores<br>1‐4</th>
+                <th>Pre-Libertadores<br>5‐6</th>
+                <th>Sulamericana<br>7‐14</th>
+                <th>Rebaixamento<br>17‐20</th>
+                <th class="posrep">#1</th>
+                <th class="posrep">#2</th>
+                <th class="posrep">#3</th>
+                <th class="posrep">#4</th>
+                <th class="posrep">#5</th>
+                <th class="posrep">#6</th>
+                <th class="posrep">#7</th>
+                <th class="posrep">#8</th>
+                <th class="posrep">#9</th>
+                <th class="posrep">#10</th>
+                <th class="posrep">#11</th>
+                <th class="posrep">#12</th>
+                <th class="posrep">#13</th>
+                <th class="posrep">#14</th>
+                <th class="posrep">#15</th>
+                <th class="posrep">#16</th>
+                <th class="posrep">#17</th>
+                <th class="posrep">#18</th>
+                <th class="posrep">#19</th>
+                <th class="posrep">#20</th>
+            </tr>
+        
+        </tbody><tbody id="ligaprobabilidades">
+        <tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/palmeiras.png"></td>
+            <td class="timenome">Palmeiras</td>
+            <td class="num pts">71.531</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.51);"> <span class="resumo">51.1</span><span class="precisao">51.053</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.884);"> <span class="resumo">88.4</span><span class="precisao">88.377</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.068);"> <span class="resumo">6.8</span><span class="precisao">6.764</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.048);"> <span class="resumo">4.8</span><span class="precisao">4.788</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0);"> <span class="resumo">0.0</span><span class="precisao">0.011</span>%</td><td class="num posrep"> <span class="resumo">51.1</span><span class="precisao">51.053</span>%</td><td class="num posrep"> <span class="resumo">20.0</span><span class="precisao">19.993</span>%</td><td class="num posrep"> <span class="resumo">10.9</span><span class="precisao">10.927</span>%</td><td class="num posrep"> <span class="resumo">6.4</span><span class="precisao">6.404</span>%</td><td class="num posrep"> <span class="resumo">4.2</span><span class="precisao">4.175</span>%</td><td class="num posrep"> <span class="resumo">2.6</span><span class="precisao">2.589</span>%</td><td class="num posrep"> <span class="resumo">1.8</span><span class="precisao">1.798</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.164</span>%</td><td class="num posrep"> <span class="resumo">0.7</span><span class="precisao">0.694</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.504</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.272</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.181</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.105</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.070</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.038</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.022</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.008</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.003</span>%</td><td class="num posrep">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num posrep">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/botafogo.png"></td>
+            <td class="timenome">Botafogo</td>
+            <td class="num pts">64.094</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.139);"> <span class="resumo">13.9</span><span class="precisao">13.940</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.59);"> <span class="resumo">58.8</span><span class="precisao">58.820</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.177);"> <span class="resumo">17.7</span><span class="precisao">17.707</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.225);"> <span class="resumo">22.5</span><span class="precisao">22.506</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.242</span>%</td><td class="num posrep"> <span class="resumo">13.9</span><span class="precisao">13.940</span>%</td><td class="num posrep"> <span class="resumo">17.7</span><span class="precisao">17.664</span>%</td><td class="num posrep"> <span class="resumo">14.9</span><span class="precisao">14.943</span>%</td><td class="num posrep"> <span class="resumo">12.3</span><span class="precisao">12.273</span>%</td><td class="num posrep"> <span class="resumo">9.8</span><span class="precisao">9.850</span>%</td><td class="num posrep"> <span class="resumo">7.9</span><span class="precisao">7.857</span>%</td><td class="num posrep"> <span class="resumo">6.1</span><span class="precisao">6.133</span>%</td><td class="num posrep"> <span class="resumo">4.9</span><span class="precisao">4.863</span>%</td><td class="num posrep"> <span class="resumo">3.7</span><span class="precisao">3.687</span>%</td><td class="num posrep"> <span class="resumo">2.8</span><span class="precisao">2.764</span>%</td><td class="num posrep"> <span class="resumo">2.0</span><span class="precisao">2.015</span>%</td><td class="num posrep"> <span class="resumo">1.4</span><span class="precisao">1.411</span>%</td><td class="num posrep"> <span class="resumo">1.0</span><span class="precisao">0.962</span>%</td><td class="num posrep"> <span class="resumo">0.7</span><span class="precisao">0.671</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.455</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.270</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.152</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.064</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.023</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.003</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/fortaleza.png"></td>
+            <td class="timenome">Fortaleza</td>
+            <td class="num pts">61.542</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.08);"> <span class="resumo">7.8</span><span class="precisao">7.840</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.448);"> <span class="resumo">44.8</span><span class="precisao">44.769</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.2);"> <span class="resumo">20.0</span><span class="precisao">19.986</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.33);"> <span class="resumo">33.0</span><span class="precisao">32.984</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.006);"> <span class="resumo">0.6</span><span class="precisao">0.645</span>%</td><td class="num posrep"> <span class="resumo">7.8</span><span class="precisao">7.840</span>%</td><td class="num posrep"> <span class="resumo">12.4</span><span class="precisao">12.354</span>%</td><td class="num posrep"> <span class="resumo">12.7</span><span class="precisao">12.740</span>%</td><td class="num posrep"> <span class="resumo">11.8</span><span class="precisao">11.835</span>%</td><td class="num posrep"> <span class="resumo">10.6</span><span class="precisao">10.640</span>%</td><td class="num posrep"> <span class="resumo">9.3</span><span class="precisao">9.346</span>%</td><td class="num posrep"> <span class="resumo">7.9</span><span class="precisao">7.918</span>%</td><td class="num posrep"> <span class="resumo">6.5</span><span class="precisao">6.450</span>%</td><td class="num posrep"> <span class="resumo">5.3</span><span class="precisao">5.337</span>%</td><td class="num posrep"> <span class="resumo">4.2</span><span class="precisao">4.189</span>%</td><td class="num posrep"> <span class="resumo">3.2</span><span class="precisao">3.236</span>%</td><td class="num posrep"> <span class="resumo">2.5</span><span class="precisao">2.510</span>%</td><td class="num posrep"> <span class="resumo">1.8</span><span class="precisao">1.849</span>%</td><td class="num posrep"> <span class="resumo">1.5</span><span class="precisao">1.495</span>%</td><td class="num posrep"> <span class="resumo">1.0</span><span class="precisao">0.978</span>%</td><td class="num posrep"> <span class="resumo">0.6</span><span class="precisao">0.638</span>%</td><td class="num posrep"> <span class="resumo">0.4</span><span class="precisao">0.371</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.185</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.075</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.014</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/fluminense.png"></td>
+            <td class="timenome">Fluminense</td>
+            <td class="num pts">60.882</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.07);"> <span class="resumo">7.1</span><span class="precisao">7.097</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.423);"> <span class="resumo">42.3</span><span class="precisao">42.258</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.198);"> <span class="resumo">19.8</span><span class="precisao">19.769</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.353);"> <span class="resumo">35.3</span><span class="precisao">35.285</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.008);"> <span class="resumo">0.8</span><span class="precisao">0.820</span>%</td><td class="num posrep"> <span class="resumo">7.1</span><span class="precisao">7.097</span>%</td><td class="num posrep"> <span class="resumo">11.4</span><span class="precisao">11.403</span>%</td><td class="num posrep"> <span class="resumo">12.0</span><span class="precisao">12.037</span>%</td><td class="num posrep"> <span class="resumo">11.7</span><span class="precisao">11.721</span>%</td><td class="num posrep"> <span class="resumo">10.6</span><span class="precisao">10.615</span>%</td><td class="num posrep"> <span class="resumo">9.2</span><span class="precisao">9.154</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.057</span>%</td><td class="num posrep"> <span class="resumo">6.8</span><span class="precisao">6.795</span>%</td><td class="num posrep"> <span class="resumo">5.7</span><span class="precisao">5.683</span>%</td><td class="num posrep"> <span class="resumo">4.5</span><span class="precisao">4.543</span>%</td><td class="num posrep"> <span class="resumo">3.6</span><span class="precisao">3.640</span>%</td><td class="num posrep"> <span class="resumo">2.9</span><span class="precisao">2.868</span>%</td><td class="num posrep"> <span class="resumo">2.1</span><span class="precisao">2.113</span>%</td><td class="num posrep"> <span class="resumo">1.6</span><span class="precisao">1.586</span>%</td><td class="num posrep"> <span class="resumo">1.1</span><span class="precisao">1.137</span>%</td><td class="num posrep"> <span class="resumo">0.7</span><span class="precisao">0.731</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.480</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.240</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.086</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.014</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/cruzeiro.png"></td>
+            <td class="timenome">Cruzeiro</td>
+            <td class="num pts">60.661</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.068);"> <span class="resumo">6.8</span><span class="precisao">6.764</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.407);"> <span class="resumo">40.7</span><span class="precisao">40.745</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.205);"> <span class="resumo">20.5</span><span class="precisao">20.457</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.36);"> <span class="resumo">36.1</span><span class="precisao">36.115</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.007);"> <span class="resumo">0.7</span><span class="precisao">0.738</span>%</td><td class="num posrep"> <span class="resumo">6.8</span><span class="precisao">6.764</span>%</td><td class="num posrep"> <span class="resumo">10.8</span><span class="precisao">10.756</span>%</td><td class="num posrep"> <span class="resumo">11.8</span><span class="precisao">11.755</span>%</td><td class="num posrep"> <span class="resumo">11.5</span><span class="precisao">11.470</span>%</td><td class="num posrep"> <span class="resumo">10.8</span><span class="precisao">10.762</span>%</td><td class="num posrep"> <span class="resumo">9.7</span><span class="precisao">9.695</span>%</td><td class="num posrep"> <span class="resumo">8.3</span><span class="precisao">8.269</span>%</td><td class="num posrep"> <span class="resumo">6.9</span><span class="precisao">6.948</span>%</td><td class="num posrep"> <span class="resumo">5.8</span><span class="precisao">5.750</span>%</td><td class="num posrep"> <span class="resumo">4.6</span><span class="precisao">4.570</span>%</td><td class="num posrep"> <span class="resumo">3.7</span><span class="precisao">3.694</span>%</td><td class="num posrep"> <span class="resumo">3.0</span><span class="precisao">2.976</span>%</td><td class="num posrep"> <span class="resumo">2.3</span><span class="precisao">2.252</span>%</td><td class="num posrep"> <span class="resumo">1.7</span><span class="precisao">1.656</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.174</span>%</td><td class="num posrep"> <span class="resumo">0.8</span><span class="precisao">0.771</span>%</td><td class="num posrep"> <span class="resumo">0.4</span><span class="precisao">0.423</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.219</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.077</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.019</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/saopaulo.png"></td>
+            <td class="timenome">São Paulo</td>
+            <td class="num pts">60.108</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.06);"> <span class="resumo">5.7</span><span class="precisao">5.665</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.38);"> <span class="resumo">37.9</span><span class="precisao">37.891</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.203);"> <span class="resumo">20.3</span><span class="precisao">20.299</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.385);"> <span class="resumo">38.5</span><span class="precisao">38.480</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.01);"> <span class="resumo">1.0</span><span class="precisao">1.027</span>%</td><td class="num posrep"> <span class="resumo">5.7</span><span class="precisao">5.665</span>%</td><td class="num posrep"> <span class="resumo">10.0</span><span class="precisao">10.004</span>%</td><td class="num posrep"> <span class="resumo">11.1</span><span class="precisao">11.121</span>%</td><td class="num posrep"> <span class="resumo">11.1</span><span class="precisao">11.101</span>%</td><td class="num posrep"> <span class="resumo">10.7</span><span class="precisao">10.684</span>%</td><td class="num posrep"> <span class="resumo">9.6</span><span class="precisao">9.615</span>%</td><td class="num posrep"> <span class="resumo">8.3</span><span class="precisao">8.326</span>%</td><td class="num posrep"> <span class="resumo">7.2</span><span class="precisao">7.206</span>%</td><td class="num posrep"> <span class="resumo">6.1</span><span class="precisao">6.118</span>%</td><td class="num posrep"> <span class="resumo">5.1</span><span class="precisao">5.071</span>%</td><td class="num posrep"> <span class="resumo">4.1</span><span class="precisao">4.066</span>%</td><td class="num posrep"> <span class="resumo">3.2</span><span class="precisao">3.200</span>%</td><td class="num posrep"> <span class="resumo">2.5</span><span class="precisao">2.540</span>%</td><td class="num posrep"> <span class="resumo">2.0</span><span class="precisao">1.953</span>%</td><td class="num posrep"> <span class="resumo">1.4</span><span class="precisao">1.381</span>%</td><td class="num posrep"> <span class="resumo">0.9</span><span class="precisao">0.922</span>%</td><td class="num posrep"> <span class="resumo">0.6</span><span class="precisao">0.598</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.300</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.102</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.027</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/internacional.png"></td>
+            <td class="timenome">Internacional</td>
+            <td class="num pts">58.487</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.04);"> <span class="resumo">3.8</span><span class="precisao">3.821</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.294);"> <span class="resumo">29.4</span><span class="precisao">29.370</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.193);"> <span class="resumo">19.3</span><span class="precisao">19.303</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.461);"> <span class="resumo">46.1</span><span class="precisao">46.084</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.017);"> <span class="resumo">1.7</span><span class="precisao">1.712</span>%</td><td class="num posrep"> <span class="resumo">3.8</span><span class="precisao">3.821</span>%</td><td class="num posrep"> <span class="resumo">7.2</span><span class="precisao">7.190</span>%</td><td class="num posrep"> <span class="resumo">8.8</span><span class="precisao">8.829</span>%</td><td class="num posrep"> <span class="resumo">9.5</span><span class="precisao">9.530</span>%</td><td class="num posrep"> <span class="resumo">9.7</span><span class="precisao">9.717</span>%</td><td class="num posrep"> <span class="resumo">9.6</span><span class="precisao">9.586</span>%</td><td class="num posrep"> <span class="resumo">9.2</span><span class="precisao">9.215</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.167</span>%</td><td class="num posrep"> <span class="resumo">7.1</span><span class="precisao">7.135</span>%</td><td class="num posrep"> <span class="resumo">6.1</span><span class="precisao">6.090</span>%</td><td class="num posrep"> <span class="resumo">5.1</span><span class="precisao">5.100</span>%</td><td class="num posrep"> <span class="resumo">4.3</span><span class="precisao">4.342</span>%</td><td class="num posrep"> <span class="resumo">3.4</span><span class="precisao">3.356</span>%</td><td class="num posrep"> <span class="resumo">2.7</span><span class="precisao">2.679</span>%</td><td class="num posrep"> <span class="resumo">2.0</span><span class="precisao">2.049</span>%</td><td class="num posrep"> <span class="resumo">1.5</span><span class="precisao">1.482</span>%</td><td class="num posrep"> <span class="resumo">0.9</span><span class="precisao">0.940</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.518</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.189</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.065</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/gremio.png"></td>
+            <td class="timenome">Grêmio</td>
+            <td class="num pts">53.659</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.01);"> <span class="resumo">1.0</span><span class="precisao">1.039</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.12);"> <span class="resumo">12.2</span><span class="precisao">12.247</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.13);"> <span class="resumo">13.1</span><span class="precisao">13.100</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.594);"> <span class="resumo">59.4</span><span class="precisao">59.365</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.062);"> <span class="resumo">6.2</span><span class="precisao">6.231</span>%</td><td class="num posrep"> <span class="resumo">1.0</span><span class="precisao">1.039</span>%</td><td class="num posrep"> <span class="resumo">2.5</span><span class="precisao">2.456</span>%</td><td class="num posrep"> <span class="resumo">3.7</span><span class="precisao">3.682</span>%</td><td class="num posrep"> <span class="resumo">5.1</span><span class="precisao">5.070</span>%</td><td class="num posrep"> <span class="resumo">6.1</span><span class="precisao">6.087</span>%</td><td class="num posrep"> <span class="resumo">7.0</span><span class="precisao">7.013</span>%</td><td class="num posrep"> <span class="resumo">7.7</span><span class="precisao">7.651</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.180</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.077</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.119</span>%</td><td class="num posrep"> <span class="resumo">7.7</span><span class="precisao">7.688</span>%</td><td class="num posrep"> <span class="resumo">7.2</span><span class="precisao">7.234</span>%</td><td class="num posrep"> <span class="resumo">6.6</span><span class="precisao">6.593</span>%</td><td class="num posrep"> <span class="resumo">5.8</span><span class="precisao">5.823</span>%</td><td class="num posrep"> <span class="resumo">5.0</span><span class="precisao">4.965</span>%</td><td class="num posrep"> <span class="resumo">4.1</span><span class="precisao">4.092</span>%</td><td class="num posrep"> <span class="resumo">3.0</span><span class="precisao">3.044</span>%</td><td class="num posrep"> <span class="resumo">1.9</span><span class="precisao">1.927</span>%</td><td class="num posrep"> <span class="resumo">0.9</span><span class="precisao">0.948</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.312</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/flamengo.png"></td>
+            <td class="timenome">Flamengo</td>
+            <td class="num pts">53.066</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.009);"> <span class="resumo">0.9</span><span class="precisao">0.905</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.117);"> <span class="resumo">11.7</span><span class="precisao">11.708</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.127);"> <span class="resumo">12.7</span><span class="precisao">12.660</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.59);"> <span class="resumo">58.9</span><span class="precisao">58.929</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.07);"> <span class="resumo">7.2</span><span class="precisao">7.208</span>%</td><td class="num posrep"> <span class="resumo">0.9</span><span class="precisao">0.905</span>%</td><td class="num posrep"> <span class="resumo">2.4</span><span class="precisao">2.378</span>%</td><td class="num posrep"> <span class="resumo">3.7</span><span class="precisao">3.662</span>%</td><td class="num posrep"> <span class="resumo">4.8</span><span class="precisao">4.763</span>%</td><td class="num posrep"> <span class="resumo">5.8</span><span class="precisao">5.830</span>%</td><td class="num posrep"> <span class="resumo">6.8</span><span class="precisao">6.830</span>%</td><td class="num posrep"> <span class="resumo">7.4</span><span class="precisao">7.366</span>%</td><td class="num posrep"> <span class="resumo">7.9</span><span class="precisao">7.908</span>%</td><td class="num posrep"> <span class="resumo">8.0</span><span class="precisao">7.984</span>%</td><td class="num posrep"> <span class="resumo">7.9</span><span class="precisao">7.944</span>%</td><td class="num posrep"> <span class="resumo">7.7</span><span class="precisao">7.700</span>%</td><td class="num posrep"> <span class="resumo">7.3</span><span class="precisao">7.262</span>%</td><td class="num posrep"> <span class="resumo">6.8</span><span class="precisao">6.786</span>%</td><td class="num posrep"> <span class="resumo">6.0</span><span class="precisao">5.979</span>%</td><td class="num posrep"> <span class="resumo">5.2</span><span class="precisao">5.190</span>%</td><td class="num posrep"> <span class="resumo">4.3</span><span class="precisao">4.305</span>%</td><td class="num posrep"> <span class="resumo">3.3</span><span class="precisao">3.329</span>%</td><td class="num posrep"> <span class="resumo">2.3</span><span class="precisao">2.264</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.216</span>%</td><td class="num posrep"> <span class="resumo">0.4</span><span class="precisao">0.399</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/athletico.png"></td>
+            <td class="timenome">Athlético</td>
+            <td class="num pts">51.884</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.006);"> <span class="resumo">0.6</span><span class="precisao">0.612</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.086);"> <span class="resumo">8.6</span><span class="precisao">8.628</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.104);"> <span class="resumo">10.4</span><span class="precisao">10.367</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.6);"> <span class="resumo">60.0</span><span class="precisao">60.026</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.093);"> <span class="resumo">9.3</span><span class="precisao">9.285</span>%</td><td class="num posrep"> <span class="resumo">0.6</span><span class="precisao">0.612</span>%</td><td class="num posrep"> <span class="resumo">1.6</span><span class="precisao">1.625</span>%</td><td class="num posrep"> <span class="resumo">2.6</span><span class="precisao">2.621</span>%</td><td class="num posrep"> <span class="resumo">3.8</span><span class="precisao">3.770</span>%</td><td class="num posrep"> <span class="resumo">4.7</span><span class="precisao">4.680</span>%</td><td class="num posrep"> <span class="resumo">5.7</span><span class="precisao">5.687</span>%</td><td class="num posrep"> <span class="resumo">6.6</span><span class="precisao">6.585</span>%</td><td class="num posrep"> <span class="resumo">7.3</span><span class="precisao">7.268</span>%</td><td class="num posrep"> <span class="resumo">7.9</span><span class="precisao">7.859</span>%</td><td class="num posrep"> <span class="resumo">8.0</span><span class="precisao">8.019</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.051</span>%</td><td class="num posrep"> <span class="resumo">7.8</span><span class="precisao">7.754</span>%</td><td class="num posrep"> <span class="resumo">7.6</span><span class="precisao">7.568</span>%</td><td class="num posrep"> <span class="resumo">6.9</span><span class="precisao">6.922</span>%</td><td class="num posrep"> <span class="resumo">6.3</span><span class="precisao">6.346</span>%</td><td class="num posrep"> <span class="resumo">5.3</span><span class="precisao">5.348</span>%</td><td class="num posrep"> <span class="resumo">4.2</span><span class="precisao">4.243</span>%</td><td class="num posrep"> <span class="resumo">2.9</span><span class="precisao">2.905</span>%</td><td class="num posrep"> <span class="resumo">1.6</span><span class="precisao">1.578</span>%</td><td class="num posrep"> <span class="resumo">0.6</span><span class="precisao">0.559</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/bahia.png"></td>
+            <td class="timenome">Bahia</td>
+            <td class="num pts">50.056</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.003);"> <span class="resumo">0.3</span><span class="precisao">0.321</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.055);"> <span class="resumo">5.5</span><span class="precisao">5.548</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.08);"> <span class="resumo">7.8</span><span class="precisao">7.793</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.58);"> <span class="resumo">58.0</span><span class="precisao">58.045</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.138);"> <span class="resumo">13.8</span><span class="precisao">13.780</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.321</span>%</td><td class="num posrep"> <span class="resumo">1.0</span><span class="precisao">0.969</span>%</td><td class="num posrep"> <span class="resumo">1.7</span><span class="precisao">1.709</span>%</td><td class="num posrep"> <span class="resumo">2.5</span><span class="precisao">2.549</span>%</td><td class="num posrep"> <span class="resumo">3.4</span><span class="precisao">3.412</span>%</td><td class="num posrep"> <span class="resumo">4.4</span><span class="precisao">4.381</span>%</td><td class="num posrep"> <span class="resumo">5.1</span><span class="precisao">5.084</span>%</td><td class="num posrep"> <span class="resumo">6.1</span><span class="precisao">6.061</span>%</td><td class="num posrep"> <span class="resumo">7.0</span><span class="precisao">6.998</span>%</td><td class="num posrep"> <span class="resumo">7.5</span><span class="precisao">7.485</span>%</td><td class="num posrep"> <span class="resumo">7.9</span><span class="precisao">7.860</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.230</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.242</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.085</span>%</td><td class="num posrep"> <span class="resumo">7.8</span><span class="precisao">7.798</span>%</td><td class="num posrep"> <span class="resumo">7.0</span><span class="precisao">7.036</span>%</td><td class="num posrep"> <span class="resumo">6.0</span><span class="precisao">5.987</span>%</td><td class="num posrep"> <span class="resumo">4.4</span><span class="precisao">4.427</span>%</td><td class="num posrep"> <span class="resumo">2.4</span><span class="precisao">2.417</span>%</td><td class="num posrep"> <span class="resumo">0.9</span><span class="precisao">0.949</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/corinthians.png"></td>
+            <td class="timenome">Corinthians</td>
+            <td class="num pts">49.499</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.003);"> <span class="resumo">0.3</span><span class="precisao">0.251</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.048);"> <span class="resumo">4.8</span><span class="precisao">4.775</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.07);"> <span class="resumo">7.0</span><span class="precisao">6.964</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.564);"> <span class="resumo">56.4</span><span class="precisao">56.402</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.16);"> <span class="resumo">16.1</span><span class="precisao">16.146</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.251</span>%</td><td class="num posrep"> <span class="resumo">0.8</span><span class="precisao">0.793</span>%</td><td class="num posrep"> <span class="resumo">1.4</span><span class="precisao">1.405</span>%</td><td class="num posrep"> <span class="resumo">2.3</span><span class="precisao">2.326</span>%</td><td class="num posrep"> <span class="resumo">3.1</span><span class="precisao">3.072</span>%</td><td class="num posrep"> <span class="resumo">3.9</span><span class="precisao">3.892</span>%</td><td class="num posrep"> <span class="resumo">4.8</span><span class="precisao">4.770</span>%</td><td class="num posrep"> <span class="resumo">5.7</span><span class="precisao">5.692</span>%</td><td class="num posrep"> <span class="resumo">6.5</span><span class="precisao">6.488</span>%</td><td class="num posrep"> <span class="resumo">7.1</span><span class="precisao">7.100</span>%</td><td class="num posrep"> <span class="resumo">7.8</span><span class="precisao">7.762</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.151</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.199</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.240</span>%</td><td class="num posrep"> <span class="resumo">8.0</span><span class="precisao">8.004</span>%</td><td class="num posrep"> <span class="resumo">7.7</span><span class="precisao">7.709</span>%</td><td class="num posrep"> <span class="resumo">6.8</span><span class="precisao">6.799</span>%</td><td class="num posrep"> <span class="resumo">5.0</span><span class="precisao">5.033</span>%</td><td class="num posrep"> <span class="resumo">3.1</span><span class="precisao">3.136</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.178</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/santos.png"></td>
+            <td class="timenome">Santos</td>
+            <td class="num pts">48.946</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.201</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.04);"> <span class="resumo">4.0</span><span class="precisao">4.018</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.062);"> <span class="resumo">6.2</span><span class="precisao">6.191</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.556);"> <span class="resumo">55.6</span><span class="precisao">55.607</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.177);"> <span class="resumo">17.7</span><span class="precisao">17.651</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.201</span>%</td><td class="num posrep"> <span class="resumo">0.7</span><span class="precisao">0.685</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.245</span>%</td><td class="num posrep"> <span class="resumo">1.9</span><span class="precisao">1.887</span>%</td><td class="num posrep"> <span class="resumo">2.6</span><span class="precisao">2.632</span>%</td><td class="num posrep"> <span class="resumo">3.6</span><span class="precisao">3.559</span>%</td><td class="num posrep"> <span class="resumo">4.6</span><span class="precisao">4.594</span>%</td><td class="num posrep"> <span class="resumo">5.3</span><span class="precisao">5.255</span>%</td><td class="num posrep"> <span class="resumo">6.0</span><span class="precisao">6.035</span>%</td><td class="num posrep"> <span class="resumo">6.8</span><span class="precisao">6.787</span>%</td><td class="num posrep"> <span class="resumo">7.6</span><span class="precisao">7.617</span>%</td><td class="num posrep"> <span class="resumo">8.2</span><span class="precisao">8.169</span>%</td><td class="num posrep"> <span class="resumo">8.5</span><span class="precisao">8.504</span>%</td><td class="num posrep"> <span class="resumo">8.6</span><span class="precisao">8.646</span>%</td><td class="num posrep"> <span class="resumo">8.5</span><span class="precisao">8.498</span>%</td><td class="num posrep"> <span class="resumo">8.0</span><span class="precisao">8.035</span>%</td><td class="num posrep"> <span class="resumo">7.1</span><span class="precisao">7.147</span>%</td><td class="num posrep"> <span class="resumo">5.6</span><span class="precisao">5.565</span>%</td><td class="num posrep"> <span class="resumo">3.5</span><span class="precisao">3.524</span>%</td><td class="num posrep"> <span class="resumo">1.4</span><span class="precisao">1.415</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/atletico.png"></td>
+            <td class="timenome">Atlético</td>
+            <td class="num pts">48.737</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.197</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.037);"> <span class="resumo">3.7</span><span class="precisao">3.725</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.06);"> <span class="resumo">5.8</span><span class="precisao">5.812</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.55);"> <span class="resumo">55.0</span><span class="precisao">55.027</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.18);"> <span class="resumo">18.2</span><span class="precisao">18.198</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.197</span>%</td><td class="num posrep"> <span class="resumo">0.6</span><span class="precisao">0.632</span>%</td><td class="num posrep"> <span class="resumo">1.1</span><span class="precisao">1.149</span>%</td><td class="num posrep"> <span class="resumo">1.7</span><span class="precisao">1.747</span>%</td><td class="num posrep"> <span class="resumo">2.5</span><span class="precisao">2.458</span>%</td><td class="num posrep"> <span class="resumo">3.4</span><span class="precisao">3.354</span>%</td><td class="num posrep"> <span class="resumo">4.3</span><span class="precisao">4.271</span>%</td><td class="num posrep"> <span class="resumo">5.0</span><span class="precisao">4.998</span>%</td><td class="num posrep"> <span class="resumo">5.9</span><span class="precisao">5.949</span>%</td><td class="num posrep"> <span class="resumo">6.9</span><span class="precisao">6.880</span>%</td><td class="num posrep"> <span class="resumo">7.6</span><span class="precisao">7.601</span>%</td><td class="num posrep"> <span class="resumo">8.0</span><span class="precisao">8.018</span>%</td><td class="num posrep"> <span class="resumo">8.6</span><span class="precisao">8.571</span>%</td><td class="num posrep"> <span class="resumo">8.7</span><span class="precisao">8.739</span>%</td><td class="num posrep"> <span class="resumo">8.8</span><span class="precisao">8.820</span>%</td><td class="num posrep"> <span class="resumo">8.4</span><span class="precisao">8.418</span>%</td><td class="num posrep"> <span class="resumo">7.3</span><span class="precisao">7.288</span>%</td><td class="num posrep"> <span class="resumo">5.7</span><span class="precisao">5.701</span>%</td><td class="num posrep"> <span class="resumo">3.6</span><span class="precisao">3.613</span>%</td><td class="num posrep"> <span class="resumo">1.6</span><span class="precisao">1.596</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/vasco.png"></td>
+            <td class="timenome">Vasco</td>
+            <td class="num pts">47.588</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.118</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.027);"> <span class="resumo">2.7</span><span class="precisao">2.708</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.046);"> <span class="resumo">4.6</span><span class="precisao">4.632</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.51);"> <span class="resumo">51.0</span><span class="precisao">51.001</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.23);"> <span class="resumo">23.3</span><span class="precisao">23.309</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.118</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.461</span>%</td><td class="num posrep"> <span class="resumo">0.8</span><span class="precisao">0.845</span>%</td><td class="num posrep"> <span class="resumo">1.3</span><span class="precisao">1.284</span>%</td><td class="num posrep"> <span class="resumo">2.0</span><span class="precisao">1.993</span>%</td><td class="num posrep"> <span class="resumo">2.6</span><span class="precisao">2.639</span>%</td><td class="num posrep"> <span class="resumo">3.4</span><span class="precisao">3.389</span>%</td><td class="num posrep"> <span class="resumo">4.3</span><span class="precisao">4.324</span>%</td><td class="num posrep"> <span class="resumo">5.2</span><span class="precisao">5.231</span>%</td><td class="num posrep"> <span class="resumo">6.1</span><span class="precisao">6.053</span>%</td><td class="num posrep"> <span class="resumo">7.0</span><span class="precisao">7.008</span>%</td><td class="num posrep"> <span class="resumo">7.7</span><span class="precisao">7.675</span>%</td><td class="num posrep"> <span class="resumo">8.5</span><span class="precisao">8.507</span>%</td><td class="num posrep"> <span class="resumo">8.8</span><span class="precisao">8.814</span>%</td><td class="num posrep"> <span class="resumo">9.1</span><span class="precisao">9.128</span>%</td><td class="num posrep"> <span class="resumo">9.2</span><span class="precisao">9.222</span>%</td><td class="num posrep"> <span class="resumo">8.9</span><span class="precisao">8.912</span>%</td><td class="num posrep"> <span class="resumo">7.3</span><span class="precisao">7.277</span>%</td><td class="num posrep"> <span class="resumo">4.8</span><span class="precisao">4.820</span>%</td><td class="num posrep"> <span class="resumo">2.3</span><span class="precisao">2.300</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/redbull.png"></td>
+            <td class="timenome">Red Bull</td>
+            <td class="num pts">46.938</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.105</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.023);"> <span class="resumo">2.3</span><span class="precisao">2.302</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.04);"> <span class="resumo">4.1</span><span class="precisao">4.061</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.485);"> <span class="resumo">48.5</span><span class="precisao">48.525</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.26);"> <span class="resumo">25.9</span><span class="precisao">25.865</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.105</span>%</td><td class="num posrep"> <span class="resumo">0.4</span><span class="precisao">0.362</span>%</td><td class="num posrep"> <span class="resumo">0.7</span><span class="precisao">0.728</span>%</td><td class="num posrep"> <span class="resumo">1.1</span><span class="precisao">1.107</span>%</td><td class="num posrep"> <span class="resumo">1.7</span><span class="precisao">1.687</span>%</td><td class="num posrep"> <span class="resumo">2.4</span><span class="precisao">2.374</span>%</td><td class="num posrep"> <span class="resumo">3.0</span><span class="precisao">3.048</span>%</td><td class="num posrep"> <span class="resumo">3.9</span><span class="precisao">3.867</span>%</td><td class="num posrep"> <span class="resumo">4.8</span><span class="precisao">4.809</span>%</td><td class="num posrep"> <span class="resumo">5.7</span><span class="precisao">5.738</span>%</td><td class="num posrep"> <span class="resumo">6.5</span><span class="precisao">6.542</span>%</td><td class="num posrep"> <span class="resumo">7.5</span><span class="precisao">7.468</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.095</span>%</td><td class="num posrep"> <span class="resumo">9.0</span><span class="precisao">8.958</span>%</td><td class="num posrep"> <span class="resumo">9.5</span><span class="precisao">9.457</span>%</td><td class="num posrep"> <span class="resumo">9.8</span><span class="precisao">9.790</span>%</td><td class="num posrep"> <span class="resumo">9.3</span><span class="precisao">9.297</span>%</td><td class="num posrep"> <span class="resumo">8.1</span><span class="precisao">8.148</span>%</td><td class="num posrep"> <span class="resumo">5.6</span><span class="precisao">5.628</span>%</td><td class="num posrep"> <span class="resumo">2.8</span><span class="precisao">2.792</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/cuiaba.png"></td>
+            <td class="timenome">Cuiabá</td>
+            <td class="num pts">46.153</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.065</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.02);"> <span class="resumo">1.8</span><span class="precisao">1.810</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.03);"> <span class="resumo">3.3</span><span class="precisao">3.339</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.46);"> <span class="resumo">46.0</span><span class="precisao">45.975</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.29);"> <span class="resumo">29.1</span><span class="precisao">29.067</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.065</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.255</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.515</span>%</td><td class="num posrep"> <span class="resumo">1.0</span><span class="precisao">0.975</span>%</td><td class="num posrep"> <span class="resumo">1.4</span><span class="precisao">1.405</span>%</td><td class="num posrep"> <span class="resumo">1.9</span><span class="precisao">1.934</span>%</td><td class="num posrep"> <span class="resumo">2.7</span><span class="precisao">2.724</span>%</td><td class="num posrep"> <span class="resumo">3.5</span><span class="precisao">3.517</span>%</td><td class="num posrep"> <span class="resumo">4.2</span><span class="precisao">4.238</span>%</td><td class="num posrep"> <span class="resumo">5.2</span><span class="precisao">5.248</span>%</td><td class="num posrep"> <span class="resumo">6.2</span><span class="precisao">6.242</span>%</td><td class="num posrep"> <span class="resumo">7.0</span><span class="precisao">6.990</span>%</td><td class="num posrep"> <span class="resumo">8.0</span><span class="precisao">8.046</span>%</td><td class="num posrep"> <span class="resumo">9.0</span><span class="precisao">8.970</span>%</td><td class="num posrep"> <span class="resumo">9.6</span><span class="precisao">9.605</span>%</td><td class="num posrep"> <span class="resumo">10.2</span><span class="precisao">10.204</span>%</td><td class="num posrep"> <span class="resumo">10.3</span><span class="precisao">10.278</span>%</td><td class="num posrep"> <span class="resumo">9.3</span><span class="precisao">9.263</span>%</td><td class="num posrep"> <span class="resumo">6.5</span><span class="precisao">6.520</span>%</td><td class="num posrep"> <span class="resumo">3.0</span><span class="precisao">3.006</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/goias.png"></td>
+            <td class="timenome">Goiás</td>
+            <td class="num pts">39.708</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0);"> <span class="resumo">0.0</span><span class="precisao">0.005</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.221</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.006);"> <span class="resumo">0.6</span><span class="precisao">0.557</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.194);"> <span class="resumo">19.4</span><span class="precisao">19.374</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.63);"> <span class="resumo">63.0</span><span class="precisao">62.971</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.005</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.017</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.067</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.132</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.218</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.339</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.546</span>%</td><td class="num posrep"> <span class="resumo">0.8</span><span class="precisao">0.838</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.231</span>%</td><td class="num posrep"> <span class="resumo">1.7</span><span class="precisao">1.722</span>%</td><td class="num posrep"> <span class="resumo">2.3</span><span class="precisao">2.307</span>%</td><td class="num posrep"> <span class="resumo">3.1</span><span class="precisao">3.109</span>%</td><td class="num posrep"> <span class="resumo">4.1</span><span class="precisao">4.120</span>%</td><td class="num posrep"> <span class="resumo">5.5</span><span class="precisao">5.501</span>%</td><td class="num posrep"> <span class="resumo">7.4</span><span class="precisao">7.372</span>%</td><td class="num posrep"> <span class="resumo">9.5</span><span class="precisao">9.505</span>%</td><td class="num posrep"> <span class="resumo">12.7</span><span class="precisao">12.745</span>%</td><td class="num posrep"> <span class="resumo">17.2</span><span class="precisao">17.222</span>%</td><td class="num posrep"> <span class="resumo">18.5</span><span class="precisao">18.471</span>%</td><td class="num posrep"> <span class="resumo">14.5</span><span class="precisao">14.533</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/americamg.png"></td>
+            <td class="timenome">América</td>
+            <td class="num pts">36.481</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0);">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0);"> <span class="resumo">0.1</span><span class="precisao">0.061</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0.002);"> <span class="resumo">0.2</span><span class="precisao">0.184</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.1);"> <span class="resumo">10.3</span><span class="precisao">10.316</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.778);"> <span class="resumo">77.8</span><span class="precisao">77.824</span>%</td><td class="num posrep">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.003</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.012</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.046</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.064</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.120</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.202</span>%</td><td class="num posrep"> <span class="resumo">0.4</span><span class="precisao">0.383</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.506</span>%</td><td class="num posrep"> <span class="resumo">0.8</span><span class="precisao">0.827</span>%</td><td class="num posrep"> <span class="resumo">1.1</span><span class="precisao">1.086</span>%</td><td class="num posrep"> <span class="resumo">1.6</span><span class="precisao">1.638</span>%</td><td class="num posrep"> <span class="resumo">2.4</span><span class="precisao">2.365</span>%</td><td class="num posrep"> <span class="resumo">3.3</span><span class="precisao">3.309</span>%</td><td class="num posrep"> <span class="resumo">4.8</span><span class="precisao">4.751</span>%</td><td class="num posrep"> <span class="resumo">6.9</span><span class="precisao">6.864</span>%</td><td class="num posrep"> <span class="resumo">10.4</span><span class="precisao">10.434</span>%</td><td class="num posrep"> <span class="resumo">15.8</span><span class="precisao">15.776</span>%</td><td class="num posrep"> <span class="resumo">24.4</span><span class="precisao">24.422</span>%</td><td class="num posrep"> <span class="resumo">27.2</span><span class="precisao">27.192</span>%</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos"></td>
+            <td class="escudo"><img src="http://oraculo.wederson.com/brasil/imagem/coritiba.png"></td>
+            <td class="timenome">Coritiba</td>
+            <td class="num pts">33.883</td>
+            <td class="num" style="background-color: rgba(255, 255, 0, 0);"> <span class="resumo">0.0</span><span class="precisao">0.001</span>%</td>
+            <td class="num" style="background-color: rgba(64, 64, 255, 0);"> <span class="resumo">0.0</span><span class="precisao">0.019</span>%</td>
+            <td class="num" style="background-color: rgba(255, 140, 0, 0);"> <span class="resumo">0.1</span><span class="precisao">0.055</span>%</td>
+            <td class="num" style="background-color: rgba(0, 128, 0, 0.05);"> <span class="resumo">5.2</span><span class="precisao">5.166</span>%</td>
+            <td class="num" style="background-color: rgba(255, 64, 64, 0.873);"> <span class="resumo">87.3</span><span class="precisao">87.270</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.001</span>%</td><td class="num posrep">✘ <span class="resumo">0.0</span><span class="precisao">0.000</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.008</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.010</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.019</span>%</td><td class="num posrep"> <span class="resumo">0.0</span><span class="precisao">0.036</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.054</span>%</td><td class="num posrep"> <span class="resumo">0.1</span><span class="precisao">0.116</span>%</td><td class="num posrep"> <span class="resumo">0.2</span><span class="precisao">0.191</span>%</td><td class="num posrep"> <span class="resumo">0.3</span><span class="precisao">0.347</span>%</td><td class="num posrep"> <span class="resumo">0.5</span><span class="precisao">0.513</span>%</td><td class="num posrep"> <span class="resumo">0.8</span><span class="precisao">0.814</span>%</td><td class="num posrep"> <span class="resumo">1.2</span><span class="precisao">1.227</span>%</td><td class="num posrep"> <span class="resumo">1.9</span><span class="precisao">1.904</span>%</td><td class="num posrep"> <span class="resumo">2.9</span><span class="precisao">2.854</span>%</td><td class="num posrep"> <span class="resumo">4.6</span><span class="precisao">4.636</span>%</td><td class="num posrep"> <span class="resumo">7.5</span><span class="precisao">7.525</span>%</td><td class="num posrep"> <span class="resumo">13.0</span><span class="precisao">12.963</span>%</td><td class="num posrep"> <span class="resumo">23.2</span><span class="precisao">23.155</span>%</td><td class="num posrep"> <span class="resumo">43.6</span><span class="precisao">43.627</span>%</td>
+        </tr></tbody>
+    </table>
+
+    <link rel="stylesheet" href="../../estilodetabela.css">
+
+    <table id="liga">
+        <thead>
+            <tr>
+                <th class="pos" colspan="3">posição<img class="crest" src=""></th>
+                <th class="timenome">Equipe</th>
+                <th class="pts">Pts</th>
+                <th class="vit">V</th>
+                <th class="emp">E</th>
+                <th class="der">D</th>
+                <th class="golb">g</th>
+                <th class="golp">g+</th>
+                <th class="golc">g-</th>
+                <th class="jogos">J</th>
+            </tr>
+        </thead>
+        <tbody id="ligastandings">
+
+        <tr>
+            <td class="quali"></td>
+            <td class="pos">1</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/botafogo.png"></td>
+            <td class="timenome">Botafogo</td>
+            <td class="pts">12</td>
+            <td class="vit">4</td>
+            <td class="emp">0</td>
+            <td class="der">0</td>
+            <td class="golb">+5</td>
+            <td class="golp">9</td>
+            <td class="golc">4</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">2</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/palmeiras.png"></td>
+            <td class="timenome">Palmeiras</td>
+            <td class="pts">10</td>
+            <td class="vit">3</td>
+            <td class="emp">1</td>
+            <td class="der">0</td>
+            <td class="golb">+7</td>
+            <td class="golp">11</td>
+            <td class="golc">4</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">3</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/cruzeiro.png"></td>
+            <td class="timenome">Cruzeiro</td>
+            <td class="pts">9</td>
+            <td class="vit">3</td>
+            <td class="emp">0</td>
+            <td class="der">1</td>
+            <td class="golb">+4</td>
+            <td class="golp">7</td>
+            <td class="golc">3</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">4</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/fortaleza.png"></td>
+            <td class="timenome">Fortaleza</td>
+            <td class="pts">8</td>
+            <td class="vit">2</td>
+            <td class="emp">2</td>
+            <td class="der">0</td>
+            <td class="golb">+5</td>
+            <td class="golp">9</td>
+            <td class="golc">4</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">5</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/saopaulo.png"></td>
+            <td class="timenome">São Paulo</td>
+            <td class="pts">7</td>
+            <td class="vit">2</td>
+            <td class="emp">1</td>
+            <td class="der">1</td>
+            <td class="golb">+4</td>
+            <td class="golp">7</td>
+            <td class="golc">3</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">6</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/fluminense.png"></td>
+            <td class="timenome">Fluminense</td>
+            <td class="pts">7</td>
+            <td class="vit">2</td>
+            <td class="emp">1</td>
+            <td class="der">1</td>
+            <td class="golb">+3</td>
+            <td class="golp">8</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">7</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/gremio.png"></td>
+            <td class="timenome">Grêmio</td>
+            <td class="pts">7</td>
+            <td class="vit">2</td>
+            <td class="emp">1</td>
+            <td class="der">1</td>
+            <td class="golb">+1</td>
+            <td class="golp">6</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">8</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/internacional.png"></td>
+            <td class="timenome">Internacional</td>
+            <td class="pts">7</td>
+            <td class="vit">2</td>
+            <td class="emp">1</td>
+            <td class="der">1</td>
+            <td class="golb">0</td>
+            <td class="golp">4</td>
+            <td class="golc">4</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">9</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/bahia.png"></td>
+            <td class="timenome">Bahia</td>
+            <td class="pts">6</td>
+            <td class="vit">2</td>
+            <td class="emp">0</td>
+            <td class="der">2</td>
+            <td class="golb">+1</td>
+            <td class="golp">6</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">10</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/athletico.png"></td>
+            <td class="timenome">Athlético</td>
+            <td class="pts">6</td>
+            <td class="vit">2</td>
+            <td class="emp">0</td>
+            <td class="der">2</td>
+            <td class="golb">0</td>
+            <td class="golp">5</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">11</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/vasco.png"></td>
+            <td class="timenome">Vasco</td>
+            <td class="pts">5</td>
+            <td class="vit">1</td>
+            <td class="emp">2</td>
+            <td class="der">1</td>
+            <td class="golb">0</td>
+            <td class="golp">5</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">12</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/redbull.png"></td>
+            <td class="timenome">Red Bull</td>
+            <td class="pts">5</td>
+            <td class="vit">1</td>
+            <td class="emp">2</td>
+            <td class="der">1</td>
+            <td class="golb">-2</td>
+            <td class="golp">6</td>
+            <td class="golc">8</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">13</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/cuiaba.png"></td>
+            <td class="timenome">Cuiabá</td>
+            <td class="pts">4</td>
+            <td class="vit">1</td>
+            <td class="emp">1</td>
+            <td class="der">2</td>
+            <td class="golb">-1</td>
+            <td class="golp">5</td>
+            <td class="golc">6</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">14</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/santos.png"></td>
+            <td class="timenome">Santos</td>
+            <td class="pts">4</td>
+            <td class="vit">1</td>
+            <td class="emp">1</td>
+            <td class="der">2</td>
+            <td class="golb">-1</td>
+            <td class="golp">4</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">15</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/corinthians.png"></td>
+            <td class="timenome">Corinthians</td>
+            <td class="pts">4</td>
+            <td class="vit">1</td>
+            <td class="emp">1</td>
+            <td class="der">2</td>
+            <td class="golb">-2</td>
+            <td class="golp">5</td>
+            <td class="golc">7</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">16</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/atletico.png"></td>
+            <td class="timenome">Atlético</td>
+            <td class="pts">4</td>
+            <td class="vit">1</td>
+            <td class="emp">1</td>
+            <td class="der">2</td>
+            <td class="golb">-2</td>
+            <td class="golp">3</td>
+            <td class="golc">5</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">17</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/flamengo.png"></td>
+            <td class="timenome">Flamengo</td>
+            <td class="pts">3</td>
+            <td class="vit">1</td>
+            <td class="emp">0</td>
+            <td class="der">3</td>
+            <td class="golb">0</td>
+            <td class="golp">7</td>
+            <td class="golc">7</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">18</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/goias.png"></td>
+            <td class="timenome">Goiás</td>
+            <td class="pts">3</td>
+            <td class="vit">1</td>
+            <td class="emp">0</td>
+            <td class="der">3</td>
+            <td class="golb">-6</td>
+            <td class="golp">3</td>
+            <td class="golc">9</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">19</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/coritiba.png"></td>
+            <td class="timenome">Coritiba</td>
+            <td class="pts">1</td>
+            <td class="vit">0</td>
+            <td class="emp">1</td>
+            <td class="der">3</td>
+            <td class="golb">-8</td>
+            <td class="golp">2</td>
+            <td class="golc">10</td>
+            <td class="jogos">4</td>
+        </tr><tr>
+            <td class="quali"></td>
+            <td class="pos">20</td>
+            <td class="escudo"><img class="crest" src="http://oraculo.wederson.com/brasil/imagem/americamg.png"></td>
+            <td class="timenome">América</td>
+            <td class="pts">0</td>
+            <td class="vit">0</td>
+            <td class="emp">0</td>
+            <td class="der">4</td>
+            <td class="golb">-8</td>
+            <td class="golp">3</td>
+            <td class="golc">11</td>
+            <td class="jogos">4</td>
+        </tr></tbody>
+    </table>
+
+</body>
+</html>
