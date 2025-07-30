@@ -20,6 +20,22 @@ function fazerstandings(){
             <td class="golp">0</td>
             <td class="golc">0</td>
             <td class="jogos">0</td>
+            <td class="pts_mandante">0</td>
+            <td class="vit_mandante">0</td>
+            <td class="emp_mandante">0</td>
+            <td class="der_mandante">0</td>
+            <td class="golb_mandante">0</td>
+            <td class="golp_mandante">0</td>
+            <td class="golc_mandante">0</td>
+            <td class="jogos_mandante">0</td>
+            <td class="pts_visitante">0</td>
+            <td class="vit_visitante">0</td>
+            <td class="emp_visitante">0</td>
+            <td class="der_visitante">0</td>
+            <td class="golb_visitante">0</td>
+            <td class="golp_visitante">0</td>
+            <td class="golc_visitante">0</td>
+            <td class="jogos_visitante">0</td>
         `;
     
         // Adiciona a linha à tabela

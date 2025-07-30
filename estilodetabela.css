@@ -38,9 +38,13 @@ table {
     counter-reset: posicao;
     /*display: inline-block;*/
     float:inline-start;
+    padding: 8px;
 }
-td.pts, td.der, td.golc{
-    border-right: 1px solid #aaa;
+td.pts, td.der, td.golc, td.pts_mandante, td.der_mandante, td.golc_mandante,td.pts_visitante, td.der_visitante, td.golc_visitante{
+    border-right: 2px solid #aaa;
+}
+td.jogos,td.jogos_mandante,td.jogos_visitante{
+    border-right: 4px solid #aaa;
 }
 tr{
     border-bottom: 1px solid #aaa;
@@ -68,7 +72,7 @@ td.timenomedir{
     text-align: right;
     min-width:120px;
 }
-td.pts{
+td.pts,td.pts_mandante,td.pts_visitante{
     font-weight: bold;
     font-family: 'DIN Bold';
 }

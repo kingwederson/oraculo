@@ -15,7 +15,7 @@ function fazerprobabilidades(){
         // Preenche as células <td>
         let posrep = '';
         for (let sz = 1; sz < equipe.length; sz++) {
-            posrep += `<td class="num">0<span class="precisao">.000</span>%</td>`;
+            posrep += `<td class="num posrep">0<span class="precisao">.000</span>%</td>`;
         }
 
         linhadetabela.innerHTML = `
