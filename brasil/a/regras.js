@@ -4,8 +4,18 @@ function compara(alfa, omega){
             if(omega[7]==alfa[7]){
                 if(omega[8]==alfa[8]){
                     if(omega[24]==alfa[24]){
-                        if(omega[25]==alfa[25]){
-                            console.log(`${omega[3]} | ${omega[4]} ${omega[5]} ${omega[6]} | ${omega[7]} ${omega[8]} ${omega[9]} || ${omega[11]} ${omega[12]} ${omega[13]} | ${omega[14]} ${omega[15]} ${omega[16]} || ${omega[19]} ${omega[20]} ${omega[21]} | ${omega[22]} ${omega[23]} ${omega[24]} \n${alfa[3]} | ${alfa[4]} ${alfa[5]} ${alfa[6]} | ${alfa[7]} ${alfa[8]} ${alfa[9]} || ${alfa[11]} ${alfa[12]} ${alfa[13]} | ${alfa[14]} ${alfa[15]} ${alfa[16]} || ${alfa[19]} ${alfa[20]} ${alfa[21]} | ${alfa[22]} ${alfa[23]} ${alfa[24]}`)
+                        if(omega[25]==alfa[25]){/*
+                            if((tabelaRR[omega[27]][alfa[27]][0] != NaN) && (tabelaRR[alfa[27]][omega[27]][0] != NaN)){
+                                if((tabelaRR[omega[27]][alfa[27]][0]+tabelaRR[alfa[27]][omega[27]][1]) == (tabelaRR[alfa[27]][omega[27]][0]+tabelaRR[omega[27]][alfa[27]][1])){
+                                    console.log(`${omega[3]} | ${omega[4]} ${omega[5]} ${omega[6]} | ${omega[7]} ${omega[8]} ${omega[9]} || ${omega[11]} ${omega[12]} ${omega[13]} | ${omega[14]} ${omega[15]} ${omega[16]} || ${omega[19]} ${omega[20]} ${omega[21]} | ${omega[22]} ${omega[23]} ${omega[24]} \n${alfa[3]} | ${alfa[4]} ${alfa[5]} ${alfa[6]} | ${alfa[7]} ${alfa[8]} ${alfa[9]} || ${alfa[11]} ${alfa[12]} ${alfa[13]} | ${alfa[14]} ${alfa[15]} ${alfa[16]} || ${alfa[19]} ${alfa[20]} ${alfa[21]} | ${alfa[22]} ${alfa[23]} ${alfa[24]}`)
+                                    console.log(`decidido no confronto direto do gol qualificado:`)
+                                    console.log(confronto(omega[27],alfa[27]))
+                                    return tabelaRR[alfa[27]][omega[27]][1]-tabelaRR[omega[27]][alfa[27]][1]
+                                }
+                                console.log(`decidido no confronto direto global:`)
+                                console.log(confronto(omega[27],alfa[27]))
+                                return (tabelaRR[omega[27]][alfa[27]][0]-tabelaRR[alfa[27]][omega[27]][1])-(tabelaRR[alfa[27]][omega[27]][0]-tabelaRR[omega[27]][alfa[27]][1])
+                            }*/
                             return Math.random()-0.5
                         }
                         return alfa[25]-omega[25]
