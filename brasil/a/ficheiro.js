@@ -26,14 +26,14 @@ var equipe = [
         },3],
     [`Ceará`,`http://oraculo.wederson.com/brasil/imagem/ceara.png`,
         {
-            a:9/rodat,
+            a:8/rodat,
             d:12/rodat,
             rat:1932
         },4],
     [`Corinthians`,`http://oraculo.wederson.com/brasil/imagem/corinthians.png`,
         {
             a:6/rodat,
-            d:7/rodat,
+            d:9/rodat,
             rat:1932
         },5],
     //[`Criciúma`,`http://oraculo.wederson.com/brasil/imagem/criciuma.png`,
@@ -55,13 +55,13 @@ var equipe = [
     [`Fluminense`,`http://oraculo.wederson.com/brasil/imagem/fluminense.png`,
         {
             a:13/rodat,
-            d:16/rodat,
+            d:14/rodat,
             rat:1932
         },8],
     [`Fortaleza`,`http://oraculo.wederson.com/brasil/imagem/fortaleza.png`,
         {
-            a:8/rodat,
-            d:24/rodat,
+            a:9/rodat,
+            d:23/rodat,
             rat:1932
         },9],
     [`Grêmio`,`http://oraculo.wederson.com/brasil/imagem/gremio.png`,
@@ -78,7 +78,7 @@ var equipe = [
         },11],
     [`Juventude`,`http://oraculo.wederson.com/brasil/imagem/juventude.png`,
         {
-            a:4/rodat,
+            a:6/rodat,
             d:21/rodat,
             rat:1932
         },12],
@@ -96,8 +96,8 @@ var equipe = [
         },14],
     [`Red Bull`,`http://oraculo.wederson.com/brasil/imagem/redbull.png`,
         {
-            a:11/rodat,
-            d:17/rodat,
+            a:10/rodat,
+            d:18/rodat,
             rat:1932
         },15],
     [`Santos`,`http://oraculo.wederson.com/brasil/imagem/santos.png`,
@@ -108,14 +108,14 @@ var equipe = [
         },16],
     [`São Paulo`,`http://oraculo.wederson.com/brasil/imagem/saopaulo.png`,
         {
-            a:14/rodat,
+            a:16/rodat,
             d:13/rodat,
             rat:1932
         },17],
     [`Sport`,`http://oraculo.wederson.com/brasil/imagem/sport.png`,
         {
-            a:6/rodat,
-            d:15/rodat,
+            a:8/rodat,
+            d:13/rodat,
             rat:1932
         },18],
     [`Vasco`,`http://oraculo.wederson.com/brasil/imagem/vasco.png`,
