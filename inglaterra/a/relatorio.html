@@ -17,10 +17,10 @@
                 <th>Equipe</th>
                 <th>Média de<br>pontos</th>
                 <th>Campeão</th>
-                <th>Champions League<br>1&dash;4</th>
-                <th>Europa League<br>5&dash;6</th>
-                <th>Conference League<br>7&dash;12</th>
-                <th>Rebaixamento<br>17&dash;20</th>
+                <th>Champions League<br>1‐4</th>
+                <th>Europa League<br>5</th>
+                <th>Conference League<br>6</th>
+                <th>Rebaixamento<br>18‐20</th>
                 <th class="posrep">#1</th>
                 <th class="posrep">#2</th>
                 <th class="posrep">#3</th>
@@ -164,7 +164,7 @@
 
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(3) img`).src = `${relatorio[n][0]}`
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(4)`).innerHTML = `${relatorio[n][1].toLocaleString('en-us')}`;
-            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(5)`).innerHTML = `${(relatorio[n][2]/repeticoes).toFixed(5).toLocaleString('en-us')}`;
+            document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(5)`).innerHTML = `<span class="resumo">${(relatorio[n][2] / repeticoes).toFixed(2).toLocaleString('en-us')}</span><span class="precisao">${(relatorio[n][2] / repeticoes).toFixed(5)}</span>`;
 
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(6)`).innerHTML = `${(relatorio[n][3]/repeticoes)>0.99999 ? '✓' : ''}${(relatorio[n][3]/repeticoes) < 0.00001 ? '✘' : ''} <span class="resumo">${(100 * (relatorio[n][3] / repeticoes)).toFixed(1).toLocaleString('en-us')}</span><span class="precisao">${(100 * (relatorio[n][3] / repeticoes)).toFixed(3)}</span>%`
             document.querySelector(`table#probabilidades tbody tr:nth-child(${n}) td:nth-child(7)`).innerHTML = `${(relatorio[n][4]/repeticoes)>0.99999 ? '✓' : ''}${(relatorio[n][4]/repeticoes) < 0.00001 ? '✘' : ''} <span class="resumo">${(100 * (relatorio[n][4] / repeticoes)).toFixed(1).toLocaleString('en-us')}</span><span class="precisao">${(100 * (relatorio[n][4] / repeticoes)).toFixed(3)}</span>%`
