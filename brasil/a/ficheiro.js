@@ -20,14 +20,14 @@ var equipe = [
         },2],
     [`Botafogo`,`http://oraculo.wederson.com/brasil/imagem/botafogo.png`,
         {
-            a:17/rodat,
-            d:5/rodat,
+            a:13/rodat,
+            d:6/rodat,
             rat:1932
         },3],
     [`Ceará`,`http://oraculo.wederson.com/brasil/imagem/ceara.png`,
         {
             a:8/rodat,
-            d:12/rodat,
+            d:11/rodat,
             rat:1932
         },4],
     [`Corinthians`,`http://oraculo.wederson.com/brasil/imagem/corinthians.png`,
@@ -40,22 +40,22 @@ var equipe = [
     // {a:42.9/rodat,d:64.8/rodat,rat:1932},23],
     [`Cruzeiro`,`http://oraculo.wederson.com/brasil/imagem/cruzeiro.png`,
         {
-            a:18/rodat,
-            d:6/rodat,
+            a:17/rodat,
+            d:7/rodat,
             rat:1932
         },6],
     //[`Cuiabá`,`http://oraculo.wederson.com/brasil/imagem/cuiaba.png`,
     // {a:40.2/rodat,d:52.9/rodat,rat:1932},24],
     [`Flamengo`,`http://oraculo.wederson.com/brasil/imagem/flamengo.png`,
         {
-            a:16/rodat,
-            d:4/rodat,
+            a:19/rodat,
+            d:5/rodat,
             rat:1932
         },7],
     [`Fluminense`,`http://oraculo.wederson.com/brasil/imagem/fluminense.png`,
         {
-            a:13/rodat,
-            d:14/rodat,
+            a:14/rodat,
+            d:17/rodat,
             rat:1932
         },8],
     [`Fortaleza`,`http://oraculo.wederson.com/brasil/imagem/fortaleza.png`,
@@ -66,25 +66,25 @@ var equipe = [
         },9],
     [`Grêmio`,`http://oraculo.wederson.com/brasil/imagem/gremio.png`,
         {
-            a:11/rodat,
+            a:10/rodat,
             d:11/rodat,
             rat:1932
         },10],
     [`Internacional`,`http://oraculo.wederson.com/brasil/imagem/internacional.png`,
         {
             a:11/rodat,
-            d:11/rodat,
+            d:14/rodat,
             rat:1932
         },11],
     [`Juventude`,`http://oraculo.wederson.com/brasil/imagem/juventude.png`,
         {
-            a:8/rodat,
-            d:18/rodat,
+            a:9/rodat,
+            d:17/rodat,
             rat:1932
         },12],
     [`Mirassol`,`http://oraculo.wederson.com/brasil/imagem/mirassol.png`,
         {
-            a:17/rodat,
+            a:16/rodat,
             d:8/rodat,
             rat:1932
         },13],
@@ -96,13 +96,13 @@ var equipe = [
         },14],
     [`Red Bull`,`http://oraculo.wederson.com/brasil/imagem/redbull.png`,
         {
-            a:10/rodat,
-            d:18/rodat,
+            a:12/rodat,
+            d:20/rodat,
             rat:1932
         },15],
     [`Santos`,`http://oraculo.wederson.com/brasil/imagem/santos.png`,
         {
-            a:12/rodat,
+            a:13/rodat,
             d:18/rodat,
             rat:1932
         },16],
@@ -120,8 +120,8 @@ var equipe = [
         },18],
     [`Vasco`,`http://oraculo.wederson.com/brasil/imagem/vasco.png`,
         {
-            a:18/rodat,
-            d:13/rodat,
+            a:15/rodat,
+            d:15/rodat,
             rat:1932
         },19],
     [`Vitória`,`http://oraculo.wederson.com/brasil/imagem/vitoria.png`,
