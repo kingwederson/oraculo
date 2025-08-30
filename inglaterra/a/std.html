@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Ligas Futebolísticas</title>
+    <script>
+        var tempo = parseInt(Number(new Date())/3600000);
+        document.getElementById("ficheirojs").src = "ficheiro.js?v="+tempo.getTime();
+        document.getElementById("jogosjs").src = "jogos.js?v="+tempo.getTime();
+    </script>
 </head>
 <body>
     <table id="liga">
@@ -63,8 +68,8 @@
     <link rel="stylesheet" href="../../estilodetabela.css">
     <link rel="stylesheet" href="regras.css">
     <script src="../../ajuste.js"></script>
-    <script src="ficheiro.js?v=2025-08-10_084905"></script>
-    <script src="jogos.js?v=2025-08-10_084905"></script>
+    <script id="ficheirojs" src="ficheiro.js"></script>
+    <script id="jogosjs" src="jogos.js?v=2025-08-10_084905"></script>
     <script src="regras.js"></script>
     <script src="../../fazerstandings.js"></script>
     <script src="../../classificador.js"></script>
