@@ -33,6 +33,7 @@ for (let i = 0; i < equipe.length; i++) {
             0,                     // G+ visitante             [24]
             0,                     // G- visitante             [25]
             0,                     // J visitante              [26]
+            equipe[i][3]          // índice                   [27]
         ]);
     } else {
         // Para o índice 0 (ou outros vazios), se for necessário
