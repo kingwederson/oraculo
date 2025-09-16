@@ -6,7 +6,7 @@ var equipe = [
         `Arsenal`,
         `http://oraculo.wederson.com/inglaterra/imagem/arsenal.png`,
         {
-            a:ajuste(10,rodat,69/38,6),
+            a:ajuste(10,rodat,69/38,9),
             d:ajuste(10,rodat,34/38,1),
             rat:2308
         },
@@ -26,8 +26,8 @@ var equipe = [
         `Bournemouth`,
         `http://oraculo.wederson.com/inglaterra/imagem/bournemouth.png`,
         {
-            a:ajuste(10,rodat,58/38,4),
-            d:ajuste(10,rodat,46/38,4),
+            a:ajuste(10,rodat,58/38,6),
+            d:ajuste(10,rodat,46/38,5),
             rat:2308
         },
         3
@@ -36,8 +36,8 @@ var equipe = [
         `Brentford`,
         `http://oraculo.wederson.com/inglaterra/imagem/brentford.png`,
         {
-            a:ajuste(10,rodat,66/38,3),
-            d:ajuste(10,rodat,57/38,5),
+            a:ajuste(10,rodat,66/38,5),
+            d:ajuste(10,rodat,57/38,7),
             rat:2308
         },
         4
@@ -46,8 +46,8 @@ var equipe = [
         `Brighton`,
         `http://oraculo.wederson.com/inglaterra/imagem/brighton.png`,
         {
-            a:ajuste(10,rodat,66/38,3),
-            d:ajuste(10,rodat,59/38,4),
+            a:ajuste(10,rodat,66/38,4),
+            d:ajuste(10,rodat,59/38,6),
             rat:2308
         },
         5
@@ -57,7 +57,7 @@ var equipe = [
         `http://oraculo.wederson.com/inglaterra/imagem/burnley.png`,
         {
             a:ajuste(10,rodat,63/46*0.82,4),
-            d:ajuste(10,rodat,36/46*1.20,6),
+            d:ajuste(10,rodat,36/46*1.20,7),
             rat:2026
         },
         6
@@ -66,8 +66,8 @@ var equipe = [
         `Chelsea`,
         `http://oraculo.wederson.com/inglaterra/imagem/chelsea.png`,
         {
-            a:ajuste(10,rodat,64/38,7),
-            d:ajuste(10,rodat,43/38,1),
+            a:ajuste(10,rodat,64/38,9),
+            d:ajuste(10,rodat,43/38,3),
             rat:2308
         },
         7
@@ -96,7 +96,7 @@ var equipe = [
         `Fulham`,
         `http://oraculo.wederson.com/inglaterra/imagem/fulham.png`,
         {
-            a:ajuste(10,rodat,54/38,2),
+            a:ajuste(10,rodat,54/38,3),
             d:ajuste(10,rodat,54/38,4),
             rat:2308
         },
@@ -107,7 +107,7 @@ var equipe = [
         `http://oraculo.wederson.com/inglaterra/imagem/leeds.png`,
         {
             a:ajuste(10,rodan,95/46*0.82,1),
-            d:ajuste(10,rodan,30/46*1.20,5),
+            d:ajuste(10,rodan,30/46*1.20,6),
             rat:2026
         },
         11
@@ -116,7 +116,7 @@ var equipe = [
         `Liverpool`,
         `http://oraculo.wederson.com/inglaterra/imagem/liverpool.png`,
         {
-            a:ajuste(10,rodat,2.26,8),
+            a:ajuste(10,rodat,2.26,9),
             d:ajuste(10,rodat,1.07,4),
             rat:2308
         },
@@ -126,7 +126,7 @@ var equipe = [
         `Man City`,
         `http://oraculo.wederson.com/inglaterra/imagem/mancity.png`,
         {
-            a:ajuste(10,rodat,72/38,5),
+            a:ajuste(10,rodat,72/38,8),
             d:ajuste(10,rodat,44/38,4),
             rat:2308
         },
@@ -137,7 +137,7 @@ var equipe = [
         `http://oraculo.wederson.com/inglaterra/imagem/manunited.png`,
         {
             a:ajuste(10,rodat,44/38,4),
-            d:ajuste(10,rodat,54/38,4),
+            d:ajuste(10,rodat,54/38,7),
             rat:2308
         },
         14
@@ -146,7 +146,7 @@ var equipe = [
         `Newcastle`,
         `http://oraculo.wederson.com/inglaterra/imagem/newcastle.png`,
         {
-            a:ajuste(10,rodat,68/38,2),
+            a:ajuste(10,rodat,68/38,3),
             d:ajuste(10,rodat,47/38,3),
             rat:2308
         },
@@ -157,7 +157,7 @@ var equipe = [
         `http://oraculo.wederson.com/inglaterra/imagem/nottingham.png`,
         {
             a:ajuste(10,rodat,58/38,4),
-            d:ajuste(10,rodat,46/38,5),
+            d:ajuste(10,rodat,46/38,8),
             rat:2308
         },
         16
@@ -176,7 +176,7 @@ var equipe = [
         `Tottenham`,
         `http://oraculo.wederson.com/inglaterra/imagem/tottenham.png`,
         {
-            a:ajuste(10,rodat,64/38,5),
+            a:ajuste(10,rodat,64/38,8),
             d:ajuste(10,rodat,65/38,1),
             rat:2308
         },
@@ -187,7 +187,7 @@ var equipe = [
         `http://oraculo.wederson.com/inglaterra/imagem/westham.png`,
         {
             a:ajuste(10,rodat,46/38,4),
-            d:ajuste(10,rodat,62/38,8),
+            d:ajuste(10,rodat,62/38,11),
             rat:2308
         },
         19
@@ -197,7 +197,7 @@ var equipe = [
         `http://oraculo.wederson.com/inglaterra/imagem/wolves.png`,
         {
             a:ajuste(10,rodat,54/38,2),
-            d:ajuste(10,rodat,69/38,8),
+            d:ajuste(10,rodat,69/38,9),
             rat:2308
         },
         20
