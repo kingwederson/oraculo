@@ -1,205 +1,133 @@
-var rodat = 6
-var rodan = 6
+var rodat = 10
 var equipe = [
-    [`Premier League`,`http://oraculo.wederson.com/inglaterra/imagem/eng1.png`,,0],// 0
-    [
-        `Arsenal`,
-        `http://oraculo.wederson.com/inglaterra/imagem/arsenal.png`,
+    [`Brasileirão Série A`,`http://oraculo.wederson.com/brasil/imagem/div1.png`,,0],
+    
+    //[`Athlético`,`http://oraculo.wederson.com/brasil/imagem/athletico.png`,
+    // {a:50.3/rodat,d:49.3/rodat,rat:1932},21],
+    [`Atlético`,`http://oraculo.wederson.com/brasil/imagem/atletico.png`,
         {
-            a:ajuste(10,rodat,69/38,12/rodat),
-            d:ajuste(10,rodat,34/38,3/rodat),
-            rat:2308
-        },
-        1
-    ], // 1
-    [
-        `Aston Villa`,
-        `http://oraculo.wederson.com/inglaterra/imagem/astonvilla.png`,
+            a:6/rodat,
+            d:13/rodat,
+            rat:1932
+        },1],
+    //[`Atlético-GO`,`http://oraculo.wederson.com/brasil/imagem/atleticogo.png`,
+    // {a:43.4/rodat,d:52.8/rodat,rat:1932},22],
+    [`Bahia`,`http://oraculo.wederson.com/brasil/imagem/bahia.png`,
         {
-            a:ajuste(10,rodat,58/38,4/rodat),
-            d:ajuste(10,rodat,51/38,6/rodat),
-            rat:2308
-        },
-        2
-    ],// 2
-    [
-        `Bournemouth`,
-        `http://oraculo.wederson.com/inglaterra/imagem/bournemouth.png`,
+            a:14/rodat,
+            d:17/rodat,
+            rat:1932
+        },2],
+    [`Botafogo`,`http://oraculo.wederson.com/brasil/imagem/botafogo.png`,
         {
-            a:ajuste(10,rodat,58/38,8/rodat),
-            d:ajuste(10,rodat,46/38,7/rodat),
-            rat:2308
-        },
-        3
-    ],// 3
-    [
-        `Brentford`,
-        `http://oraculo.wederson.com/inglaterra/imagem/brentford.png`,
+            a:14/rodat,
+            d:13/rodat,
+            rat:1932
+        },3],
+    [`Ceará`,`http://oraculo.wederson.com/brasil/imagem/ceara.png`,
         {
-            a:ajuste(10,rodat,66/38,9/rodat),
-            d:ajuste(10,rodat,57/38,11/rodat),
-            rat:2308
-        },
-        4
-    ],// 4
-    [
-        `Brighton`,
-        `http://oraculo.wederson.com/inglaterra/imagem/brighton.png`,
+            a:10/rodat,
+            d:8/rodat,
+            rat:1932
+        },4],
+    [`Corinthians`,`http://oraculo.wederson.com/brasil/imagem/corinthians.png`,
         {
-            a:ajuste(10,rodat,66/38,9/rodat),
-            d:ajuste(10,rodat,59/38,9/rodat),
-            rat:2308
-        },
-        5
-    ],// 5
-    [
-        `Burnley`,
-        `http://oraculo.wederson.com/inglaterra/imagem/burnley.png`,
+            a:13/rodat,
+            d:12/rodat,
+            rat:1932
+        },5],
+    //[`Criciúma`,`http://oraculo.wederson.com/brasil/imagem/criciuma.png`,
+    // {a:42.9/rodat,d:64.8/rodat,rat:1932},23],
+    [`Cruzeiro`,`http://oraculo.wederson.com/brasil/imagem/cruzeiro.png`,
         {
-            a:ajuste(10,rodat,63/46*0.82,6/rodat),
-            d:ajuste(10,rodat,36/46*1.20,3/rodat),
-            rat:2026
-        },
-        6
-    ],// 6
-    [
-        `Chelsea`,
-        `http://oraculo.wederson.com/inglaterra/imagem/chelsea.png`,
+            a:12/rodat,
+            d:9/rodat,
+            rat:1932
+        },6],
+    //[`Cuiabá`,`http://oraculo.wederson.com/brasil/imagem/cuiaba.png`,
+    // {a:40.2/rodat,d:52.9/rodat,rat:1932},24],
+    [`Flamengo`,`http://oraculo.wederson.com/brasil/imagem/flamengo.png`,
         {
-            a:ajuste(10,rodat,64/38,11/rodat),
-            d:ajuste(10,rodat,43/38,8/rodat),
-            rat:2308
-        },
-        7
-    ],// 7
-    [
-        `Crystal Palace`,
-        `http://oraculo.wederson.com/inglaterra/imagem/crystal.png`,
+            a:20/rodat,
+            d:7/rodat,
+            rat:1932
+        },7],
+    [`Fluminense`,`http://oraculo.wederson.com/brasil/imagem/fluminense.png`,
         {
-            a:ajuste(10,rodat,51/38,8/rodat),
-            d:ajuste(10,rodat,51/38,3/rodat),
-            rat:2308
-        },
-        8
-    ],// 8
-    [
-        `Everton`,
-        `http://oraculo.wederson.com/inglaterra/imagem/everton.png`,
+            a:16/rodat,
+            d:11/rodat,
+            rat:1932
+        },8],
+    [`Fortaleza`,`http://oraculo.wederson.com/brasil/imagem/fortaleza.png`,
         {
-            a:ajuste(10,rodat,42/38,6/rodat),
-            d:ajuste(10,rodat,44/38,5/rodat),
-            rat:2308
-        },
-        9
-    ],// 9
-    [
-        `Fulham`,
-        `http://oraculo.wederson.com/inglaterra/imagem/fulham.png`,
+            a:9/rodat,
+            d:18/rodat,
+            rat:1932
+        },9],
+    [`Grêmio`,`http://oraculo.wederson.com/brasil/imagem/gremio.png`,
         {
-            a:ajuste(10,rodat,54/38,7/rodat),
-            d:ajuste(10,rodat,54/38,8/rodat),
-            rat:2308
-        },
-        10
-    ],// 10
-    [
-        `Leeds United`,
-        `http://oraculo.wederson.com/inglaterra/imagem/leeds.png`,
+            a:12/rodat,
+            d:10/rodat,
+            rat:1932
+        },10],
+    [`Internacional`,`http://oraculo.wederson.com/brasil/imagem/internacional.png`,
         {
-            a:ajuste(10,rodan,95/46*0.82,6/rodat),
-            d:ajuste(10,rodan,30/46*1.20,9/rodat),
-            rat:2026
-        },
-        11
-    ],// 11
-    [
-        `Liverpool`,
-        `http://oraculo.wederson.com/inglaterra/imagem/liverpool.png`,
+            a:15/rodat,
+            d:18/rodat,
+            rat:1932
+        },11],
+    [`Juventude`,`http://oraculo.wederson.com/brasil/imagem/juventude.png`,
         {
-            a:ajuste(10,rodat,2.26,12/rodat),
-            d:ajuste(10,rodat,1.07,7/rodat),
-            rat:2308
-        },
-        12
-    ],// 12
-    [
-        `Man City`,
-        `http://oraculo.wederson.com/inglaterra/imagem/mancity.png`,
+            a:10/rodat,
+            d:13/rodat,
+            rat:1932
+        },12],
+    [`Mirassol`,`http://oraculo.wederson.com/brasil/imagem/mirassol.png`,
         {
-            a:ajuste(10,rodat,72/38,14/rodat),
-            d:ajuste(10,rodat,44/38,6/rodat),
-            rat:2308
-        },
-        13
-    ],// 13
-    [
-        `Man United`,
-        `http://oraculo.wederson.com/inglaterra/imagem/manunited.png`,
+            a:15/rodat,
+            d:12/rodat,
+            rat:1932
+        },13],
+    [`Palmeiras`,`http://oraculo.wederson.com/brasil/imagem/palmeiras.png`,
         {
-            a:ajuste(10,rodat,44/38,7/rodat),
-            d:ajuste(10,rodat,54/38,11/rodat),
-            rat:2308
-        },
-        14
-    ],// 14
-    [
-        `Newcastle`,
-        `http://oraculo.wederson.com/inglaterra/imagem/newcastle.png`,
+            a:23/rodat,
+            d:9/rodat,
+            rat:1932
+        },14],
+    [`Red Bull`,`http://oraculo.wederson.com/brasil/imagem/redbull.png`,
         {
-            a:ajuste(10,rodat,68/38,4/rodat),
-            d:ajuste(10,rodat,47/38,5/rodat),
-            rat:2308
-        },
-        15
-    ],// 15
-    [
-        `Nottingham`,
-        `http://oraculo.wederson.com/inglaterra/imagem/nottingham.png`,
+            a:13/rodat,
+            d:18/rodat,
+            rat:1932
+        },15],
+    [`Santos`,`http://oraculo.wederson.com/brasil/imagem/santos.png`,
         {
-            a:ajuste(10,rodat,58/38,5/rodat),
-            d:ajuste(10,rodat,46/38,10/rodat),
-            rat:2308
-        },
-        16
-    ],// 16
-    [
-        `Sunderland`,
-        `http://oraculo.wederson.com/inglaterra/imagem/sunderland.png`,
+            a:10/rodat,
+            d:17/rodat,
+            rat:1932
+        },16],
+    [`São Paulo`,`http://oraculo.wederson.com/brasil/imagem/saopaulo.png`,
         {
-            a:ajuste(10,rodat,58/46*0.82,7/rodat),
-            d:ajuste(10,rodat,44/46*1.20,4/rodat),
-            rat:2026
-        },
-        17
-    ],// 17
-    [
-        `Tottenham`,
-        `http://oraculo.wederson.com/inglaterra/imagem/tottenham.png`,
+            a:13/rodat,
+            d:9/rodat,
+            rat:1932
+        },17],
+    [`Sport`,`http://oraculo.wederson.com/brasil/imagem/sport.png`,
         {
-            a:ajuste(10,rodat,64/38,11/rodat),
-            d:ajuste(10,rodat,65/38,4/rodat),
-            rat:2308
-        },
-        18
-    ],// 18
-    [
-        `West Ham`,
-        `http://oraculo.wederson.com/inglaterra/imagem/westham.png`,
+            a:10/rodat,
+            d:13/rodat,
+            rat:1932
+        },18],
+    [`Vasco`,`http://oraculo.wederson.com/brasil/imagem/vasco.png`,
         {
-            a:ajuste(10,rodat,46/38,5/rodat),
-            d:ajuste(10,rodat,62/38,13/rodat),
-            rat:2308
-        },
-        19
-    ],// 19
-    [
-        `Wolves`,
-        `http://oraculo.wederson.com/inglaterra/imagem/wolves.png`,
+            a:23/rodat,
+            d:17/rodat,
+            rat:1932
+        },19],
+    [`Vitória`,`http://oraculo.wederson.com/brasil/imagem/vitoria.png`,
         {
-            a:ajuste(10,rodat,54/38,4/rodat),
-            d:ajuste(10,rodat,69/38,13/rodat),
-            rat:2308
-        },
-        20
-    ]// 20
+            a:10/rodat,
+            d:24/rodat,
+            rat:1932
+        },20]
 ]
