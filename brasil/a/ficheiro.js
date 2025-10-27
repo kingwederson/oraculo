@@ -40,8 +40,8 @@ var equipe = [
     // {a:42.9/rodat,d:64.8/rodat,rat:1932},23],
     [`Cruzeiro`,`http://oraculo.wederson.com/brasil/imagem/cruzeiro.png`,
         {
-            a:11/rodat,
-            d:8/rodat,
+            a:10/rodat,
+            d:7/rodat,
             rat:1932
         },6],
     //[`Cuiabá`,`http://oraculo.wederson.com/brasil/imagem/cuiaba.png`,
@@ -90,7 +90,7 @@ var equipe = [
         },13],
     [`Palmeiras`,`http://oraculo.wederson.com/brasil/imagem/palmeiras.png`,
         {
-            a:29/rodat,
+            a:26/rodat,
             d:11/rodat,
             rat:1932
         },14],
