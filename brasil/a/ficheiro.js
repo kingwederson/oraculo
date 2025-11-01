@@ -27,7 +27,7 @@ var equipe = [
     [`Ceará`,`http://oraculo.wederson.com/brasil/imagem/ceara.png`,
         {
             a:8/rodat,
-            d:9/rodat,
+            d:10/rodat,
             rat:1932
         },4],
     [`Corinthians`,`http://oraculo.wederson.com/brasil/imagem/corinthians.png`,
@@ -54,7 +54,7 @@ var equipe = [
         },7],
     [`Fluminense`,`http://oraculo.wederson.com/brasil/imagem/fluminense.png`,
         {
-            a:11/rodat,
+            a:12/rodat,
             d:7/rodat,
             rat:1932
         },8],
