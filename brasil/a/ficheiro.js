@@ -60,8 +60,8 @@ var equipe = [
         },8],
     [`Fortaleza`,`http://oraculo.wederson.com/brasil/imagem/fortaleza.png`,
         {
-            a:13/rodat,
-            d:15/rodat,
+            a:14/rodat,
+            d:13/rodat,
             rat:1914
         },9],
     [`Grêmio`,`http://oraculo.wederson.com/brasil/imagem/gremio.png`,
@@ -96,7 +96,7 @@ var equipe = [
         },14],
     [`Red Bull`,`http://oraculo.wederson.com/brasil/imagem/redbull.png`,
         {
-            a:9/rodat,
+            a:8/rodat,
             d:16/rodat,
             rat:1914
         },15],
