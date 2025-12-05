@@ -20,7 +20,7 @@ var equipe = [
         },2],
     [`Botafogo`,`http://oraculo.wederson.com/brasil/imagem/botafogo.png`,
         {
-            a:15/rodat,
+            a:17/rodat,
             d:13/rodat,
             rat:1914
         },3],
@@ -40,8 +40,8 @@ var equipe = [
     // {a:42.9/rodat,d:64.8/rodat,rat:1914},23],
     [`Cruzeiro`,`http://oraculo.wederson.com/brasil/imagem/cruzeiro.png`,
         {
-            a:14/rodat,
-            d:7/rodat,
+            a:15/rodat,
+            d:8/rodat,
             rat:1914
         },6],
     //[`Cuiabá`,`http://oraculo.wederson.com/brasil/imagem/cuiaba.png`,
