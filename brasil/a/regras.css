@@ -2,19 +2,25 @@ tr:nth-child(1) td.quali,
 tr:nth-child(2) td.quali,
 tr:nth-child(3) td.quali,
 tr:nth-child(4) td.quali,
-tr:nth-child(5) td.quali{
+tr:nth-child(5) td.quali,
+tr td.cont1{
     background-color:blue;
 }
-tr:nth-child(6) td.quali,
+tr:nth-child(6) td.quali{
+    background: linear-gradient(180deg,rgba(0, 0, 255, 1) 0%, rgba(255, 165, 0, 1) 100%);
+}
 tr:nth-child(7) td.quali{
     background-color:orange;
 }
-tr:nth-child(8) td.quali,
+tr:nth-child(8) td.quali{
+    background: linear-gradient(180deg,rgba(255, 165, 0, 1) 0%, rgba(0, 128, 0, 1) 100%);
+}
 tr:nth-child(9) td.quali,
 tr:nth-child(10) td.quali,
 tr:nth-child(11) td.quali,
 tr:nth-child(12) td.quali,
-tr:nth-child(13) td.quali{
+tr:nth-child(13) td.quali,
+tr:nth-child(14) td.quali{
     background-color:green;
 }
 tr:nth-child(17) td.quali,
