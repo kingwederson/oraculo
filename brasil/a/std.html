@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Ligas Futebolísticas</title>
+    <script>
+        var tempo = parseInt(Number(new Date())/3600000);
+        document.getElementById("ficheirojs").src = "ficheiro.js?v="+tempo.getTime();
+        document.getElementById("jogosjs").src = "jogos.js?v="+tempo.getTime();
+    </script>
 </head>
 <body>
     <table id="liga">
@@ -61,14 +66,15 @@
 
     
     <link rel="stylesheet" href="../../estilodetabela.css">
-    <link rel="stylesheet" href="regras.css">
-    <script src="ficheiro.js?v=2025-08-10_084905"></script>
-    <script src="jogos.js?v=2025-08-10_084905"></script>
-    <script src="regras.js"></script>
-    <script src="../../fazerstandings.js"></script>
-    <script src="../../classificador.js"></script>
-    <script src="../../poisson.js"></script>
-    <script src="../../simulador.js"></script>
+    <link rel="stylesheet" href="regras.css?v=2026-02-16_145128">
+    <script id="ajustejs" src="../../ajuste.js?v=2026-02-16_145128"></script>
+    <script id="ficheirojs" src="ficheiro.js?v=2026-02-16_145128"></script>
+    <script id="jogosjs" src="jogos.js?v=2026-02-16_145128"></script>
+    <script id="regrasjs" src="regras.js?v=2026-02-16_145128"></script>
+    <script id="fazerstandingsjs" src="../../fazerstandings.js?v=2026-02-16_145128"></script>
+    <script id="classificadorjs" src="../../classificador.js?v=2026-02-16_145128"></script>
+    <script id="poissonjs" src="../../poisson.js?v=2026-02-16_145128"></script>
+    <script id="simuladorjs" src="../../simulador.js?v=2026-02-16_145128"></script>
     <script>
         fazerstandings()
         var tabelaRR = JSON.parse(JSON.stringify(tabelaRRinicial))
