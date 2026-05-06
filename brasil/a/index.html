@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oráculo | Campeonato Brasileiro</title>
-    <link rel="stylesheet" href="http://oraculo.wederson.net.br/estilodetabela.css">
+    <link rel="stylesheet" href="https://oraculo.wederson.net.br/estilodetabela.css">
+    <script src="../../timestamp.js"></script>
+    <script src="../../ajuste.js"></script>
     <script src="../../simulador.js"></script>
-    <script src="../../ajuste.js?v=2026-02-16_145128"></script>
-    <script src="ficheiro.js?v=2026-02-16_145128"></script>
+    <script src="ficheiro.js?v=2026-05-05_215128"></script>
+    <script src="jogos.js?v=2026-05-05_215128"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <link rel="stylesheet" href="regras.css?v=2026-02-16_145128">
+    <link rel="stylesheet" href="regras.css">
+    <link rel="stylesheet" href="https://typeface.wederson.com/fonts.css">
     <script>
         var tempo = new Date();
         document.getElementById("classificacaoatual").data = "std.html?v="+tempo.getTime();
@@ -294,7 +297,7 @@
                         text: `${equipe[0][0]}: Força relativa na liga`
                                 },
                     subtitle: {
-                        text: 'Análise das 38 últimas partidas utilizadas para calibrar o modelo.'
+                        text: 'Dados de gols esperados (xG) para calibrar o modelo.'
                     },
                     xAxis: {
                         title: {
