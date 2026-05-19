@@ -112,8 +112,8 @@ var equipe = [
         },18],
     [`Vasco`,`https://oraculo.wederson.com/brasil/imagem/vasco.png`,
         {
-            a:1.88,
-            d:1.29,
+            a:1.85,
+            d:1.28,
             rat:1914
         },19],
     [`Vitória`,`https://oraculo.wederson.com/brasil/imagem/vitoria.png`,
