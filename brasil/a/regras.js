@@ -11,17 +11,17 @@ function compara(alfa, omega){
                 if(omega[8]==alfa[8]){
                     if(confrontodireto == 0){
                         if(golqualificado == 0){
-                            console.log('Desempate por sorteio:')
-                            console.log(confronto(omega[27],alfa[27]))
+                            //console.log('Desempate por sorteio:')
+                            //console.log(confronto(omega[27],alfa[27]))
                             return Math.random()-0.5
                         }else{
-                            console.log('Desempate no gol qualificado:')
-                            console.log(confronto(omega[27],alfa[27]))
+                            //console.log('Desempate no gol qualificado:')
+                            //console.log(confronto(omega[27],alfa[27]))
                             return golqualificado
                         }
                     }else{
-                        console.log('Desempate no confronto direto:')
-                        console.log(confronto(omega[27],alfa[27]))
+                        //console.log('Desempate no confronto direto:')
+                        //console.log(confronto(omega[27],alfa[27]))
                         return confrontodireto
                     }
                 }else{
