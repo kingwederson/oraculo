@@ -118,7 +118,7 @@ var equipe = [
         },19],
     [`Vitória`,`https://oraculo.wederson.com/brasil/imagem/vitoria.png`,
         {
-            a:6/rodat,
+            a:5/rodat,
             d:15/rodat,
             rat:1914
         },20]
