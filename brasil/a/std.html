@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Ligas Futebolísticas</title>
     <script>
-        var tempo = parseInt(Number(new Date())/3600000);
+        var tempo = parseInt(Number(new Date())/1000);
         document.getElementById("ficheirojs").src = "ficheiro.js?v="+tempo.getTime();
         document.getElementById("jogosjs").src = "jogos.js?v="+tempo.getTime();
     </script>

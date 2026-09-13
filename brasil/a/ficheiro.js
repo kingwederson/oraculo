@@ -82,7 +82,7 @@ var equipe = [
         },13],
     [`Palmeiras`,`https://oraculo.wederson.com/brasil/imagem/palmeiras.png`,
         {
-            a:19/rodat,
+            a:18/rodat,
             d:8/rodat,
             rat:1914
         },14],
@@ -106,7 +106,7 @@ var equipe = [
         },17],
     [`São Paulo`,`https://oraculo.wederson.com/brasil/imagem/saopaulo.png`,
         {
-            a:10/rodat,
+            a:9/rodat,
             d:12/rodat,
             rat:1914
         },18],
