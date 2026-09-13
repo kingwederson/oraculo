@@ -77,7 +77,7 @@ var equipe = [
     [`Mirassol`,`https://oraculo.wederson.com/brasil/imagem/mirassol.png`,
         {
             a:11/rodat,
-            d:17/rodat,
+            d:18/rodat,
             rat:1914
         },13],
     [`Palmeiras`,`https://oraculo.wederson.com/brasil/imagem/palmeiras.png`,
@@ -118,8 +118,8 @@ var equipe = [
         },19],
     [`Vitória`,`https://oraculo.wederson.com/brasil/imagem/vitoria.png`,
         {
-            a:5/rodat,
-            d:15/rodat,
+            a:6/rodat,
+            d:12/rodat,
             rat:1914
         },20]
 ]
