@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+    <script>
+        var tempo = parseInt(Number(new Date())/1000);
+        document.getElementById("classificacaoatual").data = "std.html?v="+tempo.getTime();
+        document.getElementById("codigo_ficheiro").src = "ficheiro.js?v="+tempo.getTime();
+        document.getElementById("codigo_jogos").src = "jogos.js?v="+tempo.getTime();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oráculo | Campeonato Brasileiro</title>
@@ -8,15 +14,11 @@
     <script src="../../timestamp.js"></script>
     <script src="../../ajuste.js"></script>
     <script src="../../simulador.js"></script>
-    <script src="ficheiro.js?v=2026-05-05_215128"></script>
-    <script src="jogos.js?v=2026-05-05_215128"></script>
+    <script id="codigo_ficheiro" src="ficheiro.js?v=2026-05-05_215128"></script>
+    <script id="codigo_jogos" src="jogos.js?v=2026-05-05_215128"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <link rel="stylesheet" href="regras.css">
     <link rel="stylesheet" href="https://typeface.wederson.com/fonts.css">
-    <script>
-        var tempo = parseInt(Number(new Date())/1000);
-        document.getElementById("classificacaoatual").data = "std.html?v="+tempo.getTime();
-    </script>
 </head>
 <body>
     <a href="../../index.html"><h1>Oráculo</h1></a>
