@@ -88,7 +88,7 @@ var equipe = [
         },14],
     [`Red Bull`,`https://oraculo.wederson.com/brasil/imagem/redbull.png`,
         {
-            a:11/rodat,
+            a:8/rodat,
             d:13/rodat,
             rat:1914
         },15],
@@ -100,14 +100,14 @@ var equipe = [
         },16],
     [`Santos`,`https://oraculo.wederson.com/brasil/imagem/santos.png`,
         {
-            a:18/rodat,
+            a:17/rodat,
             d:12/rodat,
             rat:1914
         },17],
     [`São Paulo`,`https://oraculo.wederson.com/brasil/imagem/saopaulo.png`,
         {
-            a:9/rodat,
-            d:11/rodat,
+            a:10/rodat,
+            d:12/rodat,
             rat:1914
         },18],
     [`Vasco`,`https://oraculo.wederson.com/brasil/imagem/vasco.png`,
