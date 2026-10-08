@@ -47,7 +47,7 @@ var equipe = [
     [`Cruzeiro`,`https://oraculo.wederson.com/brasil/imagem/cruzeiro.png`,
         {
             a:18/rodat,
-            d:12/rodat,
+            d:11/rodat,
             rat:1914
         },8],
     [`Flamengo`,`https://oraculo.wederson.com/brasil/imagem/flamengo.png`,
@@ -106,7 +106,7 @@ var equipe = [
         },17],
     [`São Paulo`,`https://oraculo.wederson.com/brasil/imagem/saopaulo.png`,
         {
-            a:10/rodat,
+            a:9/rodat,
             d:12/rodat,
             rat:1914
         },18],
