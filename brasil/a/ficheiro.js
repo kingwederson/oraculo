@@ -22,20 +22,20 @@ var equipe = [
         },3],
     [`Botafogo`,`https://oraculo.wederson.com/brasil/imagem/botafogo.png`,
         {
-            a:8/rodat,
-            d:13/rodat,
+            a:9/rodat,
+            d:15/rodat,
             rat:1914
         },4],
     [`Chapecoense`,`https://oraculo.wederson.com/brasil/imagem/chapecoense.png`,
         {
             a:12/rodat,
-            d:20/rodat,
+            d:22/rodat,
             rat:1776
         },5],
     [`Corinthians`,`https://oraculo.wederson.com/brasil/imagem/corinthians.png`,
         {
-            a:11/rodat,
-            d:13/rodat,
+            a:9/rodat,
+            d:15/rodat,
             rat:1914
         },6],
     [`Coritiba`,`https://oraculo.wederson.com/brasil/imagem/coritiba.png`,
@@ -65,13 +65,13 @@ var equipe = [
     [`Grêmio`,`https://oraculo.wederson.com/brasil/imagem/gremio.png`,
         {
             a:10/rodat,
-            d:15/rodat,
+            d:14/rodat,
             rat:1914
         },11],
     [`Internacional`,`https://oraculo.wederson.com/brasil/imagem/internacional.png`,
         {
-            a:9/rodat,
-            d:14/rodat,
+            a:10/rodat,
+            d:13/rodat,
             rat:1914
         },12],
     [`Mirassol`,`https://oraculo.wederson.com/brasil/imagem/mirassol.png`,
@@ -94,8 +94,8 @@ var equipe = [
         },15],
     [`Remo`,`https://oraculo.wederson.com/brasil/imagem/remo.png`,
         {
-            a:11/rodat,
-            d:18/rodat,
+            a:12/rodat,
+            d:16/rodat,
             rat:1776
         },16],
     [`Santos`,`https://oraculo.wederson.com/brasil/imagem/santos.png`,
@@ -112,13 +112,13 @@ var equipe = [
         },18],
     [`Vasco`,`https://oraculo.wederson.com/brasil/imagem/vasco.png`,
         {
-            a:12/rodat,
+            a:14/rodat,
             d:13/rodat,
             rat:1914
         },19],
     [`Vitória`,`https://oraculo.wederson.com/brasil/imagem/vitoria.png`,
         {
-            a:6/rodat,
+            a:10/rodat,
             d:17/rodat,
             rat:1914
         },20]
