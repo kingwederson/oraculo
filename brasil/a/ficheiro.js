@@ -5,18 +5,18 @@ var equipe = [
     [`Athlético`,`https://oraculo.wederson.com/brasil/imagem/athletico.png`,
         {
             a:19/rodat,
-            d:14/rodat,
+            d:15/rodat,
             rat:1914
         },1],
     [`Atlético`,`https://oraculo.wederson.com/brasil/imagem/atletico.png`,
         {
-            a:15/rodat,
-            d:9/rodat,
+            a:16/rodat,
+            d:10/rodat,
             rat:1914
         },2],
     [`Bahia`,`https://oraculo.wederson.com/brasil/imagem/bahia.png`,
         {
-            a:16/rodat,
+            a:15/rodat,
             d:12/rodat,
             rat:1914
         },3],
@@ -40,8 +40,8 @@ var equipe = [
         },6],
     [`Coritiba`,`https://oraculo.wederson.com/brasil/imagem/coritiba.png`,
         {
-            a:13/rodat,
-            d:19/rodat,
+            a:12/rodat,
+            d:20/rodat,
             rat:1914
         },7],
     [`Cruzeiro`,`https://oraculo.wederson.com/brasil/imagem/cruzeiro.png`,
@@ -52,14 +52,14 @@ var equipe = [
         },8],
     [`Flamengo`,`https://oraculo.wederson.com/brasil/imagem/flamengo.png`,
         {
-            a:20/rodat,
-            d:7/rodat,
+            a:21/rodat,
+            d:8/rodat,
             rat:1914
         },9],
     [`Fluminense`,`https://oraculo.wederson.com/brasil/imagem/fluminense.png`,
         {
-            a:16/rodat,
-            d:13/rodat,
+            a:19/rodat,
+            d:12/rodat,
             rat:1914
         },10],
     [`Grêmio`,`https://oraculo.wederson.com/brasil/imagem/gremio.png`,
@@ -82,8 +82,8 @@ var equipe = [
         },13],
     [`Palmeiras`,`https://oraculo.wederson.com/brasil/imagem/palmeiras.png`,
         {
-            a:17/rodat,
-            d:8/rodat,
+            a:15/rodat,
+            d:7/rodat,
             rat:1914
         },14],
     [`Red Bull`,`https://oraculo.wederson.com/brasil/imagem/redbull.png`,
@@ -100,7 +100,7 @@ var equipe = [
         },16],
     [`Santos`,`https://oraculo.wederson.com/brasil/imagem/santos.png`,
         {
-            a:17/rodat,
+            a:18/rodat,
             d:12/rodat,
             rat:1914
         },17],
