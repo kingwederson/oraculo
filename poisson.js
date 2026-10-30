@@ -4,23 +4,25 @@ function ln(num){
 function e(num){
     return Math.exp(num)
 }
-function fact(num) {
-    if (num <= 1) {
-        return 1; // O fatorial de 0 ou 1 é 1
-    } else {
-        let car = 1;
-        for (let i = 1; i <= num; i++) {
-            car = car * i;
-        }
-        return car;
+
+let fact = [1,1,2,6,24,120,720,5040,40320,362880,3628800,39916800,479001600,6227020800,87178291200,1307674368000,20922789888000,355687428096000,6402373705728000,121645100408832000,2432902008176640000]
+
+function aleatorio(origem) {
+    if(origem==true){
+        let array = new Uint32Array(1);
+        crypto.getRandomValues(array);
+        return array[0] / 4294967296;
+    }else{
+        return Math.random()
     }
 }
+
 function poissonP(lamb,bet){
-    return (e(-lamb)*(lamb**bet))/fact(bet)
+    return (e(-lamb)*(lamb**bet))/fact[bet]
 }
 
 let PTG = []
-function criarTPG(){
+function criarPTG(){
     for(let f = 1;f<equipe.length;f++){
         PTG[0].push(equipe[f][0])
     }
@@ -35,7 +37,7 @@ function criarTPG(){
 }
 
 function golmarcado(media){
-    let sorte = Math.random()
+    let sorte = aleatorio(false)
     let accu = [,,,,,,,,,,,,,,,,,,,,]
     let maxgol = accu.length-1
     let stop = false
