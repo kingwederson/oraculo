@@ -34,8 +34,8 @@ var equipe = [
         },5],
     [`Corinthians`,`https://oraculo.wederson.com/brasil/imagem/corinthians.png`,
         {
-            a:10/rodat,
-            d:22/rodat,
+            a:11/rodat,
+            d:20/rodat,
             rat:1914
         },6],
     [`Coritiba`,`https://oraculo.wederson.com/brasil/imagem/coritiba.png`,
@@ -76,8 +76,8 @@ var equipe = [
         },12],
     [`Mirassol`,`https://oraculo.wederson.com/brasil/imagem/mirassol.png`,
         {
-            a:12/rodat,
-            d:10/rodat,
+            a:11/rodat,
+            d:11/rodat,
             rat:1914
         },13],
     [`Palmeiras`,`https://oraculo.wederson.com/brasil/imagem/palmeiras.png`,
