@@ -58,8 +58,8 @@ var equipe = [
         },9],
     [`Fluminense`,`https://oraculo.wederson.com/brasil/imagem/fluminense.png`,
         {
-            a:18/rodat,
-            d:14/rodat,
+            a:19/rodat,
+            d:13/rodat,
             rat:1914
         },10],
     [`Grêmio`,`https://oraculo.wederson.com/brasil/imagem/gremio.png`,
@@ -119,7 +119,7 @@ var equipe = [
     [`Vitória`,`https://oraculo.wederson.com/brasil/imagem/vitoria.png`,
         {
             a:12/rodat,
-            d:15/rodat,
+            d:16/rodat,
             rat:1914
         },20]
 ]
