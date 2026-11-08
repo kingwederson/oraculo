@@ -5,8 +5,8 @@ var equipe = [
         `Arsenal`,
         `http://oraculo.wederson.com/inglaterra/imagem/arsenal.png`,
         {
-            a:1.69,
-            d:0.94,
+            a:15/rodat,
+            d:5/rodat,
             rat:2308
         },
         1
@@ -15,8 +15,8 @@ var equipe = [
         `Aston Villa`,
         `http://oraculo.wederson.com/inglaterra/imagem/astonvilla.png`,
         {
-            a:1.47,
-            d:1.45,
+            a:14/rodat,
+            d:17/rodat,
             rat:2308
         },
         2
@@ -25,8 +25,8 @@ var equipe = [
         `Bournemouth`,
         `http://oraculo.wederson.com/inglaterra/imagem/bournemouth.png`,
         {
-            a:1.55,
-            d:1.42,
+            a:16/rodat,
+            d:14/rodat,
             rat:2308
         },
         3
@@ -35,8 +35,8 @@ var equipe = [
         `Brentford`,
         `http://oraculo.wederson.com/inglaterra/imagem/brentford.png`,
         {
-            a:1.28,
-            d:1.51,
+            a:16/rodat,
+            d:11/rodat,
             rat:2308
         },
         4
@@ -45,38 +45,38 @@ var equipe = [
         `Brighton`,
         `http://oraculo.wederson.com/inglaterra/imagem/brighton.png`,
         {
-            a:1.54,
-            d:1.47,
+            a:26/rodat,
+            d:7/rodat,
             rat:2308
         },
         5
-    ],// 5
-    [
-        `Burnley`,
-        `http://oraculo.wederson.com/inglaterra/imagem/burnley.png`,
-        {
-            a:1.07,
-            d:1.88,
-            rat:2026
-        },
-        6
     ],// 6
     [
         `Chelsea`,
         `http://oraculo.wederson.com/inglaterra/imagem/chelsea.png`,
         {
-            a:1.56,
-            d:1.28,
+            a:19/rodat,
+            d:16/rodat,
             rat:2308
         },
         7
+    ],// 5
+    [
+        `Coventry City`,
+        `http://oraculo.wederson.com/inglaterra/imagem/coventry.png`,
+        {
+            a:10/rodat,
+            d:19/rodat,
+            rat:2026
+        },
+        6
     ],// 7
     [
         `Crystal Palace`,
         `http://oraculo.wederson.com/inglaterra/imagem/crystal.png`,
         {
-            a:1.32,
-            d:1.39,
+            a:10/rodat,
+            d:24/rodat,
             rat:2308
         },
         8
@@ -85,8 +85,8 @@ var equipe = [
         `Everton`,
         `http://oraculo.wederson.com/inglaterra/imagem/everton.png`,
         {
-            a:1.32,
-            d:1.39,
+            a:12/rodat,
+            d:10/rodat,
             rat:2308
         },
         9
@@ -95,18 +95,38 @@ var equipe = [
         `Fulham`,
         `http://oraculo.wederson.com/inglaterra/imagem/fulham.png`,
         {
-            a:1.38,
-            d:1.38,
+            a:10/rodat,
+            d:12/rodat,
             rat:2308
         },
         10
+    ],// 5
+    [
+        `Hull City`,
+        `http://oraculo.wederson.com/inglaterra/imagem/hull.png`,
+        {
+            a:11/rodat,
+            d:11/rodat,
+            rat:2026
+        },
+        6
+    ],// 5
+    [
+        `Ipswich Town`,
+        `http://oraculo.wederson.com/inglaterra/imagem/ipswich.png`,
+        {
+            a:15/rodat,
+            d:20/rodat,
+            rat:2026
+        },
+        6
     ],// 10
     [
         `Leeds United`,
         `http://oraculo.wederson.com/inglaterra/imagem/leeds.png`,
         {
-            a:1.39,
-            d:1.46,
+            a:10/rodat,
+            d:8/rodat,
             rat:2026
         },
         11
@@ -115,28 +135,28 @@ var equipe = [
         `Liverpool`,
         `http://oraculo.wederson.com/inglaterra/imagem/liverpool.png`,
         {
-            a:1.71,
-            d:1.32,
+            a:14/rodat,
+            d:10/rodat,
             rat:2308
         },
         12
     ],// 12
     [
-        `Man City`,
+        `Manchester City`,
         `http://oraculo.wederson.com/inglaterra/imagem/mancity.png`,
         {
-            a:1.83,
-            d:1.10,
+            a:21/rodat,
+            d:13/rodat,
             rat:2308
         },
         13
     ],// 13
     [
-        `Man United`,
+        `Manchester United`,
         `http://oraculo.wederson.com/inglaterra/imagem/manunited.png`,
         {
-            a:1.75,
-            d:1.36,
+            a:14/rodat,
+            d:19/rodat,
             rat:2308
         },
         14
@@ -145,8 +165,8 @@ var equipe = [
         `Newcastle`,
         `http://oraculo.wederson.com/inglaterra/imagem/newcastle.png`,
         {
-            a:1.56,
-            d:1.42,
+            a:13/rodat,
+            d:16/rodat,
             rat:2308
         },
         15
@@ -155,8 +175,8 @@ var equipe = [
         `Nottingham`,
         `http://oraculo.wederson.com/inglaterra/imagem/nottingham.png`,
         {
-            a:1.43,
-            d:1.51,
+            a:9/rodat,
+            d:13/rodat,
             rat:2308
         },
         16
@@ -165,8 +185,8 @@ var equipe = [
         `Sunderland`,
         `http://oraculo.wederson.com/inglaterra/imagem/sunderland.png`,
         {
-            a:1.20,
-            d:1.63,
+            a:8/rodat,
+            d:17/rodat,
             rat:2026
         },
         17
@@ -175,30 +195,10 @@ var equipe = [
         `Tottenham`,
         `http://oraculo.wederson.com/inglaterra/imagem/tottenham.png`,
         {
-            a:1.32,
-            d:1.40,
+            a:10/rodat,
+            d:11/rodat,
             rat:2308
         },
         18
-    ],// 18
-    [
-        `West Ham`,
-        `http://oraculo.wederson.com/inglaterra/imagem/westham.png`,
-        {
-            a:1.22,
-            d:1.74,
-            rat:2308
-        },
-        19
-    ],// 19
-    [
-        `Wolves`,
-        `http://oraculo.wederson.com/inglaterra/imagem/wolves.png`,
-        {
-            a:1.11,
-            d:1.62,
-            rat:2308
-        },
-        20
-    ]// 20
+    ]
 ]
