@@ -25,9 +25,45 @@
     src: url("https://db.onlinewebfonts.com/t/d778c9af6f0c7bfb6f10d9e34e71a43f.eot");
     src: url("https://db.onlinewebfonts.com/t/d778c9af6f0c7bfb6f10d9e34e71a43f.eot?#iefix")format("embedded-opentype"),
     url("https://db.onlinewebfonts.com/t/d778c9af6f0c7bfb6f10d9e34e71a43f.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/d778c9af6f0c7bfb6f10d9e34e71a43f.woff")format("woff"),
+    url("http://typeface.wederson.com/DIN.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/d778c9af6f0c7bfb6f10d9e34e71a43f.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/d778c9af6f0c7bfb6f10d9e34e71a43f.svg#DIN Next Rounded LT W01 Bold")format("svg");
+}
+
+/* PremierLeagueRegular */
+@font-face {
+  font-family: 'Premier League';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://typeface.wederson.com/PremierLeagueW01-Regular.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* PremierLeagueBold */
+@font-face {
+  font-family: 'Premier League Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url(http://typeface.wederson.com/PremierLeagueBold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* PremierLeagueItalic */
+@font-face {
+  font-family: 'Premier League Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url(http://typeface.wederson.com/PremierLeagueW01-Italic.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* PremierLeagueBoldItalic */
+@font-face {
+  font-family: 'Premier League Bold Italic';
+  font-style: italic, bold;
+  font-weight: 400;
+  src: url(http://typeface.wederson.com/PremierLeagueW01-BoldItalic.woff2) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 body{
@@ -115,6 +151,7 @@ tr:hover{
     transition: 0.9s;
 }
 table#probabilidades{
+    margin-bottom: 15px;
     .esconder{
         display: none;
     }
@@ -125,4 +162,20 @@ table#probabilidades{
 }
 table caption{
     text-align: left;
+}
+
+h1{
+    font-family: 'Premier League Bold';
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Premier League Bold';
+    font-weight: 400;
+}
+h3{
+    padding:15px 0px;
+}
+hr{
+    margin: 10px 0px 15px 0px;
 }
