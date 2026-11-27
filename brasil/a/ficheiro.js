@@ -94,8 +94,8 @@ var equipe = [
         },15],
     [`Remo`,`https://oraculo.wederson.com/brasil/imagem/remo.png`,
         {
-            a:9/rodat,
-            d:15/rodat,
+            a:11/rodat,
+            d:19/rodat,
             rat:1776
         },16],
     [`Santos`,`https://oraculo.wederson.com/brasil/imagem/santos.png`,
@@ -106,8 +106,8 @@ var equipe = [
         },17],
     [`São Paulo`,`https://oraculo.wederson.com/brasil/imagem/saopaulo.png`,
         {
-            a:9/rodat,
-            d:11/rodat,
+            a:11/rodat,
+            d:12/rodat,
             rat:1914
         },18],
     [`Vasco`,`https://oraculo.wederson.com/brasil/imagem/vasco.png`,
